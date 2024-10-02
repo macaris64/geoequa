@@ -833,3 +833,1012 @@ export const changeInFemaleRepresentationInParliaments2010To2024 = {
     ]
 }
 
+// Marriage and Family
+
+export const childMarriageRatesByYear1990To2024 = {
+    title: 'Child Marriage Rates Below 18 Years by Year (1990-2024)',
+    description: 'This dataset tracks the percentage of child marriages (marriages below the age of 18) from 1990 to 2024. The data shows a significant decline in child marriage rates over the decades, with a notable drop from 32% in 1990 to 19% in 2024. However, the data also indicates that progress has stagnated in recent years, with rates remaining at 19% from 2021 to 2024. This dataset provides essential insights into the ongoing challenges in combating child marriage and highlights the need for continued advocacy and legal reforms to protect the rights of children.',
+    data: [
+        {
+            "Year": 1990,
+            "Child Marriage Rate (%)": 32,
+        },
+        {
+            "Year": 2000,
+            "Child Marriage Rate (%)": 21.6,
+        },
+        {
+            "Year": 2015,
+            "Child Marriage Rate (%)": 19.2,
+        },
+        {
+            "Year": 2020,
+            "Child Marriage Rate (%)": 20.2,
+        },
+        {
+            "Year": 2021,
+            "Child Marriage Rate (%)": 19.5,
+        },
+        {
+            "Year": 2022,
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2023,
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2024,
+            "Child Marriage Rate (%)": 19,
+        },
+    ]
+}
+
+export const childMarriageRatesUnder15ByYear1990To2024 = {
+    title: 'Child Marriage Rates Under 15 Years by Year (1990-2024)',
+    description: 'This dataset tracks the percentage of child marriages (marriages below the age of 15) from 1990 to 2024. The data shows a significant decline in child marriage rates among this age group, with a drop from 12% in 1990 to a low of 4.9% in 2019. Although there has been a slight increase to 5% in the years following 2019, the overall trend demonstrates a positive decrease in early marriages. This dataset highlights the importance of continued efforts to combat child marriage and protect the rights of young girls.',
+    data: [
+        {
+            "Year": 1990,
+            "Child Marriage Rate Under 15 (%)": 12,
+        },
+        {
+            "Year": 2000,
+            "Child Marriage Rate Under 15 (%)": 11,
+        },
+        {
+            "Year": 2015,
+            "Child Marriage Rate Under 15 (%)": 7,
+        },
+        {
+            "Year": 2019,
+            "Child Marriage Rate Under 15 (%)": 4.9,
+        },
+        {
+            "Year": 2020,
+            "Child Marriage Rate Under 15 (%)": 5,
+        },
+        {
+            "Year": 2021,
+            "Child Marriage Rate Under 15 (%)": 5,
+        },
+        {
+            "Year": 2022,
+            "Child Marriage Rate Under 15 (%)": 5,
+        },
+        {
+            "Year": 2023,
+            "Child Marriage Rate Under 15 (%)": 5,
+        },
+    ]
+}
+
+export const childMarriageRatesByRegion2000To2024 = {
+    title: 'Child Marriage Rates Below 18 by Region (2000-2024 Data)',
+    description: 'This dataset provides an overview of child marriage rates (marriages below the age of 18) by region from 2000 to 2024. The data reveals significant regional disparities, with South Asia consistently showing the highest rates, peaking at 31.7% in 2000 and remaining high through 2023. Sub-Saharan Africa also displays concerning rates, particularly with an increase to 35% in 2021. The dataset highlights the ongoing challenges and the need for targeted interventions to combat child marriage across different regions.',
+    data: [
+        {
+            "Year": 2000,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 31.7,
+        },
+        {
+            "Year": 2000,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 27.0,
+        },
+        {
+            "Year": 2000,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 21.4,
+        },
+        {
+            "Year": 2000,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 24.2,
+        },
+        {
+            "Year": 2000,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 18.1,
+        },
+        {
+            "Year": 2000,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 11.7,
+        },
+        {
+            "Year": 2015,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 27.5,
+        },
+        {
+            "Year": 2015,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 25.3,
+        },
+        {
+            "Year": 2015,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 22.1,
+        },
+        {
+            "Year": 2015,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 18.8,
+        },
+        {
+            "Year": 2015,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 14.1,
+        },
+        {
+            "Year": 2015,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.4,
+        },
+        {
+            "Year": 2020,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 34.5,
+        },
+        {
+            "Year": 2020,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 28,
+        },
+        {
+            "Year": 2020,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 22,
+        },
+        {
+            "Year": 2020,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2020,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 14,
+        },
+        {
+            "Year": 2020,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.5,
+        },
+        {
+            "Year": 2021,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 35,
+        },
+        {
+            "Year": 2021,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 28,
+        },
+        {
+            "Year": 2021,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 23,
+        },
+        {
+            "Year": 2021,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2021,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 14.5,
+        },
+        {
+            "Year": 2021,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.6,
+        },
+        {
+            "Year": 2022,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 35,
+        },
+        {
+            "Year": 2022,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 28,
+        },
+        {
+            "Year": 2022,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 23,
+        },
+        {
+            "Year": 2022,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2022,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 14.5,
+        },
+        {
+            "Year": 2022,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.6,
+        },
+        {
+            "Year": 2023,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 32,
+        },
+        {
+            "Year": 2023,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 26,
+        },
+        {
+            "Year": 2023,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 23.5,
+        },
+        {
+            "Year": 2023,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19.2,
+        },
+        {
+            "Year": 2023,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 15,
+        },
+        {
+            "Year": 2023,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.8,
+        },
+    ]
+}
+
+export const childMarriageRatesUnder15ByRegion2000To2024 = {
+    title: 'Child Marriage Rates Under 15 by Region (2000-2024 Data)',
+    description: 'This dataset provides an overview of child marriage rates (marriages below the age of 15) by region from 2000 to 2024. The data highlights significant disparities in child marriage rates, with South Asia consistently showing the highest rates, starting at 27.8% in 2000 and decreasing to 7.4% by 2023. In contrast, regions like Oceania (excluding Australia and New Zealand) show markedly lower rates, indicating the need for targeted interventions in high-prevalence areas. This dataset underscores the importance of continued efforts to combat child marriage globally.',
+    data: [
+        {
+            "Year": 2000,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 27.8,
+        },
+        {
+            "Year": 2000,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 14.9,
+        },
+        {
+            "Year": 2000,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.1,
+        },
+        {
+            "Year": 2000,
+            "Region": "Oceania (excluding Australia and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.5,
+        },
+        {
+            "Year": 2000,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 6.0,
+        },
+        {
+            "Year": 2000,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.9,
+        },
+        {
+            "Year": 2015,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 15.7,
+        },
+        {
+            "Year": 2015,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 11.3,
+        },
+        {
+            "Year": 2015,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.8,
+        },
+        {
+            "Year": 2015,
+            "Region": "Oceania (excluding Australia and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.1,
+        },
+        {
+            "Year": 2015,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.5,
+        },
+        {
+            "Year": 2015,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.2,
+        },
+        {
+            "Year": 2020,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 10.5,
+        },
+        {
+            "Year": 2020,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.6,
+        },
+        {
+            "Year": 2020,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.8,
+        },
+        {
+            "Year": 2020,
+            "Region": "Oceania (excluding Australia and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.0,
+        },
+        {
+            "Year": 2020,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.2,
+        },
+        {
+            "Year": 2020,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.3,
+        },
+        {
+            "Year": 2021,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 11,
+        },
+        {
+            "Year": 2021,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.5,
+        },
+        {
+            "Year": 2021,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.9,
+        },
+        {
+            "Year": 2021,
+            "Region": "Oceania (excluding Australia and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.0,
+        },
+        {
+            "Year": 2021,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.3,
+        },
+        {
+            "Year": 2021,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.3,
+        },
+        {
+            "Year": 2022,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 11,
+        },
+        {
+            "Year": 2022,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.5,
+        },
+        {
+            "Year": 2022,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.9,
+        },
+        {
+            "Year": 2022,
+            "Region": "Oceania (excluding Australia and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.0,
+        },
+        {
+            "Year": 2022,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.3,
+        },
+        {
+            "Year": 2022,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.3,
+        },
+        {
+            "Year": 2023,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 10.5,
+        },
+        {
+            "Year": 2023,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.4,
+        },
+        {
+            "Year": 2023,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.8,
+        },
+        {
+            "Year": 2023,
+            "Region": "Oceania (excluding Australia and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.0,
+        },
+        {
+            "Year": 2023,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.2,
+        },
+        {
+            "Year": 2023,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.3,
+        },
+    ]
+}
+
+export const childMarriageRateChange2009To2024 = {
+    title: 'Change in Child Marriage Rates (2009-2024 Data)',
+    description: 'This dataset provides an overview of child marriage rates, specifically focusing on marriages under 15 years old and those between 15-18 years old, from 2009 to 2024. The data reveals significant regional differences, with Sub-Saharan Africa and South Asia showing notably high rates in both age categories. Over the years, there have been fluctuations in the rates, indicating the complexities involved in addressing child marriage. This dataset emphasizes the ongoing challenges and the need for effective interventions to reduce child marriage globally.',
+    data: [
+        {
+            "Year": 2009,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 13.7,
+            "Child Marriage Rate (15-18 years) (%)": 25.2,
+        },
+        {
+            "Year": 2009,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 17.2,
+            "Child Marriage Rate (15-18 years) (%)": 29.9,
+        },
+        {
+            "Year": 2009,
+            "Region": "World",
+            "Child Marriage Rate Under 15 (%)": 7.4,
+            "Child Marriage Rate (15-18 years) (%)": 16.4,
+        },
+        {
+            "Year": 2009,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.1,
+            "Child Marriage Rate (15-18 years) (%)": 21.4,
+        },
+        {
+            "Year": 2009,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.5,
+            "Child Marriage Rate (15-18 years) (%)": 24.2,
+        },
+        {
+            "Year": 2009,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 6.0,
+            "Child Marriage Rate (15-18 years) (%)": 18.1,
+        },
+        {
+            "Year": 2009,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.9,
+            "Child Marriage Rate (15-18 years) (%)": 11.7,
+        },
+        {
+            "Year": 2019,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 10.5,
+            "Child Marriage Rate (15-18 years) (%)": 24,
+        },
+        {
+            "Year": 2019,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.6,
+            "Child Marriage Rate (15-18 years) (%)": 21.6,
+        },
+        {
+            "Year": 2019,
+            "Region": "World",
+            "Child Marriage Rate Under 15 (%)": 4.9,
+            "Child Marriage Rate (15-18 years) (%)": 15.3,
+        },
+        {
+            "Year": 2019,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.8,
+            "Child Marriage Rate (15-18 years) (%)": 22.1,
+        },
+        {
+            "Year": 2019,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.1,
+            "Child Marriage Rate (15-18 years) (%)": 18.8,
+        },
+        {
+            "Year": 2019,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.5,
+            "Child Marriage Rate (15-18 years) (%)": 14.1,
+        },
+        {
+            "Year": 2019,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.2,
+            "Child Marriage Rate (15-18 years) (%)": 7.4,
+        },
+        {
+            "Year": 2020,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 10.5,
+            "Child Marriage Rate (15-18 years) (%)": 24,
+        },
+        {
+            "Year": 2020,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.6,
+            "Child Marriage Rate (15-18 years) (%)": 21.6,
+        },
+        {
+            "Year": 2020,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.8,
+            "Child Marriage Rate (15-18 years) (%)": 22.1,
+        },
+        {
+            "Year": 2020,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.1,
+            "Child Marriage Rate (15-18 years) (%)": 18.8,
+        },
+        {
+            "Year": 2020,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.5,
+            "Child Marriage Rate (15-18 years) (%)": 14.1,
+        },
+        {
+            "Year": 2020,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.2,
+            "Child Marriage Rate (15-18 years) (%)": 7.4,
+        },
+        {
+            "Year": 2021,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 11,
+            "Child Marriage Rate (15-18 years) (%)": 25,
+        },
+        {
+            "Year": 2021,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.5,
+            "Child Marriage Rate (15-18 years) (%)": 21.5,
+        },
+        {
+            "Year": 2021,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.9,
+            "Child Marriage Rate (15-18 years) (%)": 22.2,
+        },
+        {
+            "Year": 2021,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.0,
+            "Child Marriage Rate (15-18 years) (%)": 18.5,
+        },
+        {
+            "Year": 2021,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.3,
+            "Child Marriage Rate (15-18 years) (%)": 14.0,
+        },
+        {
+            "Year": 2021,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.3,
+            "Child Marriage Rate (15-18 years) (%)": 7.6,
+        },
+        {
+            "Year": 2022,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 11,
+            "Child Marriage Rate (15-18 years) (%)": 25,
+        },
+        {
+            "Year": 2022,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.5,
+            "Child Marriage Rate (15-18 years) (%)": 21.5,
+        },
+        {
+            "Year": 2022,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.9,
+            "Child Marriage Rate (15-18 years) (%)": 22.2,
+        },
+        {
+            "Year": 2022,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.0,
+            "Child Marriage Rate (15-18 years) (%)": 18.5,
+        },
+        {
+            "Year": 2022,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.3,
+            "Child Marriage Rate (15-18 years) (%)": 14.0,
+        },
+        {
+            "Year": 2022,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.3,
+            "Child Marriage Rate (15-18 years) (%)": 7.6,
+        },
+        {
+            "Year": 2023,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate Under 15 (%)": 10.5,
+            "Child Marriage Rate (15-18 years) (%)": 24,
+        },
+        {
+            "Year": 2023,
+            "Region": "South Asia",
+            "Child Marriage Rate Under 15 (%)": 7.4,
+            "Child Marriage Rate (15-18 years) (%)": 21.4,
+        },
+        {
+            "Year": 2023,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate Under 15 (%)": 6.8,
+            "Child Marriage Rate (15-18 years) (%)": 22.1,
+        },
+        {
+            "Year": 2023,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate Under 15 (%)": 2.0,
+            "Child Marriage Rate (15-18 years) (%)": 18.5,
+        },
+        {
+            "Year": 2023,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate Under 15 (%)": 3.2,
+            "Child Marriage Rate (15-18 years) (%)": 14.0,
+        },
+        {
+            "Year": 2023,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate Under 15 (%)": 0.3,
+            "Child Marriage Rate (15-18 years) (%)": 7.5,
+        },
+    ]
+}
+
+export const regionalSuccessAndAchievementGapInChildMarriage2021 = {
+    title: 'Regional Success and Achievement Gap in Child Marriage (2021 Data)',
+    description: 'This dataset presents the success rates and achievement gaps related to child marriage across different regions in 2021. The data reveals significant disparities, with regions like Latin America and the Caribbean, and Europe and North America showing high success rates of 85% and 83%, respectively. In contrast, North Africa and West Asia exhibit a much lower success rate of 59%, highlighting a substantial achievement gap of 41%. This dataset underscores the varying levels of progress in combating child marriage and the need for targeted interventions in regions with higher achievement gaps.',
+    data: [
+        {
+            "Region": "Australia and New Zealand",
+            "Success Rate (%)": 82,
+            "Achievement Gap (%)": 18,
+        },
+        {
+            "Region": "Middle and South Asia",
+            "Success Rate (%)": 74,
+            "Achievement Gap (%)": 26,
+        },
+        {
+            "Region": "East and Southeast Asia",
+            "Success Rate (%)": 77,
+            "Achievement Gap (%)": 23,
+        },
+        {
+            "Region": "Europe and North America",
+            "Success Rate (%)": 83,
+            "Achievement Gap (%)": 17,
+        },
+        {
+            "Region": "Latin America and the Caribbean",
+            "Success Rate (%)": 85,
+            "Achievement Gap (%)": 15,
+        },
+        {
+            "Region": "North Africa and West Asia",
+            "Success Rate (%)": 59,
+            "Achievement Gap (%)": 41,
+        },
+        {
+            "Region": "Sub-Saharan Africa",
+            "Success Rate (%)": 76,
+            "Achievement Gap (%)": 24,
+        },
+    ]
+}
+
+export const marriageAgeEqualityAndWomenRights2021To2024 = {
+    title: 'Marriage Age Equality and Women’s Rights (2021-2024 Data)',
+    description: 'This dataset provides insights into the percentage of countries that ensure marriage age equality and the percentage of countries where women do not have equal rights to marriage and divorce compared to men from 2021 to 2024. The data indicates that 77% of countries maintained marriage age equality in both 2021 and 2022, while a slight decline to 75% is noted in 2023 and 2024. Concurrently, the percentage of countries where women lack equal rights in marriage and divorce increased from 23% in 2021 and 2022 to 25% in 2023 and 2024, highlighting ongoing challenges in achieving gender equality in marital rights.',
+    data: [
+        {
+            "Year": 2021,
+            "Countries Ensuring Marriage Age Equality (%)": 77,
+            "Countries Where Women Lack Equal Rights to Marriage and Divorce (%)": 23,
+        },
+        {
+            "Year": 2022,
+            "Countries Ensuring Marriage Age Equality (%)": 77,
+            "Countries Where Women Lack Equal Rights to Marriage and Divorce (%)": 23,
+        },
+        {
+            "Year": 2023,
+            "Countries Ensuring Marriage Age Equality (%)": 75,
+            "Countries Where Women Lack Equal Rights to Marriage and Divorce (%)": 25,
+        },
+        {
+            "Year": 2024,
+            "Countries Ensuring Marriage Age Equality (%)": 75,
+            "Countries Where Women Lack Equal Rights to Marriage and Divorce (%)": 25,
+        },
+    ]
+}
+
+export const reductionInChildMarriageRates2010To2024 = {
+    title: 'Reduction in Child Marriage Rates (2010-2024 Data)',
+    description: 'This dataset tracks the reduction rates of child marriage across various regions from 2010 to 2024. The data reflects significant progress in certain areas, particularly in South Asia, where a notable reduction of over 40% was recorded in 2015. The dataset also highlights global trends, with varying reduction rates; for example, the global reduction rate in 2021 reached 15%, and in 2022, it increased to 20%. However, challenges remain, especially in regions like Sub-Saharan Africa where progress has been slower. This dataset serves as an important indicator for understanding the effectiveness of global initiatives aimed at reducing child marriage.',
+    data: [
+        {
+            "Year": 2010,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": null,
+        },
+        {
+            "Year": 2013,
+            "Region": "South Asia",
+            "Child Marriage Reduction Rate (%)": 25,
+        },
+        {
+            "Year": 2015,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": 6,
+        },
+        {
+            "Year": 2015,
+            "Region": "South Asia",
+            "Child Marriage Reduction Rate (%)": 40,
+        },
+        {
+            "Year": 2015,
+            "Region": "North Africa",
+            "Child Marriage Reduction Rate (%)": 29,
+        },
+        {
+            "Year": 2017,
+            "Region": "South Asia",
+            "Child Marriage Reduction Rate (%)": 25,
+        },
+        {
+            "Year": 2018,
+            "Region": "South Asia",
+            "Child Marriage Reduction Rate (%)": 25,
+        },
+        {
+            "Year": 2018,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": null,
+        },
+        {
+            "Year": 2019,
+            "Region": "South Asia",
+            "Child Marriage Reduction Rate (%)": 25,
+        },
+        {
+            "Year": 2019,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Reduction Rate (%)": "Slow",
+        },
+        {
+            "Year": 2020,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": 3.6,
+        },
+        {
+            "Year": 2021,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": 15,
+        },
+        {
+            "Year": 2022,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": 20,
+        },
+        {
+            "Year": 2023,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": 15,
+        },
+        {
+            "Year": 2024,
+            "Region": "World",
+            "Child Marriage Reduction Rate (%)": 20,
+        },
+    ]
+}
+
+export const atRiskGirlsForChildMarriage2021To2023 = {
+    title: 'At-Risk Girls for Child Marriage (2021-2023 Data)',
+    description: 'This dataset provides information on the number of at-risk girls for child marriage from 2021 to 2023. The data indicates that there are consistently 100 million girls at risk each year during this period. Additionally, the dataset highlights the impact of COVID-19, which has introduced an extra risk factor for 10 million girls in each year. This data underscores the ongoing challenges faced by young girls globally and emphasizes the need for targeted interventions to protect their rights and well-being.',
+    data: [
+        {
+            "Year": 2021,
+            "Number of At-Risk Girls (Millions)": 100,
+            "Additional Risk from COVID-19 (Millions)": 10,
+        },
+        {
+            "Year": 2022,
+            "Number of At-Risk Girls (Millions)": 100,
+            "Additional Risk from COVID-19 (Millions)": 10,
+        },
+        {
+            "Year": 2023,
+            "Number of At-Risk Girls (Millions)": 100,
+            "Additional Risk from COVID-19 (Millions)": 10,
+        },
+    ]
+}
+
+export const regionalChildMarriageRates2020To2024 = {
+    title: 'Regional Child Marriage Rates (2020-2024 Data)',
+    description: 'This dataset provides an overview of child marriage rates by region from 2020 to 2024. The data highlights significant disparities in child marriage rates, with Sub-Saharan Africa showing the highest rates throughout the years. In 2020, the rate was 34.5%, increasing to 35% in 2021 and remaining at that level in 2022. Meanwhile, South Asia and Latin America and the Caribbean also exhibit notable rates, emphasizing the ongoing challenge of child marriage in these regions. The dataset serves as an important indicator for evaluating the effectiveness of policies aimed at reducing child marriage globally.',
+    data: [
+        {
+            "Year": 2020,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 34.5,
+        },
+        {
+            "Year": 2020,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 28,
+        },
+        {
+            "Year": 2020,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 22,
+        },
+        {
+            "Year": 2020,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2020,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 14,
+        },
+        {
+            "Year": 2020,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.5,
+        },
+        {
+            "Year": 2021,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 35,
+        },
+        {
+            "Year": 2021,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 28,
+        },
+        {
+            "Year": 2021,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 23,
+        },
+        {
+            "Year": 2021,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2021,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 14.5,
+        },
+        {
+            "Year": 2021,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.6,
+        },
+        {
+            "Year": 2022,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 35,
+        },
+        {
+            "Year": 2022,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 28,
+        },
+        {
+            "Year": 2022,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 23,
+        },
+        {
+            "Year": 2022,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19,
+        },
+        {
+            "Year": 2022,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 14.5,
+        },
+        {
+            "Year": 2022,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.6,
+        },
+        {
+            "Year": 2023,
+            "Region": "Sub-Saharan Africa",
+            "Child Marriage Rate (%)": 32,
+        },
+        {
+            "Year": 2023,
+            "Region": "South Asia",
+            "Child Marriage Rate (%)": 26,
+        },
+        {
+            "Year": 2023,
+            "Region": "Latin America and the Caribbean",
+            "Child Marriage Rate (%)": 23.5,
+        },
+        {
+            "Year": 2023,
+            "Region": "Oceania (excluding AUS and NZ)",
+            "Child Marriage Rate (%)": 19.2,
+        },
+        {
+            "Year": 2023,
+            "Region": "North Africa and West Asia",
+            "Child Marriage Rate (%)": 15,
+        },
+        {
+            "Year": 2023,
+            "Region": "East and Southeast Asia",
+            "Child Marriage Rate (%)": 7.8,
+        },
+        {
+            "Year": 2024,
+            "Region": "World",
+            "Child Marriage Rate (%)": 19,
+        },
+    ]
+}
+
+export const childMarriageEndingProjection2023 = {
+    title: 'Child Marriage Rate Decline Projection (2023 Data)',
+    description: 'This dataset presents the projected time required to end child marriages globally as of 2023. The data indicates that it would take an estimated 300 years to completely eliminate child marriages if current trends continue. This projection underscores the urgency of implementing effective strategies and policies to combat child marriage and protect the rights of young girls, highlighting the long-term challenges faced in achieving gender equality and safeguarding children’s rights.',
+    data: [
+        {
+            "Year": 2023,
+            "Years Required to End Child Marriages": 300,
+        },
+    ]
+}
+
+
+
+
+

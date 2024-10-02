@@ -2,7 +2,15 @@ import CategoryHeader from "@/app/components/categoryHeader";
 import Table from "@/app/components/table";
 
 import {
-    annualInvestmentGapForGenderEquality2023, changeInFemaleRepresentationInParliaments2010To2024,
+    annualInvestmentGapForGenderEquality2023,
+    atRiskGirlsForChildMarriage2021To2023,
+    changeInFemaleRepresentationInParliaments2010To2024,
+    childMarriageEndingProjection2023,
+    childMarriageRateChange2009To2024,
+    childMarriageRatesByRegion2000To2024,
+    childMarriageRatesByYear1990To2024,
+    childMarriageRatesUnder15ByRegion2000To2024,
+    childMarriageRatesUnder15ByYear1990To2024,
     countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023,
     countriesThatBanDiscriminationAgainstWomenByYear,
     countriesThatBanMarriagesUnder182023,
@@ -10,16 +18,21 @@ import {
     countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear,
     effectOfGenderQuotasOnFemaleRepresentation2023,
     femaleParliamentaryRepresentationByRegion2000To2024,
-    femaleRepresentationInLocalGovernments2019To2024, femaleRepresentationInLocalGovernmentsByRegion2021,
+    femaleRepresentationInLocalGovernments2019To2024,
+    femaleRepresentationInLocalGovernmentsByRegion2021,
     femaleRepresentationInNationalParliaments2000To2024,
     globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear,
     increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024,
     legalGapsInWomenRights2019,
     legalProtectionGapsFrom2018To2019,
     legalStatusOfCountriesRegardingWomenRights2016,
+    marriageAgeEqualityAndWomenRights2021To2024,
+    reductionInChildMarriageRates2010To2024,
     regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021,
+    regionalChildMarriageRates2020To2024,
     regionalFemaleRepresentation2021,
     regionalLegalAchievementAndGapEmploymentAndEconomicRights2021,
+    regionalSuccessAndAchievementGapInChildMarriage2021,
     representationOfWomenInManagerialPositionsByRegion,
     theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022,
     timeRequiredForFemaleRepresentationInNationalParliaments,
@@ -187,6 +200,75 @@ export default function Home() {
               description={changeInFemaleRepresentationInParliaments2010To2024.description}
               columns={Object.keys(Object.values(changeInFemaleRepresentationInParliaments2010To2024.data)[0])}
               data={changeInFemaleRepresentationInParliaments2010To2024.data}
+          />
+
+          <CategoryHeader title={'Marriage and Family'} description={'Lorem'}/>
+
+          <Table
+              title={childMarriageRatesByYear1990To2024.title}
+              description={childMarriageRatesByYear1990To2024.description}
+              columns={Object.keys(Object.values(childMarriageRatesByYear1990To2024.data)[0])}
+              data={childMarriageRatesByYear1990To2024.data}
+          />
+          <Table
+              title={childMarriageRatesUnder15ByYear1990To2024.title}
+              description={childMarriageRatesUnder15ByYear1990To2024.description}
+              columns={Object.keys(Object.values(childMarriageRatesUnder15ByYear1990To2024.data)[0])}
+              data={childMarriageRatesUnder15ByYear1990To2024.data}
+          />
+          <Table
+              title={childMarriageRatesByRegion2000To2024.title}
+              description={childMarriageRatesByRegion2000To2024.description}
+              columns={Object.keys(Object.values(childMarriageRatesByRegion2000To2024.data)[0])}
+              data={childMarriageRatesByRegion2000To2024.data}
+          />
+          <Table
+              title={childMarriageRatesUnder15ByRegion2000To2024.title}
+              description={childMarriageRatesUnder15ByRegion2000To2024.description}
+              columns={Object.keys(Object.values(childMarriageRatesUnder15ByRegion2000To2024.data)[0])}
+              data={childMarriageRatesUnder15ByRegion2000To2024.data}
+          />
+          <Table
+              title={childMarriageRateChange2009To2024.title}
+              description={childMarriageRateChange2009To2024.description}
+              columns={Object.keys(Object.values(childMarriageRateChange2009To2024.data)[0])}
+              data={childMarriageRateChange2009To2024.data}
+          />
+          <Table
+              title={regionalSuccessAndAchievementGapInChildMarriage2021.title}
+              description={regionalSuccessAndAchievementGapInChildMarriage2021.description}
+              columns={Object.keys(Object.values(regionalSuccessAndAchievementGapInChildMarriage2021.data)[0])}
+              data={regionalSuccessAndAchievementGapInChildMarriage2021.data}
+          />
+          <Table
+              title={marriageAgeEqualityAndWomenRights2021To2024.title}
+              description={marriageAgeEqualityAndWomenRights2021To2024.description}
+              columns={Object.keys(Object.values(marriageAgeEqualityAndWomenRights2021To2024.data)[0])}
+              data={marriageAgeEqualityAndWomenRights2021To2024.data}
+          />
+          <Table
+              title={reductionInChildMarriageRates2010To2024.title}
+              description={reductionInChildMarriageRates2010To2024.description}
+              columns={Object.keys(Object.values(reductionInChildMarriageRates2010To2024.data)[0])}
+              data={reductionInChildMarriageRates2010To2024.data}
+          />
+          <Table
+              title={atRiskGirlsForChildMarriage2021To2023.title}
+              description={atRiskGirlsForChildMarriage2021To2023.description}
+              columns={Object.keys(Object.values(atRiskGirlsForChildMarriage2021To2023.data)[0])}
+              data={atRiskGirlsForChildMarriage2021To2023.data}
+          />
+          <Table
+              title={regionalChildMarriageRates2020To2024.title}
+              description={regionalChildMarriageRates2020To2024.description}
+              columns={Object.keys(Object.values(regionalChildMarriageRates2020To2024.data)[0])}
+              data={regionalChildMarriageRates2020To2024.data}
+          />
+          <Table
+              title={childMarriageEndingProjection2023.title}
+              description={childMarriageEndingProjection2023.description}
+              columns={Object.keys(Object.values(childMarriageEndingProjection2023.data)[0])}
+              data={childMarriageEndingProjection2023.data}
           />
       </>
   );
