@@ -16,17 +16,22 @@ import {
     countriesThatBanMarriagesUnder182023,
     countriesWithAndWithoutParliamentaryQuotasForWomen2024,
     countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear,
+    distributionOfUnpaidCareAndHouseworkHoursByYear,
     effectOfGenderQuotasOnFemaleRepresentation2023,
     femaleParliamentaryRepresentationByRegion2000To2024,
     femaleRepresentationInLocalGovernments2019To2024,
     femaleRepresentationInLocalGovernmentsByRegion2021,
     femaleRepresentationInNationalParliaments2000To2024,
+    genderBasedDisadvantagesInUnpaidCareAndHousework,
+    genderInequalityInUnpaidCareWork,
     globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear,
     increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024,
     legalGapsInWomenRights2019,
     legalProtectionGapsFrom2018To2019,
     legalStatusOfCountriesRegardingWomenRights2016,
     marriageAgeEqualityAndWomenRights2021To2024,
+    paidAndUnpaidWorkHoursByGenderAndRegion,
+    preAndPostPandemicUnpaidCareAndHouseworkHours,
     reductionInChildMarriageRates2010To2024,
     regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021,
     regionalChildMarriageRates2020To2024,
@@ -37,7 +42,10 @@ import {
     theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022,
     timeRequiredForFemaleRepresentationInNationalParliaments,
     timeRequiredToCloseLegalProtectionsByYear,
-    timeToAchieveGenderEqualityInManagerialPositionsByYear
+    timeToAchieveGenderEqualityInManagerialPositionsByYear,
+    womenChildcareHours2010To2024,
+    womenUnpaidCareAndHouseworkTime2010To2024,
+    womenWithdrawalFromLaborForceWithYoungChildren2020
 } from "@/app/data";
 
 export default function Home() {
@@ -269,6 +277,57 @@ export default function Home() {
               description={childMarriageEndingProjection2023.description}
               columns={Object.keys(Object.values(childMarriageEndingProjection2023.data)[0])}
               data={childMarriageEndingProjection2023.data}
+          />
+
+          <CategoryHeader title={'Free Care and Housework'} description={'Lorem'}/>
+
+          <Table
+              title={distributionOfUnpaidCareAndHouseworkHoursByYear.title}
+              description={distributionOfUnpaidCareAndHouseworkHoursByYear.description}
+              columns={Object.keys(Object.values(distributionOfUnpaidCareAndHouseworkHoursByYear.data)[0])}
+              data={distributionOfUnpaidCareAndHouseworkHoursByYear.data}
+          />
+          <Table
+              title={womenChildcareHours2010To2024.title}
+              description={womenChildcareHours2010To2024.description}
+              columns={Object.keys(Object.values(womenChildcareHours2010To2024.data)[0])}
+              data={womenChildcareHours2010To2024.data}
+          />
+          <Table
+              title={preAndPostPandemicUnpaidCareAndHouseworkHours.title}
+              description={preAndPostPandemicUnpaidCareAndHouseworkHours.description}
+              columns={Object.keys(Object.values(preAndPostPandemicUnpaidCareAndHouseworkHours.data)[0])}
+              data={preAndPostPandemicUnpaidCareAndHouseworkHours.data}
+          />
+          <Table
+              title={womenUnpaidCareAndHouseworkTime2010To2024.title}
+              description={womenUnpaidCareAndHouseworkTime2010To2024.description}
+              columns={Object.keys(Object.values(womenUnpaidCareAndHouseworkTime2010To2024.data)[0])}
+              data={womenUnpaidCareAndHouseworkTime2010To2024.data}
+          />
+          <Table
+              title={paidAndUnpaidWorkHoursByGenderAndRegion.title}
+              description={paidAndUnpaidWorkHoursByGenderAndRegion.description}
+              columns={Object.keys(Object.values(paidAndUnpaidWorkHoursByGenderAndRegion.data)[0])}
+              data={paidAndUnpaidWorkHoursByGenderAndRegion.data}
+          />
+          <Table
+              title={genderInequalityInUnpaidCareWork.title}
+              description={genderInequalityInUnpaidCareWork.description}
+              columns={Object.keys(Object.values(genderInequalityInUnpaidCareWork.data)[0])}
+              data={genderInequalityInUnpaidCareWork.data}
+          />
+          <Table
+              title={womenWithdrawalFromLaborForceWithYoungChildren2020.title}
+              description={womenWithdrawalFromLaborForceWithYoungChildren2020.description}
+              columns={Object.keys(Object.values(womenWithdrawalFromLaborForceWithYoungChildren2020.data)[0])}
+              data={womenWithdrawalFromLaborForceWithYoungChildren2020.data}
+          />
+          <Table
+              title={genderBasedDisadvantagesInUnpaidCareAndHousework.title}
+              description={genderBasedDisadvantagesInUnpaidCareAndHousework.description}
+              columns={Object.keys(Object.values(genderBasedDisadvantagesInUnpaidCareAndHousework.data)[0])}
+              data={genderBasedDisadvantagesInUnpaidCareAndHousework.data}
           />
       </>
   );
