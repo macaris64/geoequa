@@ -1,101 +1,193 @@
-import Image from "next/image";
+import CategoryHeader from "@/app/components/categoryHeader";
+import Table from "@/app/components/table";
+
+import {
+    annualInvestmentGapForGenderEquality2023, changeInFemaleRepresentationInParliaments2010To2024,
+    countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023,
+    countriesThatBanDiscriminationAgainstWomenByYear,
+    countriesThatBanMarriagesUnder182023,
+    countriesWithAndWithoutParliamentaryQuotasForWomen2024,
+    countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear,
+    effectOfGenderQuotasOnFemaleRepresentation2023,
+    femaleParliamentaryRepresentationByRegion2000To2024,
+    femaleRepresentationInLocalGovernments2019To2024, femaleRepresentationInLocalGovernmentsByRegion2021,
+    femaleRepresentationInNationalParliaments2000To2024,
+    globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear,
+    increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024,
+    legalGapsInWomenRights2019,
+    legalProtectionGapsFrom2018To2019,
+    legalStatusOfCountriesRegardingWomenRights2016,
+    regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021,
+    regionalFemaleRepresentation2021,
+    regionalLegalAchievementAndGapEmploymentAndEconomicRights2021,
+    representationOfWomenInManagerialPositionsByRegion,
+    theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022,
+    timeRequiredForFemaleRepresentationInNationalParliaments,
+    timeRequiredToCloseLegalProtectionsByYear,
+    timeToAchieveGenderEqualityInManagerialPositionsByYear
+} from "@/app/data";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      <>
+          <CategoryHeader title={'Gender equality in management positions'} description={'Lorem'}/>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+          <Table
+              title={increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.title}
+              description={increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.description}
+              columns={Object.keys(Object.values(increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.data)[0])}
+              data={increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.data}
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+          <Table
+              title={representationOfWomenInManagerialPositionsByRegion.title}
+              description={representationOfWomenInManagerialPositionsByRegion.description}
+              columns={Object.keys(Object.values(representationOfWomenInManagerialPositionsByRegion.data)[0])}
+              data={representationOfWomenInManagerialPositionsByRegion.data}
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+          <Table
+              title={timeToAchieveGenderEqualityInManagerialPositionsByYear.title}
+              description={timeToAchieveGenderEqualityInManagerialPositionsByYear.description}
+              columns={Object.keys(Object.values(timeToAchieveGenderEqualityInManagerialPositionsByYear.data)[0])}
+              data={timeToAchieveGenderEqualityInManagerialPositionsByYear.data}
           />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+          <Table
+              title={globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.title}
+              description={globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.description}
+              columns={Object.keys(Object.values(globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.data)[0])}
+              data={globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.data}
+          />
+          <Table
+              title={theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.title}
+              description={theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.description}
+              columns={Object.keys(Object.values(theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.data)[0])}
+              data={theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.data}
+          />
+          <Table
+              title={countriesWithAndWithoutParliamentaryQuotasForWomen2024.title}
+              description={countriesWithAndWithoutParliamentaryQuotasForWomen2024.description}
+              columns={Object.keys(Object.values(countriesWithAndWithoutParliamentaryQuotasForWomen2024.data)[0])}
+              data={countriesWithAndWithoutParliamentaryQuotasForWomen2024.data}
+          />
+
+          <CategoryHeader title={'Gender Discrimination'} description={'Lorem'}/>
+
+          <Table
+              title={countriesThatBanDiscriminationAgainstWomenByYear.title}
+              description={countriesThatBanDiscriminationAgainstWomenByYear.description}
+              columns={Object.keys(Object.values(countriesThatBanDiscriminationAgainstWomenByYear.data)[0])}
+              data={countriesThatBanDiscriminationAgainstWomenByYear.data}
+          />
+          <Table
+              title={timeRequiredToCloseLegalProtectionsByYear.title}
+              description={timeRequiredToCloseLegalProtectionsByYear.description}
+              columns={Object.keys(Object.values(timeRequiredToCloseLegalProtectionsByYear.data)[0])}
+              data={timeRequiredToCloseLegalProtectionsByYear.data}
+          />
+          <Table
+              title={regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.title}
+              description={regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.description}
+              columns={Object.keys(Object.values(regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.data)[0])}
+              data={regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.data}
+          />
+          <Table
+              title={legalProtectionGapsFrom2018To2019.title}
+              description={legalProtectionGapsFrom2018To2019.description}
+              columns={Object.keys(Object.values(legalProtectionGapsFrom2018To2019.data)[0])}
+              data={legalProtectionGapsFrom2018To2019.data}
+          />
+          <Table
+              title={countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.title}
+              description={countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.description}
+              columns={Object.keys(Object.values(countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.data)[0])}
+              data={countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.data}
+          />
+          <Table
+              title={countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.title}
+              description={countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.description}
+              columns={Object.keys(Object.values(countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.data)[0])}
+              data={countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.data}
+          />
+          <Table
+              title={countriesThatBanMarriagesUnder182023.title}
+              description={countriesThatBanMarriagesUnder182023.description}
+              columns={Object.keys(Object.values(countriesThatBanMarriagesUnder182023.data)[0])}
+              data={countriesThatBanMarriagesUnder182023.data}
+          />
+          <Table
+              title={regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.title}
+              description={regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.description}
+              columns={Object.keys(Object.values(regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.data)[0])}
+              data={regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.data}
+          />
+          <Table
+              title={legalGapsInWomenRights2019.title}
+              description={legalGapsInWomenRights2019.description}
+              columns={Object.keys(Object.values(legalGapsInWomenRights2019.data)[0])}
+              data={legalGapsInWomenRights2019.data}
+          />
+          <Table
+              title={annualInvestmentGapForGenderEquality2023.title}
+              description={annualInvestmentGapForGenderEquality2023.description}
+              columns={Object.keys(Object.values(annualInvestmentGapForGenderEquality2023.data)[0])}
+              data={annualInvestmentGapForGenderEquality2023.data}
+          />
+          <Table
+              title={legalStatusOfCountriesRegardingWomenRights2016.title}
+              description={legalStatusOfCountriesRegardingWomenRights2016.description}
+              columns={Object.keys(Object.values(legalStatusOfCountriesRegardingWomenRights2016.data)[0])}
+              data={legalStatusOfCountriesRegardingWomenRights2016.data}
+          />
+
+          <CategoryHeader title={'Parliament Representation'} description={'Lorem'}/>
+
+          <Table
+              title={femaleRepresentationInNationalParliaments2000To2024.title}
+              description={femaleRepresentationInNationalParliaments2000To2024.description}
+              columns={Object.keys(Object.values(femaleRepresentationInNationalParliaments2000To2024.data)[0])}
+              data={femaleRepresentationInNationalParliaments2000To2024.data}
+          />
+          <Table
+              title={femaleRepresentationInLocalGovernments2019To2024.title}
+              description={femaleRepresentationInLocalGovernments2019To2024.description}
+              columns={Object.keys(Object.values(femaleRepresentationInLocalGovernments2019To2024.data)[0])}
+              data={femaleRepresentationInLocalGovernments2019To2024.data}
+          />
+          <Table
+              title={regionalFemaleRepresentation2021.title}
+              description={regionalFemaleRepresentation2021.description}
+              columns={Object.keys(Object.values(regionalFemaleRepresentation2021.data)[0])}
+              data={regionalFemaleRepresentation2021.data}
+          />
+          <Table
+              title={timeRequiredForFemaleRepresentationInNationalParliaments.title}
+              description={timeRequiredForFemaleRepresentationInNationalParliaments.description}
+              columns={Object.keys(Object.values(timeRequiredForFemaleRepresentationInNationalParliaments.data)[0])}
+              data={timeRequiredForFemaleRepresentationInNationalParliaments.data}
+          />
+          <Table
+              title={effectOfGenderQuotasOnFemaleRepresentation2023.title}
+              description={effectOfGenderQuotasOnFemaleRepresentation2023.description}
+              columns={Object.keys(Object.values(effectOfGenderQuotasOnFemaleRepresentation2023.data)[0])}
+              data={effectOfGenderQuotasOnFemaleRepresentation2023.data}
+          />
+          <Table
+              title={femaleParliamentaryRepresentationByRegion2000To2024.title}
+              description={femaleParliamentaryRepresentationByRegion2000To2024.description}
+              columns={Object.keys(Object.values(femaleParliamentaryRepresentationByRegion2000To2024.data)[0])}
+              data={femaleParliamentaryRepresentationByRegion2000To2024.data}
+          />
+          <Table
+              title={femaleRepresentationInLocalGovernmentsByRegion2021.title}
+              description={femaleRepresentationInLocalGovernmentsByRegion2021.description}
+              columns={Object.keys(Object.values(femaleRepresentationInLocalGovernmentsByRegion2021.data)[0])}
+              data={femaleRepresentationInLocalGovernmentsByRegion2021.data}
+          />
+          <Table
+              title={changeInFemaleRepresentationInParliaments2010To2024.title}
+              description={changeInFemaleRepresentationInParliaments2010To2024.description}
+              columns={Object.keys(Object.values(changeInFemaleRepresentationInParliaments2010To2024.data)[0])}
+              data={changeInFemaleRepresentationInParliaments2010To2024.data}
+          />
+      </>
   );
 }
