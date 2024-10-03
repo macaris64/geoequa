@@ -2,7 +2,7 @@ import TableData from "@/app/components/tableData";
 import {useState} from "react";
 import axios from "axios";
 
-export default function Table({title, description, columns, data}: { title: string, description: string, columns: string[], data: any[] }) {
+export default function Table({title, description, columns, data, isPreview = false}: { title: string, description: string, columns: string[], data: any[], isPreview?: boolean }) {
     const [aiResponse, setAiResponse] = useState('');
     const [messages, setMessages] = useState(
         [
@@ -62,15 +62,18 @@ export default function Table({title, description, columns, data}: { title: stri
                 <TableData columns={columns} data={data}/>
                 </tbody>
             </table>
-            <div className='grid grid-cols-4 px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700'>
-                <div>
-                    <button
-                        onClick={analyzeWithAI}
-                        className="text-white block w-full bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center dark:focus:ring-blue-900">
-                        Analyze with AI
-                    </button>
+            {isPreview && (
+                <div
+                    className='grid px-4 py-5 text-sm text-gray-700 border-b border-gray-200 gap-x-16 dark:border-gray-700'>
+                    <div>
+                        <button
+                            onClick={analyzeWithAI}
+                            className="text-white block w-full bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 font-medium rounded-lg text-sm px-4 py-2.5 text-center dark:focus:ring-blue-900">
+                            Explore
+                        </button>
+                    </div>
                 </div>
-            </div>
+            )}
             {aiResponse && (
                 <div className="mt-4 p-4 border rounded bg-gray-100">
                     <h2 className="font-semibold">AI Response:</h2>

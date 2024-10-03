@@ -20,7 +20,7 @@ export default function CategoryPage() {
 
     return (
         <div>
-            <DataDropdown onCategorySelect={handleCategorySelect} />
+            <DataDropdown onCategorySelect={handleCategorySelect} selectedCategory={decodedCategoryName} />
             <CategoryHeader
                 title={decodedCategoryName.toString()}
                 description={categoryDescriptions[decodedCategoryName.toString()]}
@@ -34,6 +34,7 @@ export default function CategoryPage() {
                             description={item.description}
                             columns={Object.keys(item.data[0])}
                             data={item.data}
+                            isPreview={true}
                         />
                     ))
                 ) : (
