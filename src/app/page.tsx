@@ -1,334 +1,293 @@
-import CategoryHeader from "@/app/components/categoryHeader";
+"use client";
+import {useState} from "react";
+
+import DataDropdown from "@/app/components/dataDropdown";
 import Table from "@/app/components/table";
+import CategoryHeader from "@/app/components/categoryHeader";
+import { categoryDescriptions } from "@/app/data";
 
 import {
+    accessToSexualHealthRights,
+    adoptionOfNationalDisasterRiskReductionStrategies,
+    adolescentFertilityRates,
+    annualClimateChangeFinanceGoals,
+    annualClimateChangeGoals,
     annualInvestmentGapForGenderEquality2023,
     atRiskGirlsForChildMarriage2021To2023,
+    budgetingSystemsForGenderEqualityRegionalDistribution2019,
+    carbonDioxideLevels,
     changeInFemaleRepresentationInParliaments2010To2024,
     childMarriageEndingProjection2023,
-    childMarriageRateChange2009To2024,
     childMarriageRatesByRegion2000To2024,
     childMarriageRatesByYear1990To2024,
     childMarriageRatesUnder15ByRegion2000To2024,
     childMarriageRatesUnder15ByYear1990To2024,
+    childMarriageRateChange2009To2024,
+    climateActionGoals,
+    climateChangeAndSustainabilityInCurriculum,
+    climateChangeStrategies,
+    climateFinanceByYear,
+    climateFinanceFromDevelopingCountries,
+    climateFinanceReductionAndAdaptation,
+    climateFinanceSupportTypes,
+    climateFinanceTargetsAndAchievements,
+    complianceWithInternationalAgreements,
+    countriesAchievingGenderEquality,
+    countriesDevelopingNationalAdaptationPlans,
     countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023,
     countriesThatBanDiscriminationAgainstWomenByYear,
     countriesThatBanMarriagesUnder182023,
     countriesWithAndWithoutParliamentaryQuotasForWomen2024,
+    countriesWithDisasterRiskManagementRegulations2015,
     countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear,
+    countryMechanismsForDisasterRiskReduction2014_2015,
+    covid19EmissionEffects2020,
+    dataMonitoringCapacityForSDG5,
+    definitionsOfViolenceAgainstWomenAndRape,
+    developmentOfDisasterRiskReductionStrategies,
+    disasterRelatedDeathAndLossRates,
+    disasterRiskReductionStrategiesAndPolicyCompliance,
     distributionOfUnpaidCareAndHouseworkHoursByYear,
     effectOfGenderQuotasOnFemaleRepresentation2023,
+    economicLossFromNaturalDisasters,
+    emissionTargetsAlignedWithGoals,
+    effectsAndMeasuresOfGlobalWarming,
+    equalPayForEqualWorkPrinciple,
+    femaleGenitalMutilationRates,
+    femaleGenitalMutilationStatistics,
     femaleParliamentaryRepresentationByRegion2000To2024,
     femaleRepresentationInLocalGovernments2019To2024,
     femaleRepresentationInLocalGovernmentsByRegion2021,
     femaleRepresentationInNationalParliaments2000To2024,
     genderBasedDisadvantagesInUnpaidCareAndHousework,
+    genderEqualityRegionalDifferences,
+    genderEqualityResourceAllocationSystems,
     genderInequalityInUnpaidCareWork,
+    geologicalAndHydrometeorologicalEventsDeathCount,
+    globalClimateAgreementCompliance,
     globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear,
+    globalMedicalStaffGenderDistribution,
+    globalTemperatureChangesByYear,
+    globalWarmingComparedToPreIndustrialLevels,
+    greenClimateFundApplicationsAndFunding,
+    greenhouseGasEmissionChanges,
+    impactOfClimateChangeOnFoodInsecurity,
+    impactOfClimateChangeOnWomen,
     increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024,
+    landOwnershipAndSecurityRatesByCountry2024,
+    legalGuaranteesForLandOwnership,
     legalGapsInWomenRights2019,
     legalProtectionGapsFrom2018To2019,
+    legalStatusGuaranteeingSexualAndReproductiveHealthRights,
     legalStatusOfCountriesRegardingWomenRights2016,
+    localGovernmentsDisasterRiskReductionStrategies,
     marriageAgeEqualityAndWomenRights2021To2024,
+    maternityLeaveStatisticsByCountry,
+    mobilePhoneOwnershipGenderDifferences,
+    naturalDisasterAffectedPeople,
+    nationalContributionsAndCompliance,
+    percentageOfWomenExperiencingViolenceInLast12Months,
     paidAndUnpaidWorkHoursByGenderAndRegion,
+    postDisasterAssistanceRequestRate,
+    preparationAndImplementationOfNationalCompliancePlans,
     preAndPostPandemicUnpaidCareAndHouseworkHours,
+    priorityAreasInAdaptationStrategies,
+    prioritySectorsAndPartiesByAdaptationComponents,
+    progressTowardsGoals,
     reductionInChildMarriageRates2010To2024,
     regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021,
     regionalChildMarriageRates2020To2024,
+    regionalComplianceWithParisAgreementAndNDCs,
+    regionalDistributionOfDisasterRelatedDeaths,
+    regionalDistributionOfFemaleGenitalMutilation,
+    regionalDistributionOfViolenceAgainstWomen,
     regionalFemaleRepresentation2021,
     regionalLegalAchievementAndGapEmploymentAndEconomicRights2021,
     regionalSuccessAndAchievementGapInChildMarriage2021,
+    relationshipBetweenPandemicAndNaturalDisasters,
     representationOfWomenInManagerialPositionsByRegion,
+    severityAndFrequencyOfNaturalDisasters,
+    sexualAndPhysicalViolenceReportingRates,
+    successRatesForViolenceAgainstWomenTargets,
     theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022,
     timeRequiredForFemaleRepresentationInNationalParliaments,
     timeRequiredToCloseLegalProtectionsByYear,
     timeToAchieveGenderEqualityInManagerialPositionsByYear,
+    totalDeathsAndAffectedPeopleByYear,
+    totalGreenhouseGasEmissionsByCountryType,
+    violenceAgainstWomenAndGirlsRates,
+    violenceAgainstWomenRates,
     womenChildcareHours2010To2024,
+    womenDecisionMakingRightsInSexualAndReproductiveHealth,
+    womenDecisionMakingRightsInSexualAndReproductiveHealthByRegion,
+    womenExperiencingViolenceByAgeGroup,
+    womenLandOwnershipRatesSelectedCountries,
+    womenLandRightsProtectionStatus,
     womenUnpaidCareAndHouseworkTime2010To2024,
-    womenWithdrawalFromLaborForceWithYoungChildren2020
+    womenWithdrawalFromLaborForce,
+    womenWithdrawalFromLaborForceWithYoungChildren2020,
 } from "@/app/data";
 
+const allData = [
+    accessToSexualHealthRights,
+    adoptionOfNationalDisasterRiskReductionStrategies,
+    adolescentFertilityRates,
+    annualClimateChangeFinanceGoals,
+    annualClimateChangeGoals,
+    annualInvestmentGapForGenderEquality2023,
+    atRiskGirlsForChildMarriage2021To2023,
+    budgetingSystemsForGenderEqualityRegionalDistribution2019,
+    carbonDioxideLevels,
+    changeInFemaleRepresentationInParliaments2010To2024,
+    childMarriageEndingProjection2023,
+    childMarriageRatesByRegion2000To2024,
+    childMarriageRatesByYear1990To2024,
+    childMarriageRatesUnder15ByRegion2000To2024,
+    childMarriageRatesUnder15ByYear1990To2024,
+    childMarriageRateChange2009To2024,
+    climateActionGoals,
+    climateChangeAndSustainabilityInCurriculum,
+    climateChangeStrategies,
+    climateFinanceByYear,
+    climateFinanceFromDevelopingCountries,
+    climateFinanceReductionAndAdaptation,
+    climateFinanceSupportTypes,
+    climateFinanceTargetsAndAchievements,
+    complianceWithInternationalAgreements,
+    countriesAchievingGenderEquality,
+    countriesDevelopingNationalAdaptationPlans,
+    countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023,
+    countriesThatBanDiscriminationAgainstWomenByYear,
+    countriesThatBanMarriagesUnder182023,
+    countriesWithAndWithoutParliamentaryQuotasForWomen2024,
+    countriesWithDisasterRiskManagementRegulations2015,
+    countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear,
+    countryMechanismsForDisasterRiskReduction2014_2015,
+    covid19EmissionEffects2020,
+    dataMonitoringCapacityForSDG5,
+    definitionsOfViolenceAgainstWomenAndRape,
+    developmentOfDisasterRiskReductionStrategies,
+    disasterRelatedDeathAndLossRates,
+    disasterRiskReductionStrategiesAndPolicyCompliance,
+    distributionOfUnpaidCareAndHouseworkHoursByYear,
+    effectOfGenderQuotasOnFemaleRepresentation2023,
+    economicLossFromNaturalDisasters,
+    emissionTargetsAlignedWithGoals,
+    effectsAndMeasuresOfGlobalWarming,
+    equalPayForEqualWorkPrinciple,
+    femaleGenitalMutilationRates,
+    femaleGenitalMutilationStatistics,
+    femaleParliamentaryRepresentationByRegion2000To2024,
+    femaleRepresentationInLocalGovernments2019To2024,
+    femaleRepresentationInLocalGovernmentsByRegion2021,
+    femaleRepresentationInNationalParliaments2000To2024,
+    genderBasedDisadvantagesInUnpaidCareAndHousework,
+    genderEqualityRegionalDifferences,
+    genderEqualityResourceAllocationSystems,
+    genderInequalityInUnpaidCareWork,
+    geologicalAndHydrometeorologicalEventsDeathCount,
+    globalClimateAgreementCompliance,
+    globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear,
+    globalMedicalStaffGenderDistribution,
+    globalTemperatureChangesByYear,
+    globalWarmingComparedToPreIndustrialLevels,
+    greenClimateFundApplicationsAndFunding,
+    greenhouseGasEmissionChanges,
+    impactOfClimateChangeOnFoodInsecurity,
+    impactOfClimateChangeOnWomen,
+    increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024,
+    landOwnershipAndSecurityRatesByCountry2024,
+    legalGuaranteesForLandOwnership,
+    legalGapsInWomenRights2019,
+    legalProtectionGapsFrom2018To2019,
+    legalStatusGuaranteeingSexualAndReproductiveHealthRights,
+    legalStatusOfCountriesRegardingWomenRights2016,
+    localGovernmentsDisasterRiskReductionStrategies,
+    marriageAgeEqualityAndWomenRights2021To2024,
+    maternityLeaveStatisticsByCountry,
+    mobilePhoneOwnershipGenderDifferences,
+    naturalDisasterAffectedPeople,
+    nationalContributionsAndCompliance,
+    percentageOfWomenExperiencingViolenceInLast12Months,
+    paidAndUnpaidWorkHoursByGenderAndRegion,
+    postDisasterAssistanceRequestRate,
+    preparationAndImplementationOfNationalCompliancePlans,
+    preAndPostPandemicUnpaidCareAndHouseworkHours,
+    priorityAreasInAdaptationStrategies,
+    prioritySectorsAndPartiesByAdaptationComponents,
+    progressTowardsGoals,
+    reductionInChildMarriageRates2010To2024,
+    regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021,
+    regionalChildMarriageRates2020To2024,
+    regionalComplianceWithParisAgreementAndNDCs,
+    regionalDistributionOfDisasterRelatedDeaths,
+    regionalDistributionOfFemaleGenitalMutilation,
+    regionalDistributionOfViolenceAgainstWomen,
+    regionalFemaleRepresentation2021,
+    regionalLegalAchievementAndGapEmploymentAndEconomicRights2021,
+    regionalSuccessAndAchievementGapInChildMarriage2021,
+    relationshipBetweenPandemicAndNaturalDisasters,
+    representationOfWomenInManagerialPositionsByRegion,
+    severityAndFrequencyOfNaturalDisasters,
+    sexualAndPhysicalViolenceReportingRates,
+    successRatesForViolenceAgainstWomenTargets,
+    theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022,
+    timeRequiredForFemaleRepresentationInNationalParliaments,
+    timeRequiredToCloseLegalProtectionsByYear,
+    timeToAchieveGenderEqualityInManagerialPositionsByYear,
+    totalDeathsAndAffectedPeopleByYear,
+    totalGreenhouseGasEmissionsByCountryType,
+    violenceAgainstWomenAndGirlsRates,
+    violenceAgainstWomenRates,
+    womenChildcareHours2010To2024,
+    womenDecisionMakingRightsInSexualAndReproductiveHealth,
+    womenDecisionMakingRightsInSexualAndReproductiveHealthByRegion,
+    womenExperiencingViolenceByAgeGroup,
+    womenLandOwnershipRatesSelectedCountries,
+    womenLandRightsProtectionStatus,
+    womenUnpaidCareAndHouseworkTime2010To2024,
+    womenWithdrawalFromLaborForce,
+    womenWithdrawalFromLaborForceWithYoungChildren2020,
+];
+
 export default function Home() {
-  return (
-      <>
-          <CategoryHeader title={'Gender equality in management positions'} description={'Lorem'}/>
+    const [selectedCategory, setSelectedCategory] = useState('');
 
-          <Table
-              title={increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.title}
-              description={increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.description}
-              columns={Object.keys(Object.values(increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.data)[0])}
-              data={increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024.data}
-          />
-          <Table
-              title={representationOfWomenInManagerialPositionsByRegion.title}
-              description={representationOfWomenInManagerialPositionsByRegion.description}
-              columns={Object.keys(Object.values(representationOfWomenInManagerialPositionsByRegion.data)[0])}
-              data={representationOfWomenInManagerialPositionsByRegion.data}
-          />
-          <Table
-              title={timeToAchieveGenderEqualityInManagerialPositionsByYear.title}
-              description={timeToAchieveGenderEqualityInManagerialPositionsByYear.description}
-              columns={Object.keys(Object.values(timeToAchieveGenderEqualityInManagerialPositionsByYear.data)[0])}
-              data={timeToAchieveGenderEqualityInManagerialPositionsByYear.data}
-          />
-          <Table
-              title={globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.title}
-              description={globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.description}
-              columns={Object.keys(Object.values(globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.data)[0])}
-              data={globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear.data}
-          />
-          <Table
-              title={theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.title}
-              description={theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.description}
-              columns={Object.keys(Object.values(theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.data)[0])}
-              data={theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022.data}
-          />
-          <Table
-              title={countriesWithAndWithoutParliamentaryQuotasForWomen2024.title}
-              description={countriesWithAndWithoutParliamentaryQuotasForWomen2024.description}
-              columns={Object.keys(Object.values(countriesWithAndWithoutParliamentaryQuotasForWomen2024.data)[0])}
-              data={countriesWithAndWithoutParliamentaryQuotasForWomen2024.data}
-          />
+    const handleCategorySelect = (category: string) => {
+        setSelectedCategory(category);
+    };
 
-          <CategoryHeader title={'Gender Discrimination'} description={'Lorem'}/>
+    const renderTables = () => {
+        const filteredData = allData.filter(item => item.category === selectedCategory);
 
-          <Table
-              title={countriesThatBanDiscriminationAgainstWomenByYear.title}
-              description={countriesThatBanDiscriminationAgainstWomenByYear.description}
-              columns={Object.keys(Object.values(countriesThatBanDiscriminationAgainstWomenByYear.data)[0])}
-              data={countriesThatBanDiscriminationAgainstWomenByYear.data}
-          />
-          <Table
-              title={timeRequiredToCloseLegalProtectionsByYear.title}
-              description={timeRequiredToCloseLegalProtectionsByYear.description}
-              columns={Object.keys(Object.values(timeRequiredToCloseLegalProtectionsByYear.data)[0])}
-              data={timeRequiredToCloseLegalProtectionsByYear.data}
-          />
-          <Table
-              title={regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.title}
-              description={regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.description}
-              columns={Object.keys(Object.values(regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.data)[0])}
-              data={regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021.data}
-          />
-          <Table
-              title={legalProtectionGapsFrom2018To2019.title}
-              description={legalProtectionGapsFrom2018To2019.description}
-              columns={Object.keys(Object.values(legalProtectionGapsFrom2018To2019.data)[0])}
-              data={legalProtectionGapsFrom2018To2019.data}
-          />
-          <Table
-              title={countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.title}
-              description={countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.description}
-              columns={Object.keys(Object.values(countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.data)[0])}
-              data={countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear.data}
-          />
-          <Table
-              title={countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.title}
-              description={countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.description}
-              columns={Object.keys(Object.values(countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.data)[0])}
-              data={countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023.data}
-          />
-          <Table
-              title={countriesThatBanMarriagesUnder182023.title}
-              description={countriesThatBanMarriagesUnder182023.description}
-              columns={Object.keys(Object.values(countriesThatBanMarriagesUnder182023.data)[0])}
-              data={countriesThatBanMarriagesUnder182023.data}
-          />
-          <Table
-              title={regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.title}
-              description={regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.description}
-              columns={Object.keys(Object.values(regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.data)[0])}
-              data={regionalLegalAchievementAndGapEmploymentAndEconomicRights2021.data}
-          />
-          <Table
-              title={legalGapsInWomenRights2019.title}
-              description={legalGapsInWomenRights2019.description}
-              columns={Object.keys(Object.values(legalGapsInWomenRights2019.data)[0])}
-              data={legalGapsInWomenRights2019.data}
-          />
-          <Table
-              title={annualInvestmentGapForGenderEquality2023.title}
-              description={annualInvestmentGapForGenderEquality2023.description}
-              columns={Object.keys(Object.values(annualInvestmentGapForGenderEquality2023.data)[0])}
-              data={annualInvestmentGapForGenderEquality2023.data}
-          />
-          <Table
-              title={legalStatusOfCountriesRegardingWomenRights2016.title}
-              description={legalStatusOfCountriesRegardingWomenRights2016.description}
-              columns={Object.keys(Object.values(legalStatusOfCountriesRegardingWomenRights2016.data)[0])}
-              data={legalStatusOfCountriesRegardingWomenRights2016.data}
-          />
+        if (filteredData.length === 0) {
+            return null;
+        }
 
-          <CategoryHeader title={'Parliament Representation'} description={'Lorem'}/>
-
-          <Table
-              title={femaleRepresentationInNationalParliaments2000To2024.title}
-              description={femaleRepresentationInNationalParliaments2000To2024.description}
-              columns={Object.keys(Object.values(femaleRepresentationInNationalParliaments2000To2024.data)[0])}
-              data={femaleRepresentationInNationalParliaments2000To2024.data}
-          />
-          <Table
-              title={femaleRepresentationInLocalGovernments2019To2024.title}
-              description={femaleRepresentationInLocalGovernments2019To2024.description}
-              columns={Object.keys(Object.values(femaleRepresentationInLocalGovernments2019To2024.data)[0])}
-              data={femaleRepresentationInLocalGovernments2019To2024.data}
-          />
-          <Table
-              title={regionalFemaleRepresentation2021.title}
-              description={regionalFemaleRepresentation2021.description}
-              columns={Object.keys(Object.values(regionalFemaleRepresentation2021.data)[0])}
-              data={regionalFemaleRepresentation2021.data}
-          />
-          <Table
-              title={timeRequiredForFemaleRepresentationInNationalParliaments.title}
-              description={timeRequiredForFemaleRepresentationInNationalParliaments.description}
-              columns={Object.keys(Object.values(timeRequiredForFemaleRepresentationInNationalParliaments.data)[0])}
-              data={timeRequiredForFemaleRepresentationInNationalParliaments.data}
-          />
-          <Table
-              title={effectOfGenderQuotasOnFemaleRepresentation2023.title}
-              description={effectOfGenderQuotasOnFemaleRepresentation2023.description}
-              columns={Object.keys(Object.values(effectOfGenderQuotasOnFemaleRepresentation2023.data)[0])}
-              data={effectOfGenderQuotasOnFemaleRepresentation2023.data}
-          />
-          <Table
-              title={femaleParliamentaryRepresentationByRegion2000To2024.title}
-              description={femaleParliamentaryRepresentationByRegion2000To2024.description}
-              columns={Object.keys(Object.values(femaleParliamentaryRepresentationByRegion2000To2024.data)[0])}
-              data={femaleParliamentaryRepresentationByRegion2000To2024.data}
-          />
-          <Table
-              title={femaleRepresentationInLocalGovernmentsByRegion2021.title}
-              description={femaleRepresentationInLocalGovernmentsByRegion2021.description}
-              columns={Object.keys(Object.values(femaleRepresentationInLocalGovernmentsByRegion2021.data)[0])}
-              data={femaleRepresentationInLocalGovernmentsByRegion2021.data}
-          />
-          <Table
-              title={changeInFemaleRepresentationInParliaments2010To2024.title}
-              description={changeInFemaleRepresentationInParliaments2010To2024.description}
-              columns={Object.keys(Object.values(changeInFemaleRepresentationInParliaments2010To2024.data)[0])}
-              data={changeInFemaleRepresentationInParliaments2010To2024.data}
-          />
-
-          <CategoryHeader title={'Marriage and Family'} description={'Lorem'}/>
-
-          <Table
-              title={childMarriageRatesByYear1990To2024.title}
-              description={childMarriageRatesByYear1990To2024.description}
-              columns={Object.keys(Object.values(childMarriageRatesByYear1990To2024.data)[0])}
-              data={childMarriageRatesByYear1990To2024.data}
-          />
-          <Table
-              title={childMarriageRatesUnder15ByYear1990To2024.title}
-              description={childMarriageRatesUnder15ByYear1990To2024.description}
-              columns={Object.keys(Object.values(childMarriageRatesUnder15ByYear1990To2024.data)[0])}
-              data={childMarriageRatesUnder15ByYear1990To2024.data}
-          />
-          <Table
-              title={childMarriageRatesByRegion2000To2024.title}
-              description={childMarriageRatesByRegion2000To2024.description}
-              columns={Object.keys(Object.values(childMarriageRatesByRegion2000To2024.data)[0])}
-              data={childMarriageRatesByRegion2000To2024.data}
-          />
-          <Table
-              title={childMarriageRatesUnder15ByRegion2000To2024.title}
-              description={childMarriageRatesUnder15ByRegion2000To2024.description}
-              columns={Object.keys(Object.values(childMarriageRatesUnder15ByRegion2000To2024.data)[0])}
-              data={childMarriageRatesUnder15ByRegion2000To2024.data}
-          />
-          <Table
-              title={childMarriageRateChange2009To2024.title}
-              description={childMarriageRateChange2009To2024.description}
-              columns={Object.keys(Object.values(childMarriageRateChange2009To2024.data)[0])}
-              data={childMarriageRateChange2009To2024.data}
-          />
-          <Table
-              title={regionalSuccessAndAchievementGapInChildMarriage2021.title}
-              description={regionalSuccessAndAchievementGapInChildMarriage2021.description}
-              columns={Object.keys(Object.values(regionalSuccessAndAchievementGapInChildMarriage2021.data)[0])}
-              data={regionalSuccessAndAchievementGapInChildMarriage2021.data}
-          />
-          <Table
-              title={marriageAgeEqualityAndWomenRights2021To2024.title}
-              description={marriageAgeEqualityAndWomenRights2021To2024.description}
-              columns={Object.keys(Object.values(marriageAgeEqualityAndWomenRights2021To2024.data)[0])}
-              data={marriageAgeEqualityAndWomenRights2021To2024.data}
-          />
-          <Table
-              title={reductionInChildMarriageRates2010To2024.title}
-              description={reductionInChildMarriageRates2010To2024.description}
-              columns={Object.keys(Object.values(reductionInChildMarriageRates2010To2024.data)[0])}
-              data={reductionInChildMarriageRates2010To2024.data}
-          />
-          <Table
-              title={atRiskGirlsForChildMarriage2021To2023.title}
-              description={atRiskGirlsForChildMarriage2021To2023.description}
-              columns={Object.keys(Object.values(atRiskGirlsForChildMarriage2021To2023.data)[0])}
-              data={atRiskGirlsForChildMarriage2021To2023.data}
-          />
-          <Table
-              title={regionalChildMarriageRates2020To2024.title}
-              description={regionalChildMarriageRates2020To2024.description}
-              columns={Object.keys(Object.values(regionalChildMarriageRates2020To2024.data)[0])}
-              data={regionalChildMarriageRates2020To2024.data}
-          />
-          <Table
-              title={childMarriageEndingProjection2023.title}
-              description={childMarriageEndingProjection2023.description}
-              columns={Object.keys(Object.values(childMarriageEndingProjection2023.data)[0])}
-              data={childMarriageEndingProjection2023.data}
-          />
-
-          <CategoryHeader title={'Free Care and Housework'} description={'Lorem'}/>
-
-          <Table
-              title={distributionOfUnpaidCareAndHouseworkHoursByYear.title}
-              description={distributionOfUnpaidCareAndHouseworkHoursByYear.description}
-              columns={Object.keys(Object.values(distributionOfUnpaidCareAndHouseworkHoursByYear.data)[0])}
-              data={distributionOfUnpaidCareAndHouseworkHoursByYear.data}
-          />
-          <Table
-              title={womenChildcareHours2010To2024.title}
-              description={womenChildcareHours2010To2024.description}
-              columns={Object.keys(Object.values(womenChildcareHours2010To2024.data)[0])}
-              data={womenChildcareHours2010To2024.data}
-          />
-          <Table
-              title={preAndPostPandemicUnpaidCareAndHouseworkHours.title}
-              description={preAndPostPandemicUnpaidCareAndHouseworkHours.description}
-              columns={Object.keys(Object.values(preAndPostPandemicUnpaidCareAndHouseworkHours.data)[0])}
-              data={preAndPostPandemicUnpaidCareAndHouseworkHours.data}
-          />
-          <Table
-              title={womenUnpaidCareAndHouseworkTime2010To2024.title}
-              description={womenUnpaidCareAndHouseworkTime2010To2024.description}
-              columns={Object.keys(Object.values(womenUnpaidCareAndHouseworkTime2010To2024.data)[0])}
-              data={womenUnpaidCareAndHouseworkTime2010To2024.data}
-          />
-          <Table
-              title={paidAndUnpaidWorkHoursByGenderAndRegion.title}
-              description={paidAndUnpaidWorkHoursByGenderAndRegion.description}
-              columns={Object.keys(Object.values(paidAndUnpaidWorkHoursByGenderAndRegion.data)[0])}
-              data={paidAndUnpaidWorkHoursByGenderAndRegion.data}
-          />
-          <Table
-              title={genderInequalityInUnpaidCareWork.title}
-              description={genderInequalityInUnpaidCareWork.description}
-              columns={Object.keys(Object.values(genderInequalityInUnpaidCareWork.data)[0])}
-              data={genderInequalityInUnpaidCareWork.data}
-          />
-          <Table
-              title={womenWithdrawalFromLaborForceWithYoungChildren2020.title}
-              description={womenWithdrawalFromLaborForceWithYoungChildren2020.description}
-              columns={Object.keys(Object.values(womenWithdrawalFromLaborForceWithYoungChildren2020.data)[0])}
-              data={womenWithdrawalFromLaborForceWithYoungChildren2020.data}
-          />
-          <Table
-              title={genderBasedDisadvantagesInUnpaidCareAndHousework.title}
-              description={genderBasedDisadvantagesInUnpaidCareAndHousework.description}
-              columns={Object.keys(Object.values(genderBasedDisadvantagesInUnpaidCareAndHousework.data)[0])}
-              data={genderBasedDisadvantagesInUnpaidCareAndHousework.data}
-          />
-      </>
-  );
+        return (
+            <>
+                <CategoryHeader
+                    title={selectedCategory}
+                    description={categoryDescriptions[selectedCategory]}
+                />
+                {filteredData.map((item, index) => (
+                    <Table
+                        key={index}
+                        title={item.title}
+                        description={item.description}
+                        columns={Object.keys(item.data[0])}
+                        data={item.data}
+                    />
+                ))}
+            </>
+        );
+    };
+    return (
+        <div>
+            <DataDropdown onCategorySelect={handleCategorySelect}/>
+            <div>
+                {renderTables()}
+            </div>
+        </div>
+    )
 }
