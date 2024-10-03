@@ -6,6 +6,7 @@ import Table from "@/app/components/table";
 import { allData, categoryDescriptions } from "@/app/data";
 import CategoryHeader from "@/app/components/categoryHeader";
 import DataDropdown from "@/app/components/dataDropdown";
+import Breadcrumb from "@/app/components/breadcrumb";
 
 export default function CategoryPage() {
     const { categoryName } = useParams();
@@ -18,8 +19,14 @@ export default function CategoryPage() {
         router.push(`/category/${decodeURIComponent(category)}`);
     };
 
+    const breadcrumbItems = [
+        { label: 'Home', href: '/' },
+        { label: decodeURIComponent(categoryName.toString()), href: `/category/${categoryName}` }
+    ];
+
     return (
         <div>
+            <Breadcrumb items={breadcrumbItems} />
             <DataDropdown onCategorySelect={handleCategorySelect} selectedCategory={decodedCategoryName} />
             <CategoryHeader
                 title={decodedCategoryName.toString()}

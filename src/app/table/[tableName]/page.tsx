@@ -15,8 +15,11 @@ export default function TableDetail(){
         return <div>Table not found</div>;
     }
 
+    const category = tableData.category;
+
     const breadcrumbItems = [
         { label: 'Home', href: '/' },
+        { label: category, href: `/category/${category}` },
         { label: tableData.title, href: `/table/${tableName}` }
     ];
 
