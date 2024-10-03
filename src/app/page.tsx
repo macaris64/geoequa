@@ -2,262 +2,22 @@
 import {useState} from "react";
 
 import DataDropdown from "@/app/components/dataDropdown";
-import Table from "@/app/components/table";
 import CategoryHeader from "@/app/components/categoryHeader";
-import { categoryDescriptions } from "@/app/data";
+import {allData, categoryDescriptions} from "@/app/data";
 
-import {
-    accessToSexualHealthRights,
-    adoptionOfNationalDisasterRiskReductionStrategies,
-    adolescentFertilityRates,
-    annualClimateChangeFinanceGoals,
-    annualClimateChangeGoals,
-    annualInvestmentGapForGenderEquality2023,
-    atRiskGirlsForChildMarriage2021To2023,
-    budgetingSystemsForGenderEqualityRegionalDistribution2019,
-    carbonDioxideLevels,
-    changeInFemaleRepresentationInParliaments2010To2024,
-    childMarriageEndingProjection2023,
-    childMarriageRatesByRegion2000To2024,
-    childMarriageRatesByYear1990To2024,
-    childMarriageRatesUnder15ByRegion2000To2024,
-    childMarriageRatesUnder15ByYear1990To2024,
-    childMarriageRateChange2009To2024,
-    climateActionGoals,
-    climateChangeAndSustainabilityInCurriculum,
-    climateChangeStrategies,
-    climateFinanceByYear,
-    climateFinanceFromDevelopingCountries,
-    climateFinanceReductionAndAdaptation,
-    climateFinanceSupportTypes,
-    climateFinanceTargetsAndAchievements,
-    complianceWithInternationalAgreements,
-    countriesAchievingGenderEquality,
-    countriesDevelopingNationalAdaptationPlans,
-    countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023,
-    countriesThatBanDiscriminationAgainstWomenByYear,
-    countriesThatBanMarriagesUnder182023,
-    countriesWithAndWithoutParliamentaryQuotasForWomen2024,
-    countriesWithDisasterRiskManagementRegulations2015,
-    countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear,
-    countryMechanismsForDisasterRiskReduction2014_2015,
-    covid19EmissionEffects2020,
-    dataMonitoringCapacityForSDG5,
-    definitionsOfViolenceAgainstWomenAndRape,
-    developmentOfDisasterRiskReductionStrategies,
-    disasterRelatedDeathAndLossRates,
-    disasterRiskReductionStrategiesAndPolicyCompliance,
-    distributionOfUnpaidCareAndHouseworkHoursByYear,
-    effectOfGenderQuotasOnFemaleRepresentation2023,
-    economicLossFromNaturalDisasters,
-    emissionTargetsAlignedWithGoals,
-    effectsAndMeasuresOfGlobalWarming,
-    equalPayForEqualWorkPrinciple,
-    femaleGenitalMutilationRates,
-    femaleGenitalMutilationStatistics,
-    femaleParliamentaryRepresentationByRegion2000To2024,
-    femaleRepresentationInLocalGovernments2019To2024,
-    femaleRepresentationInLocalGovernmentsByRegion2021,
-    femaleRepresentationInNationalParliaments2000To2024,
-    genderBasedDisadvantagesInUnpaidCareAndHousework,
-    genderEqualityRegionalDifferences,
-    genderEqualityResourceAllocationSystems,
-    genderInequalityInUnpaidCareWork,
-    geologicalAndHydrometeorologicalEventsDeathCount,
-    globalClimateAgreementCompliance,
-    globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear,
-    globalMedicalStaffGenderDistribution,
-    globalTemperatureChangesByYear,
-    globalWarmingComparedToPreIndustrialLevels,
-    greenClimateFundApplicationsAndFunding,
-    greenhouseGasEmissionChanges,
-    impactOfClimateChangeOnFoodInsecurity,
-    impactOfClimateChangeOnWomen,
-    increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024,
-    landOwnershipAndSecurityRatesByCountry2024,
-    legalGuaranteesForLandOwnership,
-    legalGapsInWomenRights2019,
-    legalProtectionGapsFrom2018To2019,
-    legalStatusGuaranteeingSexualAndReproductiveHealthRights,
-    legalStatusOfCountriesRegardingWomenRights2016,
-    localGovernmentsDisasterRiskReductionStrategies,
-    marriageAgeEqualityAndWomenRights2021To2024,
-    maternityLeaveStatisticsByCountry,
-    mobilePhoneOwnershipGenderDifferences,
-    naturalDisasterAffectedPeople,
-    nationalContributionsAndCompliance,
-    percentageOfWomenExperiencingViolenceInLast12Months,
-    paidAndUnpaidWorkHoursByGenderAndRegion,
-    postDisasterAssistanceRequestRate,
-    preparationAndImplementationOfNationalCompliancePlans,
-    preAndPostPandemicUnpaidCareAndHouseworkHours,
-    priorityAreasInAdaptationStrategies,
-    prioritySectorsAndPartiesByAdaptationComponents,
-    progressTowardsGoals,
-    reductionInChildMarriageRates2010To2024,
-    regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021,
-    regionalChildMarriageRates2020To2024,
-    regionalComplianceWithParisAgreementAndNDCs,
-    regionalDistributionOfDisasterRelatedDeaths,
-    regionalDistributionOfFemaleGenitalMutilation,
-    regionalDistributionOfViolenceAgainstWomen,
-    regionalFemaleRepresentation2021,
-    regionalLegalAchievementAndGapEmploymentAndEconomicRights2021,
-    regionalSuccessAndAchievementGapInChildMarriage2021,
-    relationshipBetweenPandemicAndNaturalDisasters,
-    representationOfWomenInManagerialPositionsByRegion,
-    severityAndFrequencyOfNaturalDisasters,
-    sexualAndPhysicalViolenceReportingRates,
-    successRatesForViolenceAgainstWomenTargets,
-    theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022,
-    timeRequiredForFemaleRepresentationInNationalParliaments,
-    timeRequiredToCloseLegalProtectionsByYear,
-    timeToAchieveGenderEqualityInManagerialPositionsByYear,
-    totalDeathsAndAffectedPeopleByYear,
-    totalGreenhouseGasEmissionsByCountryType,
-    violenceAgainstWomenAndGirlsRates,
-    violenceAgainstWomenRates,
-    womenChildcareHours2010To2024,
-    womenDecisionMakingRightsInSexualAndReproductiveHealth,
-    womenDecisionMakingRightsInSexualAndReproductiveHealthByRegion,
-    womenExperiencingViolenceByAgeGroup,
-    womenLandOwnershipRatesSelectedCountries,
-    womenLandRightsProtectionStatus,
-    womenUnpaidCareAndHouseworkTime2010To2024,
-    womenWithdrawalFromLaborForce,
-    womenWithdrawalFromLaborForceWithYoungChildren2020,
-} from "@/app/data";
-
-const allData = [
-    accessToSexualHealthRights,
-    adoptionOfNationalDisasterRiskReductionStrategies,
-    adolescentFertilityRates,
-    annualClimateChangeFinanceGoals,
-    annualClimateChangeGoals,
-    annualInvestmentGapForGenderEquality2023,
-    atRiskGirlsForChildMarriage2021To2023,
-    budgetingSystemsForGenderEqualityRegionalDistribution2019,
-    carbonDioxideLevels,
-    changeInFemaleRepresentationInParliaments2010To2024,
-    childMarriageEndingProjection2023,
-    childMarriageRatesByRegion2000To2024,
-    childMarriageRatesByYear1990To2024,
-    childMarriageRatesUnder15ByRegion2000To2024,
-    childMarriageRatesUnder15ByYear1990To2024,
-    childMarriageRateChange2009To2024,
-    climateActionGoals,
-    climateChangeAndSustainabilityInCurriculum,
-    climateChangeStrategies,
-    climateFinanceByYear,
-    climateFinanceFromDevelopingCountries,
-    climateFinanceReductionAndAdaptation,
-    climateFinanceSupportTypes,
-    climateFinanceTargetsAndAchievements,
-    complianceWithInternationalAgreements,
-    countriesAchievingGenderEquality,
-    countriesDevelopingNationalAdaptationPlans,
-    countriesThatApplyAndDoNotApplyTheEqualPayPrinciple2023,
-    countriesThatBanDiscriminationAgainstWomenByYear,
-    countriesThatBanMarriagesUnder182023,
-    countriesWithAndWithoutParliamentaryQuotasForWomen2024,
-    countriesWithDisasterRiskManagementRegulations2015,
-    countriesWithLackOfLawsDefiningRapeBasedOnConsentByYear,
-    countryMechanismsForDisasterRiskReduction2014_2015,
-    covid19EmissionEffects2020,
-    dataMonitoringCapacityForSDG5,
-    definitionsOfViolenceAgainstWomenAndRape,
-    developmentOfDisasterRiskReductionStrategies,
-    disasterRelatedDeathAndLossRates,
-    disasterRiskReductionStrategiesAndPolicyCompliance,
-    distributionOfUnpaidCareAndHouseworkHoursByYear,
-    effectOfGenderQuotasOnFemaleRepresentation2023,
-    economicLossFromNaturalDisasters,
-    emissionTargetsAlignedWithGoals,
-    effectsAndMeasuresOfGlobalWarming,
-    equalPayForEqualWorkPrinciple,
-    femaleGenitalMutilationRates,
-    femaleGenitalMutilationStatistics,
-    femaleParliamentaryRepresentationByRegion2000To2024,
-    femaleRepresentationInLocalGovernments2019To2024,
-    femaleRepresentationInLocalGovernmentsByRegion2021,
-    femaleRepresentationInNationalParliaments2000To2024,
-    genderBasedDisadvantagesInUnpaidCareAndHousework,
-    genderEqualityRegionalDifferences,
-    genderEqualityResourceAllocationSystems,
-    genderInequalityInUnpaidCareWork,
-    geologicalAndHydrometeorologicalEventsDeathCount,
-    globalClimateAgreementCompliance,
-    globalLaborForceParticipationAndFemaleRepresentationInManagerialPositionsComparisonByYear,
-    globalMedicalStaffGenderDistribution,
-    globalTemperatureChangesByYear,
-    globalWarmingComparedToPreIndustrialLevels,
-    greenClimateFundApplicationsAndFunding,
-    greenhouseGasEmissionChanges,
-    impactOfClimateChangeOnFoodInsecurity,
-    impactOfClimateChangeOnWomen,
-    increaseInRepresentationRatesOfWomenInExecutivePositionsFrom2015To2024,
-    landOwnershipAndSecurityRatesByCountry2024,
-    legalGuaranteesForLandOwnership,
-    legalGapsInWomenRights2019,
-    legalProtectionGapsFrom2018To2019,
-    legalStatusGuaranteeingSexualAndReproductiveHealthRights,
-    legalStatusOfCountriesRegardingWomenRights2016,
-    localGovernmentsDisasterRiskReductionStrategies,
-    marriageAgeEqualityAndWomenRights2021To2024,
-    maternityLeaveStatisticsByCountry,
-    mobilePhoneOwnershipGenderDifferences,
-    naturalDisasterAffectedPeople,
-    nationalContributionsAndCompliance,
-    percentageOfWomenExperiencingViolenceInLast12Months,
-    paidAndUnpaidWorkHoursByGenderAndRegion,
-    postDisasterAssistanceRequestRate,
-    preparationAndImplementationOfNationalCompliancePlans,
-    preAndPostPandemicUnpaidCareAndHouseworkHours,
-    priorityAreasInAdaptationStrategies,
-    prioritySectorsAndPartiesByAdaptationComponents,
-    progressTowardsGoals,
-    reductionInChildMarriageRates2010To2024,
-    regionalAchievementAndAchievementGapEmploymentAndEconomicRights2021,
-    regionalChildMarriageRates2020To2024,
-    regionalComplianceWithParisAgreementAndNDCs,
-    regionalDistributionOfDisasterRelatedDeaths,
-    regionalDistributionOfFemaleGenitalMutilation,
-    regionalDistributionOfViolenceAgainstWomen,
-    regionalFemaleRepresentation2021,
-    regionalLegalAchievementAndGapEmploymentAndEconomicRights2021,
-    regionalSuccessAndAchievementGapInChildMarriage2021,
-    relationshipBetweenPandemicAndNaturalDisasters,
-    representationOfWomenInManagerialPositionsByRegion,
-    severityAndFrequencyOfNaturalDisasters,
-    sexualAndPhysicalViolenceReportingRates,
-    successRatesForViolenceAgainstWomenTargets,
-    theEffectOfThePandemicOnTheRepresentationOfWomenInTheWorkforceFrom2020to2022,
-    timeRequiredForFemaleRepresentationInNationalParliaments,
-    timeRequiredToCloseLegalProtectionsByYear,
-    timeToAchieveGenderEqualityInManagerialPositionsByYear,
-    totalDeathsAndAffectedPeopleByYear,
-    totalGreenhouseGasEmissionsByCountryType,
-    violenceAgainstWomenAndGirlsRates,
-    violenceAgainstWomenRates,
-    womenChildcareHours2010To2024,
-    womenDecisionMakingRightsInSexualAndReproductiveHealth,
-    womenDecisionMakingRightsInSexualAndReproductiveHealthByRegion,
-    womenExperiencingViolenceByAgeGroup,
-    womenLandOwnershipRatesSelectedCountries,
-    womenLandRightsProtectionStatus,
-    womenUnpaidCareAndHouseworkTime2010To2024,
-    womenWithdrawalFromLaborForce,
-    womenWithdrawalFromLaborForceWithYoungChildren2020,
-];
+import Link from "next/link";
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
     const [selectedCategory, setSelectedCategory] = useState('');
+    const router = useRouter();
 
     const handleCategorySelect = (category: string) => {
         setSelectedCategory(category);
+        router.push(`/category/${decodeURIComponent(category)}`);
     };
 
-    const renderTables = () => {
+    const renderLinks = () => {
         const filteredData = allData.filter(item => item.category === selectedCategory);
 
         if (filteredData.length === 0) {
@@ -271,22 +31,19 @@ export default function Home() {
                     description={categoryDescriptions[selectedCategory]}
                 />
                 {filteredData.map((item, index) => (
-                    <Table
-                        key={index}
-                        title={item.title}
-                        description={item.description}
-                        columns={Object.keys(item.data[0])}
-                        data={item.data}
-                    />
+                    <Link key={index} href={`/table/${item.title.replace(/\s+/g, '-').toLowerCase()}`}>
+                        <h2 className="text-lg font-bold cursor-pointer">{item.title}</h2>
+                    </Link>
                 ))}
             </>
         );
     };
+
     return (
         <div>
             <DataDropdown onCategorySelect={handleCategorySelect}/>
             <div>
-                {renderTables()}
+                {renderLinks()}
             </div>
         </div>
     )
