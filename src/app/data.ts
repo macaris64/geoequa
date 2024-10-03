@@ -1,3 +1,98 @@
+// Gender Equality Goals
+
+export const progressTowardsGoals = {
+    title: 'Progress Towards Goals',
+    description: 'This dataset outlines the progress towards specified goals, including overall progress, equitable progress, stagnation or regression, and data insufficiency for the years 2021, 2023, and 2024.',
+    data: [
+        {
+            "Year": 2024,
+            "Progress Towards Goals (%)": 20,
+            "Equitable Progress (%)": 60,
+            "Stagnation or Regression (%)": 20,
+            "Insufficient Data": "-"
+        },
+        {
+            "Year": 2023,
+            "Progress Towards Goals (%)": 10,
+            "Equitable Progress (%)": 55,
+            "Stagnation or Regression (%)": 0,
+            "Insufficient Data (%)": 35
+        },
+        {
+            "Year": 2021,
+            "Progress Towards Goals (%)": 71, // General Success
+            "Equitable Progress (%)": 29, // Success Gap
+            "Stagnation or Regression": "-",
+            "Insufficient Data": "-"
+        },
+    ]
+}
+
+export const genderEqualityRegionalDifferences = {
+    title: 'Gender Equality Regional Differences',
+    description: 'This dataset outlines the success and gaps in gender equality across different regions, represented in percentages.',
+    data: [
+        {
+            "Region": "Avustralya ve Yeni Zelanda",
+            "Success (%)": 75,
+            "Gap (%)": 25,
+        },
+        {
+            "Region": "Orta ve Güney Asya",
+            "Success (%)": 68,
+            "Gap (%)": 32,
+        },
+        {
+            "Region": "Doğu ve Güneydoğu Asya",
+            "Success (%)": 61,
+            "Gap (%)": 39,
+        },
+        {
+            "Region": "Avrupa ve Kuzey Amerika",
+            "Success (%)": 80,
+            "Gap (%)": 20,
+        },
+        {
+            "Region": "Latin Amerika ve Karayipler",
+            "Success (%)": 71,
+            "Gap (%)": 29,
+        },
+        {
+            "Region": "Kuzey Afrika ve Batı Asya",
+            "Success (%)": 54,
+            "Gap (%)": 46,
+        },
+        {
+            "Region": "Sahra Altı Afrika",
+            "Success (%)": 65,
+            "Gap (%)": 35,
+        },
+    ]
+}
+
+// Climate Action Goals
+
+export const climateActionGoals = {
+    title: 'Climate Action Goals',
+    description: 'This dataset outlines the progress towards climate action goals, including overall progress, equitable progress, stagnation or regression, and insufficient data for the years 2023 and 2024.',
+    data: [
+        {
+            "Year": 2024,
+            "Progress Towards Goals": "-",
+            "Equitable Progress (%)": 65,
+            "Stagnation or Regression (%)": 35,
+            "Insufficient Data": "-"
+        },
+        {
+            "Year": 2023,
+            "Progress Towards Goals (%)": 0,
+            "Equitable Progress (%)": 60,
+            "Stagnation or Regression (%)": 20,
+            "Insufficient Data (%)": 20
+        },
+    ]
+}
+
 // Gender equality in management positions
 
 export const representationOfWomenInManagerialPositionsByRegion = {
@@ -3510,3 +3605,1529 @@ export const violenceAgainstWomenAndGirlsRates = {
     ]
 }
 
+// Natural Disasters
+
+export const disasterRelatedDeathAndLossRates = {
+    title: 'Disaster-Related Death and Loss Rates by Year',
+    description: 'This dataset provides an overview of the rates of death and loss due to disasters over various periods. The data indicates that between 2005 and 2014, the death and loss rate was 1.62 per 100,000 people. In the subsequent period from 2013 to 2022, the rate significantly decreased to 0.82, with an annual average death toll of 42,553. The data from 2005 to 2015 shows a similar rate of 1.64. From 2012 to 2021, the rate was recorded at 0.86, with an annual average death count of 47,337. The year 2019 reported a low rate of 0.35, translating to 39,000 affected individuals. An analysis from 1998 to 2017 indicates a minimal rate of 0.15, corresponding to approximately 1.3 million deaths. The rate further decreased to 0.04 between 2000 and 2013, with an average annual death count of 83,000. The year 2020 had an even lower rate of 0.07, and in 2022, the rate was recorded at 0.09, with 297,540 reported deaths. This dataset emphasizes the impact of disasters on mortality and underscores the importance of effective disaster management strategies.',
+    data: [
+        {
+            "Period": "2005-2014",
+            "Death and Loss Rate (per 100,000 people)": 1.62,
+            "Average Annual Death Count": null,
+        },
+        {
+            "Period": "2013-2022",
+            "Death and Loss Rate (per 100,000 people)": 0.82,
+            "Average Annual Death Count": 42553,
+        },
+        {
+            "Period": "2005-2015",
+            "Death and Loss Rate (per 100,000 people)": 1.64,
+            "Average Annual Death Count": null,
+        },
+        {
+            "Period": "2012-2021",
+            "Death and Loss Rate (per 100,000 people)": 0.86,
+            "Average Annual Death Count": 47337,
+        },
+        {
+            "Period": "2019",
+            "Death and Loss Rate (per 100,000 people)": 0.35,
+            "Average Annual Death Count": 39000, // affected
+        },
+        {
+            "Period": "1998-2017",
+            "Death and Loss Rate (per 100,000 people)": 0.15,
+            "Average Annual Death Count": 1300000, // approximately
+        },
+        {
+            "Period": "2000-2013",
+            "Death and Loss Rate (per 100,000 people)": 0.04,
+            "Average Annual Death Count": 83000, // average annual
+        },
+        {
+            "Period": "2020",
+            "Death and Loss Rate (per 100,000 people)": 0.07,
+            "Average Annual Death Count": null,
+        },
+        {
+            "Period": "2022",
+            "Death and Loss Rate (per 100,000 people)": 0.09,
+            "Average Annual Death Count": 297540, // reported
+        },
+    ]
+}
+
+export const naturalDisasterAffectedPeople = {
+    title: 'Number of People Affected by Natural Disasters',
+    description: 'This dataset provides information on the number of people affected by natural disasters across various periods. From 2005 to 2014, the number of affected individuals was reported at 1,169 per 100,000 people. The subsequent period from 2013 to 2022 shows a significant increase to 1,980 per 100,000 people. In the period from 2005 to 2015, the rate was slightly lower at 1,198. The data from 2012 to 2021 reveals an even higher impact, with a rate of 2,113 per 100,000 people. In 2019, while specific rates are not available, it is noted that 39,000 individuals were affected. The year 2022 highlights a severe situation with 18.4 million individuals facing hunger risks, 7.2 million affected by floods, and a staggering 641 million individuals experiencing violence. This dataset underscores the urgent need for effective disaster management and humanitarian interventions to address these challenges.',
+    data: [
+        {
+            "Period": "2005-2014",
+            "Affected People Rate (per 100,000 people)": 1169,
+            "Average Annual Affected People Count": null,
+        },
+        {
+            "Period": "2013-2022",
+            "Affected People Rate (per 100,000 people)": 1980,
+            "Average Annual Affected People Count": null,
+        },
+        {
+            "Period": "2005-2015",
+            "Affected People Rate (per 100,000 people)": 1198,
+            "Average Annual Affected People Count": null,
+        },
+        {
+            "Period": "2012-2021",
+            "Affected People Rate (per 100,000 people)": 2113,
+            "Average Annual Affected People Count": null,
+        },
+        {
+            "Period": "2019",
+            "Affected People Rate (per 100,000 people)": null,
+            "Average Annual Affected People Count": 39000, // affected
+        },
+        {
+            "Period": "2022",
+            "Affected People Rate (per 100,000 people)": null,
+            "Average Annual Affected People Count": 18400000, // hunger risk
+        },
+        {
+            "Period": "2022",
+            "Affected People Rate (per 100,000 people)": null,
+            "Average Annual Affected People Count": 7200000, // flood
+        },
+        {
+            "Period": "2022",
+            "Affected People Rate (per 100,000 people)": null,
+            "Average Annual Affected People Count": 641000000, // violence
+        },
+    ]
+}
+
+export const relationshipBetweenPandemicAndNaturalDisasters = {
+    title: 'Relationship Between Pandemic and Natural Disasters',
+    description: 'This dataset illustrates the relationship between the COVID-19 pandemic and natural disasters, highlighting various statistics and trends. In 2021, reported deaths due to the pandemic reached 414,318. By 2022, it was noted that at least 80% of deaths were linked to COVID-19-related disasters. Additionally, the average annual death count from natural disasters was 42,553. Between 2013 and 2022, the average disaster-related death and loss rate was recorded at 0.82 per 100,000 people. In 2020, the total number of individuals affected by disasters was reported at 297,540. Furthermore, in 2022, the percentage of women who experienced violence post-pandemic was 45%. The data from 2019 showed that the number of deaths caused by natural disasters was approximately 12,000. In 2018, direct economic losses from natural disasters amounted to 3 trillion dollars. Additionally, in 2020, fewer than 40% of violence victims sought help. This dataset emphasizes the interconnectedness of pandemics and natural disasters and the pressing need for effective response strategies.',
+    data: [
+        {
+            "Period": "2021",
+            "Description": "Reported deaths due to the pandemic",
+            "Count": 414318,
+        },
+        {
+            "Period": "2022",
+            "Description": "Proportion of deaths due to COVID-19-related disasters",
+            "Count": "At least 80%",
+        },
+        {
+            "Period": "2022",
+            "Description": "Average annual death count from natural disasters",
+            "Count": 42553,
+        },
+        {
+            "Period": "2013-2022",
+            "Description": "Average disaster-related death and loss rate",
+            "Count": "0.82 (per 100,000 people)",
+        },
+        {
+            "Period": "2020",
+            "Description": "Total number of individuals affected by disasters",
+            "Count": 297540,
+        },
+        {
+            "Period": "2022",
+            "Description": "Percentage of women experiencing violence post-pandemic",
+            "Count": "45%",
+        },
+        {
+            "Period": "2019",
+            "Description": "Number of deaths caused by natural disasters",
+            "Count": 12000,
+        },
+        {
+            "Period": "2018",
+            "Description": "Direct economic losses from natural disasters",
+            "Count": "3 trillion dollars",
+        },
+        {
+            "Period": "2020",
+            "Description": "Proportion of violence victims seeking help",
+            "Count": "Less than 40%",
+        },
+    ]
+}
+
+export const regionalDistributionOfDisasterRelatedDeaths = {
+    title: 'Regional Distribution of Disaster-Related Deaths',
+    description: 'This dataset outlines the regional distribution of deaths caused by disasters, presenting the death rates per 100,000 people across various regions. In Africa, the death rate is reported at 0.5%, while in the Americas and the Caribbean, it rises to 1.0%. The Arab States have a higher death rate of 2.0%. However, the most significant impact is observed in the Asia and Pacific region, with a staggering death rate of 39.0%. Europe and Central Asia report an even higher death rate of 58.0%. The least developed countries show a death rate of 36.0%, while small island developing states have a rate of 15.5%. The global average death rate from disasters stands at 17.8%. This dataset emphasizes the disparities in disaster impacts across regions and highlights the need for targeted disaster risk reduction strategies.',
+    data: [
+        {
+            "Region": "Africa",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 0.5,
+        },
+        {
+            "Region": "Americas and Caribbean",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 1.0,
+        },
+        {
+            "Region": "Arab States",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 2.0,
+        },
+        {
+            "Region": "Asia and Pacific",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 39.0,
+        },
+        {
+            "Region": "Europe and Central Asia",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 58.0,
+        },
+        {
+            "Region": "Least Developed Countries",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 36.0,
+        },
+        {
+            "Region": "Small Island Developing States",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 15.5,
+        },
+        {
+            "Region": "Global Average",
+            "Description": "Disaster-related deaths",
+            "Death Rate (per 100,000 people)": 17.8,
+        },
+    ]
+}
+
+export const economicLossFromNaturalDisasters = {
+    title: 'Economic Loss from Natural Disasters',
+    description: 'This dataset provides information on the economic losses and death toll associated with natural disasters over various periods. From 2000 to 2013, there were approximately 83,000 reported deaths. The period from 1998 to 2017 saw a staggering 1,300,000 deaths, with economic losses amounting to 3 trillion dollars. The data from 2013 to 2022 indicates an average annual death toll of 42,553, while the year 2020 reported 297,540 deaths due to disasters. This dataset highlights the significant human and economic impact of natural disasters and underscores the need for effective disaster management and mitigation strategies.',
+    data: [
+        {
+            "Period": "2000-2013",
+            "Death Count": 83000,
+            "Economic Loss (Dollars)": null,
+        },
+        {
+            "Period": "1998-2017",
+            "Death Count": 1300000,
+            "Economic Loss (Dollars)": 3000000000000, // 3 trillion
+        },
+        {
+            "Period": "2013-2022",
+            "Death Count": "42553/year",
+            "Economic Loss (Dollars)": null,
+        },
+        {
+            "Period": "2020",
+            "Death Count": 297540,
+            "Economic Loss (Dollars)": null,
+        },
+    ]
+}
+
+export const severityAndFrequencyOfNaturalDisasters = {
+    title: 'Severity and Frequency of Natural Disasters',
+    description: 'This dataset outlines the severity and frequency of natural disasters over various periods, along with the associated death tolls. From 2000 to 2013, the average annual death count was 83,000, indicating an increasing frequency of natural disasters. The period from 1990 to 2015 recorded a total of 1,600,000 deaths, correlating with internationally reported natural disasters. Between 2005 and 2016, the same number of 1,600,000 deaths was reported, highlighting a rise in fatalities due to natural disasters. In the years 2013 to 2022, the annual death toll remained significant at 42,553, demonstrating the persistent threat posed by natural disasters. This dataset emphasizes the urgent need for enhanced disaster preparedness and response strategies to mitigate the impacts of such events.',
+    data: [
+        {
+            "Period": "2000-2013",
+            "Death Count/Year": 83000,
+            "Severity and Frequency": "The frequency of natural disasters is increasing.",
+        },
+        {
+            "Period": "1990-2015",
+            "Death Count/Year": 1600000,
+            "Severity and Frequency": "Internationally reported natural disasters.",
+        },
+        {
+            "Period": "2005-2016",
+            "Death Count/Year": 1600000,
+            "Severity and Frequency": "Deaths from natural disasters are increasing.",
+        },
+        {
+            "Period": "2013-2022",
+            "Death Count/Year": "42553/year",
+            "Severity and Frequency": "High annual death toll due to natural disasters.",
+        },
+    ]
+}
+
+export const postDisasterAssistanceRequestRate = {
+    title: 'Post-Disaster Assistance Request Rate',
+    description: 'This dataset presents the rate of assistance requests following disasters, emphasizing the challenges faced by victims in seeking help. In 2020, it was reported that fewer than 40% of violence victims sought assistance. This statistic underscores the barriers that prevent individuals from accessing the necessary support and highlights the need for improved awareness and outreach efforts to ensure that those affected by disasters and violence can receive the help they require.',
+    data: [
+        {
+            "Year": 2020,
+            "Assistance Request Rate (%)": 40,
+            "Description": "Fewer than 40% of violence victims seek assistance.",
+        },
+    ]
+}
+
+export const geologicalAndHydrometeorologicalEventsDeathCount = {
+    title: 'Death Count from Geological and Hydrometeorological Events',
+    description: 'This dataset provides the annual death count resulting from geological and hydrometeorological events from 1990 to 2013. The data indicates fluctuations in mortality rates over the years, with notable peaks such as 5,435 deaths reported in 2007. The year 2000 also saw a high number of fatalities at 4,046. In contrast, the lowest death toll during this period was recorded in 1992, with 2,329 deaths. This dataset emphasizes the ongoing impact of natural disasters on human life and highlights the importance of disaster preparedness and response strategies.',
+    data: [
+        { "Year": 1990, "Death Count": 3188 },
+        { "Year": 1991, "Death Count": 3202 },
+        { "Year": 1992, "Death Count": 2329 },
+        { "Year": 1993, "Death Count": 3257 },
+        { "Year": 1994, "Death Count": 3071 },
+        { "Year": 1995, "Death Count": 3232 },
+        { "Year": 1996, "Death Count": 3401 },
+        { "Year": 1997, "Death Count": 3809 },
+        { "Year": 1998, "Death Count": 3840 },
+        { "Year": 1999, "Death Count": 3659 },
+        { "Year": 2000, "Death Count": 4046 },
+        { "Year": 2001, "Death Count": 3963 },
+        { "Year": 2002, "Death Count": 4280 },
+        { "Year": 2003, "Death Count": 3182 },
+        { "Year": 2004, "Death Count": 3456 },
+        { "Year": 2005, "Death Count": 4685 },
+        { "Year": 2006, "Death Count": 4154 },
+        { "Year": 2007, "Death Count": 5435 },
+        { "Year": 2008, "Death Count": 4405 },
+        { "Year": 2009, "Death Count": 3839 },
+        { "Year": 2010, "Death Count": 4944 },
+        { "Year": 2011, "Death Count": 3757 },
+        { "Year": 2012, "Death Count": 4288 },
+        { "Year": 2013, "Death Count": 4113 },
+    ]
+}
+
+export const totalDeathsAndAffectedPeopleByYear = {
+    title: 'Total Deaths and Affected People by Year',
+    description: 'This dataset presents the total deaths and the number of affected individuals by year from 2000 to 2013. The data indicates significant fluctuations in the number of deaths and those affected by disasters. For instance, in 2000, the total deaths were recorded at 9.63 thousand, with 173,153.871 thousand people affected. The year 2004 shows a notable spike with 241.579 thousand deaths, although the number of affected individuals decreased to 161,718.795 thousand. By 2010, total deaths increased dramatically to 317.855 thousand, while the number of affected individuals reached 257,292.089 thousand. The dataset emphasizes the impact of disasters on human life and highlights the urgent need for effective disaster response strategies.',
+    data: [
+        { "Year": 2000, "Total Deaths (thousand)": 9.63, "Affected People (thousand)": 173153.871 },
+        { "Year": 2001, "Total Deaths (thousand)": 30.981, "Affected People (thousand)": 108735.947 },
+        { "Year": 2002, "Total Deaths (thousand)": 12.733, "Affected People (thousand)": 658053.253 },
+        { "Year": 2003, "Total Deaths (thousand)": 110.012, "Affected People (thousand)": 254988.859 },
+        { "Year": 2004, "Total Deaths (thousand)": 241.579, "Affected People (thousand)": 161718.795 },
+        { "Year": 2005, "Total Deaths (thousand)": 89.208, "Affected People (thousand)": 160251.004 },
+        { "Year": 2006, "Total Deaths (thousand)": 23.491, "Affected People (thousand)": 126009.007 },
+        { "Year": 2007, "Total Deaths (thousand)": 16.938, "Affected People (thousand)": 212389.935 },
+        { "Year": 2008, "Total Deaths (thousand)": 235.285, "Affected People (thousand)": 221486.513 },
+        { "Year": 2009, "Total Deaths (thousand)": 11.126, "Affected People (thousand)": 200797.358 },
+        { "Year": 2010, "Total Deaths (thousand)": 317.855, "Affected People (thousand)": 257292.089 },
+        { "Year": 2011, "Total Deaths (thousand)": 30.969, "Affected People (thousand)": 211612.688 },
+        { "Year": 2012, "Total Deaths (thousand)": 9.718, "Affected People (thousand)": 111219.159 },
+        { "Year": 2013, "Total Deaths (thousand)": 21.696, "Affected People (thousand)": 96204.807 },
+    ]
+}
+
+// National Disaster Risk Reduction Strategies
+
+export const adoptionOfNationalDisasterRiskReductionStrategies = {
+    title: 'Adoption of National Disaster Risk Reduction Strategies by Year',
+    description: 'This dataset tracks the number of countries that have adopted national disaster risk reduction strategies over the years. In 2015, 55 countries had implemented such strategies. This number significantly increased to 123 by 2018, demonstrating a growing recognition of the importance of disaster risk management. By 2021, the number of adopting countries rose to 126, and by 2023, it reached 129. This trend highlights the increasing commitment of nations to enhance their resilience against disasters through strategic planning and risk reduction measures.',
+    data: [
+        { "Year": 2015, "Number of Adopting Countries": 55 },
+        { "Year": 2018, "Number of Adopting Countries": 123 },
+        { "Year": 2021, "Number of Adopting Countries": 126 },
+        { "Year": 2023, "Number of Adopting Countries": 129 },
+    ]
+}
+
+export const disasterRiskReductionStrategiesAndPolicyCompliance = {
+    title: 'Disaster Risk Reduction Strategies and Policy Compliance',
+    description: 'This dataset provides information on the number of countries adopting disaster risk reduction strategies and their compliance with various international policies. In 2024, a total of 129 countries have adopted and implemented national disaster risk reduction strategies. Additionally, 122 countries reported compliance with strategies promoting alignment with the Sustainable Development Goals (SDGs) and the Paris Agreement. In 2023, the number of countries with national strategies to reduce disaster risk was reported at 126. Furthermore, 118 countries reported their policy compliance with global frameworks such as the Paris Agreement and the 2030 Agenda. In 2022, 101 countries indicated that local governments possess disaster risk reduction strategies, while 193 countries submitted their first Nationally Determined Contributions (NDCs) under the United Nations Framework Convention on Climate Change (UNFCCC). In the same year, 123 countries adopted national disaster risk reduction strategies. Additionally, 118 countries developed policies to align disaster risk strategies with the SDGs and the Paris Agreement, and 61 countries have developed strategies demonstrating comprehensive compliance with the Sendai Framework. In 2021, 125 developing countries took measures towards national compliance plans, prioritizing them. Furthermore, 6 least developed countries (LDCs) and 4 small island states completed their national compliance plans, and 118 countries developed national or local disaster risk reduction strategies. A total of 190 parties (189 countries plus the EU) presented their initial national contributions under the UNFCCC.',
+    data: [
+        {
+            "Year": 2024,
+            "Number of Countries": 129,
+            "Compliance Information": "Adopted and implemented national disaster risk reduction strategies.",
+        },
+        {
+            "Year": 2024,
+            "Number of Countries": 122,
+            "Compliance Information": "Reported policy compliance as part of strategies promoting alignment with SDGs and the Paris Agreement.",
+        },
+        {
+            "Year": 2023,
+            "Number of Countries": 126,
+            "Compliance Information": "Countries with national strategies to reduce disaster risk by the end of 2021.",
+        },
+        {
+            "Year": 2023,
+            "Number of Countries": 118,
+            "Compliance Information": "Reported policy compliance with global frameworks such as the Paris Agreement and the 2030 Agenda.",
+        },
+        {
+            "Year": 2022,
+            "Number of Countries": 101,
+            "Compliance Information": "Reported local governments possessing disaster risk reduction strategies.",
+        },
+        {
+            "Year": 2022,
+            "Number of Countries": 193,
+            "Compliance Information": "Submitted their first Nationally Determined Contributions (NDCs) under the UNFCCC.",
+        },
+        {
+            "Year": 2022,
+            "Number of Countries": 123,
+            "Compliance Information": "Adopted national disaster risk reduction strategies.",
+        },
+        {
+            "Year": 2022,
+            "Number of Countries": 118,
+            "Compliance Information": "Developed policies to align disaster risk strategies with the SDGs and the Paris Agreement.",
+        },
+        {
+            "Year": 2022,
+            "Number of Countries": 61,
+            "Compliance Information": "Developed strategies demonstrating comprehensive compliance with the Sendai Framework.",
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 125,
+            "Compliance Information": "Took measures and prioritized national compliance plans in developing countries.",
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 6,
+            "Compliance Information": "Least developed countries (LDC) and 4 small island states completed their national compliance plans.",
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 118,
+            "Compliance Information": "Developed national or local disaster risk reduction strategies.",
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 190,
+            "Compliance Information": "Parties (189 countries + EU) presented their initial national contributions under the UNFCCC.",
+        },
+    ]
+}
+
+export const localGovernmentsDisasterRiskReductionStrategies = {
+    title: 'Disaster Risk Reduction Strategies of Local Governments',
+    description: 'This dataset highlights the number of countries with local governments that have adopted disaster risk reduction strategies over the years. In 2023, a total of 101 countries reported having disaster risk reduction strategies at the local government level. In 2021, there were 98 countries that developed such strategies, and among developing countries, 125 out of 154 were implementing national compliance plans. In 2020, 55 countries reported local disaster risk reduction strategies from their local governments. Furthermore, in 2015, it was reported that local governments in 51 countries had established disaster risk reduction strategies. This dataset underscores the importance of local governance in disaster risk management and the need for continuous development of these strategies.',
+    data: [
+        {
+            "Year": 2023,
+            "Number of Countries": 101,
+            "Strategy Information": "Local governments reported having disaster risk reduction strategies.",
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 98,
+            "Strategy Information": "Local governments developed disaster risk reduction strategies.",
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 154,
+            "Strategy Information": "125 developing countries are implementing national compliance plans.",
+        },
+        {
+            "Year": 2020,
+            "Number of Countries": 55,
+            "Strategy Information": "Countries reported local disaster risk reduction strategies from local governments.",
+        },
+        {
+            "Year": 2015,
+            "Number of Countries": 51,
+            "Strategy Information": "It was reported that local governments had disaster risk reduction strategies.",
+        },
+    ]
+}
+
+export const nationalContributionsAndCompliance = {
+    title: 'National Contributions and Compliance',
+    description: 'This dataset outlines the national contributions made under the United Nations Framework Convention on Climate Change (UNFCCC) over the years. In 2022, 193 parties (192 countries + EU) submitted their first Nationally Determined Contributions (NDCs) under the UNFCCC. The previous year, 2021, saw 190 parties (189 countries + EU) present their initial national contributions. In 2020, 186 parties (185 countries + EU) submitted their contributions, while 183 parties reported their first national contributions to the UNFCCC Secretariat in 2019. The year 2017 marked 137 parties (136 countries and the European Commission) submitting their initial national contributions to the UNFCCC. By April 4, 2016, out of the 189 countries that were parties to the UNFCCC, 161 submitted their Intended Nationally Determined Contributions (INDCs). This dataset emphasizes the commitment of nations to address climate change through formal contributions and compliance measures.',
+    data: [
+        {
+            "Year": 2022,
+            "Contribution Information": "193 parties (192 countries + EU) submitted their first Nationally Determined Contributions (NDCs) under the UNFCCC.",
+        },
+        {
+            "Year": 2021,
+            "Contribution Information": "190 parties (189 countries + EU) presented their initial national contributions to the UNFCCC.",
+        },
+        {
+            "Year": 2020,
+            "Contribution Information": "186 parties (185 countries + EU) submitted their contributions to the UNFCCC.",
+        },
+        {
+            "Year": 2019,
+            "Contribution Information": "183 parties submitted their first national contributions to the UNFCCC Secretariat.",
+        },
+        {
+            "Year": 2017,
+            "Contribution Information": "137 parties (136 countries and the European Commission) submitted their first national contributions to the UNFCCC Secretariat.",
+        },
+        {
+            "Year": 2016,
+            "Contribution Information": "As of April 4, 2016, out of 189 countries party to the UNFCCC, 161 submitted their Intended Nationally Determined Contributions (INDCs).",
+        },
+    ]
+}
+
+export const priorityAreasInAdaptationStrategies = {
+    title: 'Priority Areas in Adaptation Strategies',
+    description: 'This dataset highlights the priority areas for adaptation strategies in the context of climate change. The highest priority areas include food production and nutrition security, as well as terrestrial and aquatic ecosystems, both at 90%. Freshwater resources and human health are also critical areas, each with a priority rate of 79%. Key economic sectors and services have a priority rate of 77%. Coastal and low-lying areas, as well as disaster risk management, have a priority rate of 54%. Urban areas and other human settlements also share this same priority level. Lastly, ocean ecosystems are recognized as a priority area with a rate of 33%. This data underscores the essential focus on these areas to enhance resilience and mitigate the impacts of climate change.',
+    data: [
+        {
+            "Priority Area": "Food production and nutrition security",
+            "Rate (%)": 90,
+        },
+        {
+            "Priority Area": "Terrestrial and aquatic ecosystems",
+            "Rate (%)": 90,
+        },
+        {
+            "Priority Area": "Freshwater resources",
+            "Rate (%)": 79,
+        },
+        {
+            "Priority Area": "Human health",
+            "Rate (%)": 79,
+        },
+        {
+            "Priority Area": "Key economic sectors and services",
+            "Rate (%)": 77,
+        },
+        {
+            "Priority Area": "Coastal and low-lying areas",
+            "Rate (%)": 54,
+        },
+        {
+            "Priority Area": "Disaster risk management",
+            "Rate (%)": 54,
+        },
+        {
+            "Priority Area": "Urban areas and other human settlements",
+            "Rate (%)": 54,
+        },
+        {
+            "Priority Area": "Ocean ecosystems",
+            "Rate (%)": 33,
+        },
+    ]
+}
+
+export const developmentOfDisasterRiskReductionStrategies = {
+    title: 'Development of Disaster Risk Reduction Strategies',
+    description: 'This dataset outlines the development of disaster risk reduction (DRR) strategies over the years, indicating the number of countries that have adopted these strategies, the legal regulations in place, and alignment with the Sendai Framework. In 2015, a total of 48 countries had established DRR strategies, with 13 legal regulations and 13 strategies aligned with the Sendai Framework. By 2020, the number of countries increased to 103, with 83 legal regulations and 47 strategies compliant with the Sendai Framework. In 2021, 126 countries reported having DRR strategies, with 118 legal regulations and 55 strategies aligned with the Sendai Framework. This data highlights the growing commitment of countries to enhance their disaster risk management frameworks and their efforts towards compliance with international standards.',
+    data: [
+        {
+            "Year": 2015,
+            "Number of Countries": 48,
+            "Legal Regulations (DRR)": 13,
+            "Strategies Aligned with Sendai Framework": 13,
+        },
+        {
+            "Year": 2020,
+            "Number of Countries": 103,
+            "Legal Regulations (DRR)": 83,
+            "Strategies Aligned with Sendai Framework": 47,
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 126,
+            "Legal Regulations (DRR)": 118,
+            "Strategies Aligned with Sendai Framework": 55,
+        },
+    ]
+}
+
+export const preparationAndImplementationOfNationalCompliancePlans = {
+    title: 'Preparation and Implementation of National Compliance Plans',
+    description: 'This dataset provides insights into the preparation and implementation status of national compliance plans across various years. In 2020, a total of 120 countries had prepared their national compliance plans, all of which were in the implementation phase, with 120 out of 153 developing countries actively executing their plans. The following year, 2021, also saw 125 countries with prepared plans, with the implementation status remaining the same. Notably, in 2021, 6 least developed countries (LDCs) and 4 small island states completed their plans. By 2022, while specific numbers for the year were not available, it was noted that least developed countries were in the process of preparing their compliance plans. This dataset underscores the importance of national compliance plans in responding to global challenges such as climate change and disaster risk reduction.',
+    data: [
+        {
+            "Year": 2020,
+            "Number of Countries": 120,
+            "National Compliance Plans (Prepared)": 120,
+            "Implementation Status": "Implementation Phase",
+            "Other Notes": "120 out of 153 developing countries are executing their plans.",
+        },
+        {
+            "Year": 2021,
+            "Number of Countries": 125,
+            "National Compliance Plans (Prepared)": 125,
+            "Implementation Status": "Implementation Phase",
+            "Other Notes": "6 LDCs and 4 small island states completed their plans.",
+        },
+        {
+            "Year": 2022,
+            "Number of Countries": null,
+            "National Compliance Plans (Prepared)": null,
+            "Implementation Status": null,
+            "Other Notes": "Least developed countries are preparing their compliance plans.",
+        },
+    ]
+}
+
+export const complianceWithInternationalAgreements = {
+    title: 'Compliance with International Agreements',
+    description: 'This dataset outlines the compliance status of countries with various international agreements over the years. In 2022, all 193 parties to the United Nations Framework Convention on Climate Change (UNFCCC) submitted their initial Nationally Determined Contributions (NDCs). The same year, 185 parties ratified the Paris Agreement. Additionally, while the number of countries for the Sendai Framework is not specified, 118 countries developed policies to align their disaster risk strategies with the Sendai Framework. In 2021, the Paris Agreement saw 137 parties adding compliance components to their national contributions. Furthermore, 154 developing countries reported that 125 were actively implementing their national compliance plans under the UNFCCC. This dataset highlights the commitment of countries to adhere to global environmental agreements and frameworks aimed at addressing climate change and disaster risk reduction.',
+    data: [
+        {
+            "Year": 2022,
+            "Agreement": "United Nations Framework Convention on Climate Change (UNFCCC)",
+            "Number of Countries": 193,
+            "Compliance Status": "All 193 parties submitted their initial Nationally Determined Contributions (NDCs).",
+        },
+        {
+            "Year": 2022,
+            "Agreement": "Paris Agreement",
+            "Number of Countries": 185,
+            "Compliance Status": "185 parties ratified the Paris Agreement.",
+        },
+        {
+            "Year": 2022,
+            "Agreement": "Sendai Framework",
+            "Number of Countries": null,
+            "Compliance Status": "118 countries developed policies to align disaster risk strategies with the Sendai Framework.",
+        },
+        {
+            "Year": 2021,
+            "Agreement": "Paris Agreement",
+            "Number of Countries": null,
+            "Compliance Status": "137 parties added compliance components to their national contributions.",
+        },
+        {
+            "Year": 2021,
+            "Agreement": "UNFCCC",
+            "Number of Countries": 154,
+            "Compliance Status": "125 of the 154 developing countries are implementing their national compliance plans.",
+        },
+    ]
+}
+
+export const regionalComplianceWithParisAgreementAndNDCs = {
+    title: 'Regional Compliance with the Paris Agreement and Nationally Determined Contributions (NDC)',
+    description: 'This dataset outlines the number of parties that have submitted Nationally Determined Contributions (NDCs) and the number of parties that have ratified the Paris Agreement across different regions. In Europe and North America, 35 parties have submitted their NDCs, and 36 have ratified the Paris Agreement, with 49 parties under the UNFCCC. In Sub-Saharan Africa, there are 32 parties that have submitted NDCs and 34 that have ratified the Paris Agreement, also with 49 parties under the UNFCCC. Latin America and the Caribbean show a total of 25 parties for both NDC submissions and Paris Agreement ratifications, with 33 under the UNFCCC. Oceania has 14 parties for each category. East and Southeast Asia have 12 parties that submitted NDCs and 14 that ratified the Paris Agreement. Central and South Asia have 10 and 10, respectively, while North Africa and West Asia have 12 NDC submissions and 13 ratifications. Australia and New Zealand have 2 parties for each. Globally, a total of 142 parties submitted NDCs, 148 ratified the Paris Agreement, and there are 197 parties under the UNFCCC. This dataset emphasizes the global commitment to address climate change through international agreements and strategies.',
+    data: [
+        {
+            "Region": "Europe and North America",
+            "Number of NDC Submitting Parties": 35,
+            "Number of Paris Agreement Ratifying Parties": 36,
+            "Number of UNFCCC Parties": 49,
+        },
+        {
+            "Region": "Sub-Saharan Africa",
+            "Number of NDC Submitting Parties": 32,
+            "Number of Paris Agreement Ratifying Parties": 34,
+            "Number of UNFCCC Parties": 49,
+        },
+        {
+            "Region": "Latin America and the Caribbean",
+            "Number of NDC Submitting Parties": 25,
+            "Number of Paris Agreement Ratifying Parties": 25,
+            "Number of UNFCCC Parties": 33,
+        },
+        {
+            "Region": "Oceania*",
+            "Number of NDC Submitting Parties": 14,
+            "Number of Paris Agreement Ratifying Parties": 14,
+            "Number of UNFCCC Parties": 14,
+        },
+        {
+            "Region": "East and Southeast Asia",
+            "Number of NDC Submitting Parties": 12,
+            "Number of Paris Agreement Ratifying Parties": 14,
+            "Number of UNFCCC Parties": 15,
+        },
+        {
+            "Region": "Central and South Asia",
+            "Number of NDC Submitting Parties": 10,
+            "Number of Paris Agreement Ratifying Parties": 10,
+            "Number of UNFCCC Parties": 17,
+        },
+        {
+            "Region": "North Africa and West Asia",
+            "Number of NDC Submitting Parties": 12,
+            "Number of Paris Agreement Ratifying Parties": 13,
+            "Number of UNFCCC Parties": 18,
+        },
+        {
+            "Region": "Australia and New Zealand",
+            "Number of NDC Submitting Parties": 2,
+            "Number of Paris Agreement Ratifying Parties": 2,
+            "Number of UNFCCC Parties": 2,
+        },
+        {
+            "Region": "Global",
+            "Number of NDC Submitting Parties": 142,
+            "Number of Paris Agreement Ratifying Parties": 148,
+            "Number of UNFCCC Parties": 197,
+        },
+    ]
+}
+
+export const countriesDevelopingNationalAdaptationPlans = {
+    title: 'Countries Developing National Adaptation Plans (NAP)',
+    description: 'This dataset outlines the development stages of National Adaptation Plans (NAPs) across different countries, categorized by Least Developed Countries (LDCs) and non-LDCs. In the stage of initiating and starting the process, 39 LDCs and 19 non-LDCs have taken action. For the process of establishing authority, there are 4 LDCs and 1 non-LDC. The identification of institutional structures and coordination has been completed by 14 LDCs and 6 non-LDCs. In stakeholder consultation, 17 LDCs and 5 non-LDCs have engaged. The assessment of gaps and needs has been carried out by 27 LDCs and 7 non-LDCs. The development of roadmaps has been achieved by 18 LDCs and 2 non-LDCs. Lastly, 15 LDCs and 2 non-LDCs have completed their roadmaps. This data highlights the commitment of countries to enhance their resilience to climate change through systematic planning and collaboration.',
+    data: [
+        {
+            "Plan Stage": "Initiating and Starting the Process",
+            "LDCs": 39,
+            "Non-LDCs": 19,
+        },
+        {
+            "Plan Stage": "Establishing Authority for the Process",
+            "LDCs": 4,
+            "Non-LDCs": 1,
+        },
+        {
+            "Plan Stage": "Identifying Institutional Structures and Coordination",
+            "LDCs": 14,
+            "Non-LDCs": 6,
+        },
+        {
+            "Plan Stage": "Consulting with Stakeholders",
+            "LDCs": 17,
+            "Non-LDCs": 5,
+        },
+        {
+            "Plan Stage": "Assessing Gaps and Needs",
+            "LDCs": 27,
+            "Non-LDCs": 7,
+        },
+        {
+            "Plan Stage": "Developing Roadmaps",
+            "LDCs": 18,
+            "Non-LDCs": 2,
+        },
+        {
+            "Plan Stage": "Completing Roadmaps",
+            "LDCs": 15,
+            "Non-LDCs": 2,
+        },
+    ]
+}
+
+export const countryMechanismsForDisasterRiskReduction2014_2015 = {
+    title: 'Country Mechanisms for Disaster Risk Reduction (2014-2015)',
+    description: 'This dataset outlines the mechanisms implemented by countries to reduce disaster risks during the years 2014 and 2015. Environmental impact assessments were conducted by 96 countries, while 91 countries had legislation concerning protected areas. Additionally, 90 countries engaged in projects and programs aimed at climate change adaptation. Integrated planning mechanisms, such as coastal management and water management, were utilized by 78 countries. Furthermore, payment mechanisms for ecosystem services were established by 51 countries. This data highlights the diverse approaches taken by countries to enhance resilience against disasters and promote sustainable environmental practices.',
+    data: [
+        {
+            "Mechanism": "Environmental Impact Assessments",
+            "Number of Countries": 96,
+        },
+        {
+            "Mechanism": "Protected Areas Legislation",
+            "Number of Countries": 91,
+        },
+        {
+            "Mechanism": "Climate Change Adaptation Projects and Programs",
+            "Number of Countries": 90,
+        },
+        {
+            "Mechanism": "Integrated Planning (e.g., coastal management, water management)",
+            "Number of Countries": 78,
+        },
+        {
+            "Mechanism": "Payment Mechanisms for Ecosystem Services",
+            "Number of Countries": 51,
+        },
+    ]
+}
+
+export const prioritySectorsAndPartiesByAdaptationComponents = {
+    title: 'Priority Sectors and Number of Parties by Adaptation Components',
+    description: 'This dataset highlights the priority sectors for adaptation strategies along with the number of parties involved in each sector. The water sector leads with 119 parties, followed by agriculture with 107 parties. Health has 87 parties engaged, while ecosystems account for 72 parties. Infrastructure and forestry both have 71 parties each. The energy sector includes 53 parties, and disaster risk reduction has 51 parties participating. Additionally, food security is addressed by 50 parties, coastal protection by 49 parties, and fisheries by 41 parties. This information underscores the diverse areas that require focus for effective adaptation to climate change.',
+    data: [
+        {
+            "Component": "Water",
+            "Number of Parties": 119,
+        },
+        {
+            "Component": "Agriculture",
+            "Number of Parties": 107,
+        },
+        {
+            "Component": "Health",
+            "Number of Parties": 87,
+        },
+        {
+            "Component": "Ecosystems",
+            "Number of Parties": 72,
+        },
+        {
+            "Component": "Infrastructure",
+            "Number of Parties": 71,
+        },
+        {
+            "Component": "Forestry",
+            "Number of Parties": 71,
+        },
+        {
+            "Component": "Energy",
+            "Number of Parties": 53,
+        },
+        {
+            "Component": "Disaster Risk Reduction",
+            "Number of Parties": 51,
+        },
+        {
+            "Component": "Food Security",
+            "Number of Parties": 50,
+        },
+        {
+            "Component": "Coastal Protection",
+            "Number of Parties": 49,
+        },
+        {
+            "Component": "Fisheries",
+            "Number of Parties": 41,
+        },
+    ]
+}
+
+export const countriesWithDisasterRiskManagementRegulations2015 = {
+    title: 'Countries with Disaster Risk Management Regulations (2015)',
+    description: 'This dataset outlines the number of countries with disaster risk management regulations across various regions in 2015. In Oceania, there were 3 countries with such regulations. Latin America and the Caribbean had 8 countries, while Europe had 24 countries implementing disaster risk management strategies. In Asia, 18 countries were reported to have regulations in place. Africa led with 30 countries having established disaster risk management regulations. Overall, there were 83 countries worldwide that had implemented these regulations. This data highlights the global commitment to improving disaster risk management practices and enhancing resilience to natural hazards.',
+    data: [
+        {
+            "Region": "Oceania",
+            "Number of Countries": 3,
+        },
+        {
+            "Region": "Latin America and the Caribbean",
+            "Number of Countries": 8,
+        },
+        {
+            "Region": "Europe",
+            "Number of Countries": 24,
+        },
+        {
+            "Region": "Asia",
+            "Number of Countries": 18,
+        },
+        {
+            "Region": "Africa",
+            "Number of Countries": 30,
+        },
+        {
+            "Region": "Global",
+            "Number of Countries": 83,
+        },
+    ]
+}
+
+// Greenhouse Gas Emissions and Temperature Increases
+
+export const globalTemperatureChangesByYear = {
+    title: 'Global Temperature Changes by Year',
+    description: 'This dataset presents the changes in global temperatures over the years. From 2017 to 2023, the global temperature change was consistently recorded at 1.1°C. In 2019, a slight decrease to 1.0°C was noted, but the temperature remained stable at 1.1°C for the following years. However, in 2024, the global temperature change is projected to rise to 1.45°C. This data emphasizes the ongoing trend of rising global temperatures, which is a significant concern in the context of climate change and its impacts on the environment.',
+    data: [
+        {
+            "Year": 2017,
+            "Global Temperature Change (C)": 1.1,
+        },
+        {
+            "Year": 2018,
+            "Global Temperature Change (C)": 1.1,
+        },
+        {
+            "Year": 2019,
+            "Global Temperature Change (C)": 1.0,
+        },
+        {
+            "Year": 2020,
+            "Global Temperature Change (C)": 1.1,
+        },
+        {
+            "Year": 2021,
+            "Global Temperature Change (C)": 1.1,
+        },
+        {
+            "Year": 2022,
+            "Global Temperature Change (C)": 1.1,
+        },
+        {
+            "Year": 2023,
+            "Global Temperature Change (C)": 1.1,
+        },
+        {
+            "Year": 2024,
+            "Global Temperature Change (C)": 1.45,
+        },
+    ]
+}
+
+export const greenhouseGasEmissionChanges = {
+    title: 'Greenhouse Gas Emission Changes',
+    description: 'This dataset tracks the changes in greenhouse gas emissions over the years. In 2016, emissions reached a record level of 400.1 ppm. The following year, 2017, saw a new peak of 405.5 ppm. In 2018, the emissions were noted to be at 1.1°C above pre-industrial levels. A significant decrease of 15% was observed in 2019 among developed countries. The year 2020 marked a 6% drop in emissions, attributed to the effects of the pandemic. However, in 2021, emissions increased by 6% as economies began to recover. By 2022, greenhouse gas concentrations reached record levels, and in 2023, emissions continued to rise. This data highlights the ongoing challenges in addressing climate change and the fluctuations in greenhouse gas emissions in response to global events.',
+    data: [
+        {
+            "Year": 2016,
+            "Greenhouse Gas Emission Change": "400.1 ppm (record level)",
+        },
+        {
+            "Year": 2017,
+            "Greenhouse Gas Emission Change": "405.5 ppm (new peak)",
+        },
+        {
+            "Year": 2018,
+            "Greenhouse Gas Emission Change": "1.1°C (compared to pre-industrial levels)",
+        },
+        {
+            "Year": 2019,
+            "Greenhouse Gas Emission Change": "%15 decrease (in developed countries)",
+        },
+        {
+            "Year": 2020,
+            "Greenhouse Gas Emission Change": "%6 drop (impact of the pandemic)",
+        },
+        {
+            "Year": 2021,
+            "Greenhouse Gas Emission Change": "%6 increase (economic recovery)",
+        },
+        {
+            "Year": 2022,
+            "Greenhouse Gas Emission Change": "Record levels (greenhouse gas concentrations)",
+        },
+        {
+            "Year": 2023,
+            "Greenhouse Gas Emission Change": "Continuing rising emissions",
+        },
+    ]
+}
+
+export const carbonDioxideLevels = {
+    title: 'Carbon Dioxide Levels (ppm)',
+    description: 'This dataset presents the levels of carbon dioxide (CO2) measured in parts per million (ppm) over the years. In 2015, the CO2 level reached 400 ppm. The following year, 2016, saw a slight increase to 400.1 ppm, marking a record level. By 2017, the level increased further to 405.5 ppm. In 2018 and 2019, the temperature increased by 1.1°C compared to pre-industrial levels, reflecting the impact of rising CO2 levels. The year 2020 marked a new peak with CO2 levels at 410 ppm. In 2022, CO2 levels were reported to be 150% above pre-industrial levels, indicating significant increases. Finally, in 2023, the new temperature increase reached 1.45°C. This data underscores the ongoing challenges of climate change and the critical need to address carbon emissions.',
+    data: [
+        {
+            "Year": 2015,
+            "Carbon Dioxide Level (ppm)": 400,
+        },
+        {
+            "Year": 2016,
+            "Carbon Dioxide Level (ppm)": "400.1 (record level)",
+        },
+        {
+            "Year": 2017,
+            "Carbon Dioxide Level (ppm)": 405.5,
+        },
+        {
+            "Year": 2018,
+            "Carbon Dioxide Level (ppm)": "1.1°C increase (compared to pre-industrial levels)",
+        },
+        {
+            "Year": 2019,
+            "Carbon Dioxide Level (ppm)": "1.1°C increase (compared to pre-industrial levels)",
+        },
+        {
+            "Year": 2020,
+            "Carbon Dioxide Level (ppm)": 410,
+        },
+        {
+            "Year": 2022,
+            "Carbon Dioxide Level (ppm)": "%150 (above pre-industrial levels)",
+        },
+        {
+            "Year": 2023,
+            "Carbon Dioxide Level (ppm)": "1.45°C (new temperature)",
+        },
+    ]
+}
+
+export const effectsAndMeasuresOfGlobalWarming = {
+    title: 'Effects and Measures of Global Warming',
+    description: 'This dataset outlines the various effects of global warming and the measures that can be taken to address them. As of 2023, global temperatures have risen to 1.45°C, dangerously close to the 1.5°C limit set by the Paris Agreement. In 2021, greenhouse gas emissions reached record levels, with concentrations peaking in 2022. Carbon dioxide levels are currently 150% above pre-industrial levels, having surpassed 410 ppm in 2020. Vulnerable populations have faced significantly higher mortality rates due to floods, droughts, and storms compared to those in less vulnerable areas, with a rate 15 times higher from 2010 to 2020. Current national commitments project a 14% increase in global emissions by the end of this decade. Scientists recommend that to limit global warming to 1.5°C compared to pre-industrial levels, emissions must be reduced by 4% from 2010 levels by 2030. If immediate action is not taken by governments, the private sector, and civil society, the risk of a climate disaster could increase significantly.',
+    data: [
+        {
+            "Effects and Measures": "Global Temperature Rise",
+            "Description": "As of 2023, global temperatures have risen to 1.45°C, dangerously close to the 1.5°C limit set by the Paris Agreement.",
+        },
+        {
+            "Effects and Measures": "Greenhouse Gas Emissions",
+            "Description": "In 2021, emissions reached record levels, and in 2022, concentrations peaked at record highs.",
+        },
+        {
+            "Effects and Measures": "Carbon Dioxide Levels",
+            "Description": "Carbon dioxide levels are currently 150% above pre-industrial levels, having surpassed 410 ppm in 2020.",
+        },
+        {
+            "Effects and Measures": "Impact on Vulnerable Areas",
+            "Description": "Between 2010 and 2020, mortality rates from floods, droughts, and storms in vulnerable regions were 15 times higher than those in less vulnerable areas.",
+        },
+        {
+            "Effects and Measures": "National Commitments",
+            "Description": "Current national commitments project a 14% increase in global emissions by the end of this decade.",
+        },
+        {
+            "Effects and Measures": "Targets",
+            "Description": "Scientists recommend that to limit global warming to 1.5°C compared to pre-industrial levels, emissions must be reduced by 4% from 2010 levels by 2030.",
+        },
+        {
+            "Effects and Measures": "Climate Disaster Risk",
+            "Description": "If immediate action is not taken by governments, the private sector, and civil society, the risk of a climate disaster could increase significantly.",
+        },
+    ]
+}
+
+export const emissionTargetsAlignedWithGoals = {
+    title: 'Emission Targets Aligned with Goals',
+    description: 'This dataset outlines various emission targets aimed at mitigating climate change impacts and achieving global warming limits. The 1.5°C temperature target requires the world to achieve net-zero carbon dioxide emissions by 2050 compared to pre-industrial levels. Scientists recommend a 4% reduction in emissions from 2010 levels by 2030 to limit global warming to 1.5°C. Current national commitments project a 14% increase in global emissions by the end of this decade. As of 2019, 185 parties have ratified the Paris Agreement, with 183 parties submitting their initial Nationally Determined Contributions (NDCs) to the UN Climate Change Secretariat. During the COVID-19 pandemic in 2020, global CO2 emissions decreased by 5.2% due to reduced energy demand. However, emissions increased by 6% in 2021, with greenhouse gas concentrations reaching record levels in 2022. To align with the 2°C and 1.5°C targets by 2030, emissions must peak as soon as possible and then be rapidly reduced.',
+    data: [
+        {
+            "Target": "1.5°C Temperature Target",
+            "Description": "To limit global warming to 1.5°C compared to pre-industrial levels, the world must achieve net-zero carbon dioxide emissions by 2050.",
+        },
+        {
+            "Target": "2030 Emission Reduction Target",
+            "Description": "Scientists recommend that emissions should be reduced by 4% from 2010 levels by 2030 to limit global warming to 1.5°C.",
+        },
+        {
+            "Target": "2020 Emission Projections",
+            "Description": "Current national commitments project a 14% increase in global emissions by the end of this decade.",
+        },
+        {
+            "Target": "Nationally Determined Contributions (NDC)",
+            "Description": "As of 2019, 185 parties have ratified the Paris Agreement, and 183 parties have submitted their initial NDCs to the UN Climate Change Secretariat.",
+        },
+        {
+            "Target": "2020 Emission Decrease",
+            "Description": "In 2020, during the COVID-19 pandemic, global carbon dioxide (CO2) emissions decreased by 5.2% due to reduced energy demand.",
+        },
+        {
+            "Target": "2021 Emission Increase",
+            "Description": "In 2021, CO2 emissions increased by 6%, and by 2022, greenhouse gas concentrations reached record levels.",
+        },
+        {
+            "Target": "2020-2030 Emission Increase",
+            "Description": "To achieve emissions targets aligned with the 2°C and 1.5°C goals by 2030, emissions must peak as soon as possible and then be rapidly reduced.",
+        },
+    ]
+}
+
+export const globalClimateAgreementCompliance = {
+    title: 'Compliance with Global Climate Agreements',
+    description: 'This dataset provides an overview of the compliance status of different regions with global climate agreements. It outlines the number of parties that have submitted their Nationally Determined Contributions (NDCs), ratified the Paris Agreement, and are parties to the United Nations Framework Convention on Climate Change (UNFCCC). As of now, Europe and North America have 35 NDCs submitted and 36 parties ratifying the Paris Agreement. In Sub-Saharan Africa, there are 32 NDCs and 34 parties. Latin America and the Caribbean have 25 parties for both NDC submissions and the Paris Agreement. Oceania has 14 parties for both categories. Eastern and Southeast Asia have submitted 12 NDCs with 14 parties in the Paris Agreement, while Central and South Asia have 10 NDCs and 10 ratifications. North Africa and West Asia have 12 NDCs with 13 parties for the Paris Agreement. Overall, globally, there are 142 NDCs, 148 parties ratifying the Paris Agreement, and 197 parties to the UNFCCC.',
+    data: [
+        {
+            "Region": "Europe and North America",
+            "NDC Submitted Parties": 35,
+            "Paris Agreement Ratifying Parties": 36,
+            "UNFCCC Parties": 49,
+        },
+        {
+            "Region": "Sub-Saharan Africa",
+            "NDC Submitted Parties": 32,
+            "Paris Agreement Ratifying Parties": 34,
+            "UNFCCC Parties": 49,
+        },
+        {
+            "Region": "Latin America and the Caribbean",
+            "NDC Submitted Parties": 25,
+            "Paris Agreement Ratifying Parties": 25,
+            "UNFCCC Parties": 33,
+        },
+        {
+            "Region": "Oceania",
+            "NDC Submitted Parties": 14,
+            "Paris Agreement Ratifying Parties": 14,
+            "UNFCCC Parties": 14,
+        },
+        {
+            "Region": "Eastern and Southeast Asia",
+            "NDC Submitted Parties": 12,
+            "Paris Agreement Ratifying Parties": 14,
+            "UNFCCC Parties": 15,
+        },
+        {
+            "Region": "Central and South Asia",
+            "NDC Submitted Parties": 10,
+            "Paris Agreement Ratifying Parties": 10,
+            "UNFCCC Parties": 17,
+        },
+        {
+            "Region": "North Africa and West Asia",
+            "NDC Submitted Parties": 12,
+            "Paris Agreement Ratifying Parties": 13,
+            "UNFCCC Parties": 18,
+        },
+        {
+            "Region": "Global",
+            "NDC Submitted Parties": 142,
+            "Paris Agreement Ratifying Parties": 148,
+            "UNFCCC Parties": 197,
+        },
+    ]
+}
+
+export const climateChangeStrategies = {
+    title: 'Strategies Related to Climate Change',
+    description: 'This dataset outlines various strategies implemented by countries to address climate change. It highlights the number of countries involved in different strategies. As of now, 129 countries have established National Disaster Risk Reduction Strategies. Additionally, 122 countries are working on aligning with the Sustainable Development Goals (SDGs). Local governments have implemented Disaster Risk Reduction Strategies in 101 countries. There are 61 strategies that are compliant with the Sendai Framework, while 95 countries have developed Multi-Hazard Early Warning Systems. Nationally Determined Contributions (NDCs) have been submitted by 193 parties. Furthermore, 154 countries have developed adaptation plans to combat the impacts of climate change.',
+    data: [
+        {
+            "Strategy": "National Disaster Risk Reduction Strategies",
+            "Number of Countries": 129,
+        },
+        {
+            "Strategy": "Alignment with Sustainable Development Goals (SDGs)",
+            "Number of Countries": 122,
+        },
+        {
+            "Strategy": "Local Governments Disaster Risk Reduction Strategies",
+            "Number of Countries": 101,
+        },
+        {
+            "Strategy": "Strategies Compliant with the Sendai Framework",
+            "Number of Countries": 61,
+        },
+        {
+            "Strategy": "Multi-Hazard Early Warning Systems",
+            "Number of Countries": 95,
+        },
+        {
+            "Strategy": "Nationally Determined Contributions (NDC)",
+            "Number of Countries": 193,
+        },
+        {
+            "Strategy": "Adaptation Plans",
+            "Number of Countries": 154,
+        },
+    ]
+}
+
+export const covid19EmissionEffects2020 = {
+    title: '2020 COVID-19 Period Emission Effects',
+    description: 'This dataset highlights the effects of the COVID-19 pandemic on global emissions in 2020. The pandemic led to a significant decrease in CO2 emissions worldwide, with a reported decline of 5.2%. Developed countries experienced a more pronounced reduction of 10%, while developing countries saw a decrease of 4%. However, this was followed by a rebound in 2021, where emissions increased by 6%. The economic slowdown due to the pandemic resulted in a notable drop in energy demand, further influencing emissions trends.',
+    data: [
+        {
+            "Effects": "Global CO2 Emissions Decrease (%)",
+            "Value": "%5.2",
+        },
+        {
+            "Effects": "Emission Decrease in Developed Countries (%)",
+            "Value": "%10",
+        },
+        {
+            "Effects": "Emission Decrease in Developing Countries (%)",
+            "Value": "%4",
+        },
+        {
+            "Effects": "2021 Emission Increase (%)",
+            "Value": "%6",
+        },
+        {
+            "Effects": "Economic Slowdown of the Pandemic",
+            "Value": "Decrease in energy demand",
+        },
+    ]
+}
+
+export const globalWarmingComparedToPreIndustrialLevels = {
+    title: 'Global Warming Compared to Pre-Industrial Levels',
+    description: 'This dataset compares the increase in global temperatures to pre-industrial levels over the years. As of 2023, global temperatures have risen by 1.5°C compared to pre-industrial levels. In 2022, the average global temperature was 1.1°C higher than pre-industrial levels. In 2021, there was a 1.2°C increase, while 2019 recorded a 1.0°C rise in temperatures. The data indicates a consistent trend of increasing temperatures relative to pre-industrial benchmarks, emphasizing the urgency of addressing climate change.',
+    data: [
+        {
+            "Year": 2023,
+            "Global Temperature Increase (C)": 1.5,
+            "Description": "Global temperature has increased by 1.5°C compared to pre-industrial levels.",
+        },
+        {
+            "Year": 2022,
+            "Global Temperature Increase (C)": 1.1,
+            "Description": "The average global temperature in 2021 was 1.11°C higher than pre-industrial levels.",
+        },
+        {
+            "Year": 2021,
+            "Global Temperature Increase (C)": 1.2,
+            "Description": "An increase of 1.2°C has occurred compared to pre-industrial levels.",
+        },
+        {
+            "Year": 2019,
+            "Global Temperature Increase (C)": 1.0,
+            "Description": "Global temperature has increased by 1.0°C compared to pre-industrial levels.",
+        },
+        {
+            "Year": 2018,
+            "Global Temperature Increase (C)": 1.0,
+            "Description": "The average global temperature has risen by 1.0°C compared to pre-industrial levels.",
+        },
+    ]
+}
+
+export const totalGreenhouseGasEmissionsByCountryType = {
+    title: 'Total Greenhouse Gas Emissions by Developed and Developing Countries',
+    description: 'This dataset presents the total greenhouse gas emissions of developed and developing countries over the years. Developed countries (Annex I) and developing countries (Non-Annex I) have shown different trends in emissions. In the year 2000, developed countries emitted 17.93 Gt CO2e, while developing countries emitted 15.426 Gt CO2e. By 2010, emissions from developed countries decreased to 17.466 Gt CO2e, whereas emissions from developing countries increased to 19.801 Gt CO2e. In 2018, developed countries emitted 16.771 Gt CO2e, and emissions from developing countries rose to 22.095 Gt CO2e, indicating a growing disparity in emissions between these two groups.',
+    data: [
+        {
+            "Year": 2000,
+            "Developed Countries (Annex I)": 17.93,
+            "Developing Countries (Non-Annex I)": 15.426,
+        },
+        {
+            "Year": 2010,
+            "Developed Countries (Annex I)": 17.466,
+            "Developing Countries (Non-Annex I)": 19.801,
+        },
+        {
+            "Year": 2018,
+            "Developed Countries (Annex I)": 16.771,
+            "Developing Countries (Non-Annex I)": 22.095,
+        },
+    ]
+}
+
+// Progress in Climate Change Education
+
+export const climateChangeAndSustainabilityInCurriculum = {
+    title: 'Climate Change and Sustainability Topics in Curriculum',
+    description: 'This dataset provides an overview of the inclusion of climate change and sustainability topics in educational curricula. It highlights the percentage of curricula that do not address climate change and sustainability, as well as the awareness and readiness of educators and students regarding these critical issues. In 2023, 69% of ninth-grade science and social studies curricula did not mention climate change. Additionally, 47% of national curriculum frameworks lacked references to climate change. The data also shows that 95% of teachers acknowledge the importance of teaching climate change, while 91% of students reported learning something about it. However, only 30% of students could fully explain the fundamental principles of climate change, indicating a gap in understanding. There is also a significant desire among teachers to learn more about these topics, with 80% expressing the need for further education.',
+    data: [
+        {
+            "Year": 2023,
+            "Description": "Percentage of ninth-grade science and social studies curricula that do not mention climate change",
+            "Rate (%)": 69,
+        },
+        {
+            "Year": 2023,
+            "Description": "Percentage of national curriculum frameworks that do not mention climate change",
+            "Rate (%)": 47,
+        },
+        {
+            "Year": 2024,
+            "Description": "Percentage of curricula that do not address sustainability topics",
+            "Rate (%)": 66,
+        },
+        {
+            "Year": 2024,
+            "Description": "Percentage of countries reporting plans to focus curricula on climate change and sustainability",
+            "Rate (%)": 75,
+        },
+        {
+            "Year": 2021,
+            "Description": "Percentage of teachers acknowledging the importance of teaching climate change",
+            "Rate (%)": 95,
+        },
+        {
+            "Year": 2023,
+            "Description": "Percentage of students claiming to have learned something about climate change",
+            "Rate (%)": 91,
+        },
+        {
+            "Year": 2023,
+            "Description": "Percentage of students able to fully explain the fundamental principles of climate change",
+            "Rate (%)": 30,
+        },
+        {
+            "Year": 2022,
+            "Description": "Percentage of youth who can only define general principles regarding climate change",
+            "Rate (%)": 70,
+        },
+        {
+            "Year": 2022,
+            "Description": "Percentage of primary and secondary education policies that partially integrate Education for Sustainable Development and Global Citizenship Education",
+            "Rate (%)": 90,
+        },
+        {
+            "Year": 2022,
+            "Description": "Percentage of teachers feeling unprepared to teach themes of sustainable development, global citizenship, and peace in educational policies",
+            "Rate (%)": 25,
+        },
+        {
+            "Year": 2022,
+            "Description": "Percentage of teachers wanting to learn more about these topics",
+            "Rate (%)": 80,
+        },
+    ]
+}
+
+// Climate Finance
+
+export const climateFinanceByYear = {
+    title: 'Climate Finance Over the Years',
+    description: 'This dataset provides an overview of climate financing in billions of dollars over the years. It shows the financial commitments made to support climate change mitigation and adaptation efforts globally. In 2015, the total climate finance was reported at $30 billion. The Green Climate Fund contributed $10.3 billion in 2016. Significant commitments of $100 billion were made in both 2017 and 2018. In 2019, financing for developing countries amounted to $33 billion, while developed countries contributed $83 billion. Climate finance varied in the following years, with $79.6 billion in 2020, $89.6 billion in 2021, $41 billion in 2022, $83.3 billion in 2023, and returning to $41 billion in 2024.',
+    data: [
+        {
+            "Year": 2015,
+            "Climate Finance (billion dollars)": 30.00,
+        },
+        {
+            "Year": 2016,
+            "Climate Finance (billion dollars)": 10.30, // Green Climate Fund
+        },
+        {
+            "Year": 2017,
+            "Climate Finance (billion dollars)": 100.00, // commitment
+        },
+        {
+            "Year": 2018,
+            "Climate Finance (billion dollars)": 100.00, // commitment
+        },
+        {
+            "Year": 2019,
+            "Climate Finance (billion dollars)": 33.00, // Developing countries
+        },
+        {
+            "Year": 2019,
+            "Climate Finance (billion dollars)": 83.00, // Developed countries
+        },
+        {
+            "Year": 2020,
+            "Climate Finance (billion dollars)": 79.60,
+        },
+        {
+            "Year": 2021,
+            "Climate Finance (billion dollars)": 89.60,
+        },
+        {
+            "Year": 2022,
+            "Climate Finance (billion dollars)": 41.00,
+        },
+        {
+            "Year": 2023,
+            "Climate Finance (billion dollars)": 83.30,
+        },
+        {
+            "Year": 2024,
+            "Climate Finance (billion dollars)": 41.00,
+        },
+    ]
+}
+
+export const climateFinanceFromDevelopingCountries = {
+    title: 'Climate Finance Provided by Developing Countries',
+    description: 'This dataset presents the climate finance contributions from developing countries in billions of dollars over the years. In 2015, developing countries contributed $33 billion towards climate finance efforts. This amount slightly increased to $38 billion in 2016, while the financing remained stable at $33 billion in 2019. These contributions are essential for addressing climate change impacts and supporting sustainable development initiatives in vulnerable regions.',
+    data: [
+        {
+            "Year": 2015,
+            "Climate Finance (billion dollars)": 33,
+        },
+        {
+            "Year": 2016,
+            "Climate Finance (billion dollars)": 38,
+        },
+        {
+            "Year": 2019,
+            "Climate Finance (billion dollars)": 33,
+        },
+    ]
+}
+
+export const climateFinanceTargetsAndAchievements = {
+    title: 'Climate Finance Targets and Achievements',
+    description: 'This dataset outlines the climate finance targets set by developed countries and the actual achievements in billions of dollars over the years. In 2015, developed countries committed to providing $100 billion annually for climate financing. By 2019, the actual climate finance provided was $79.6 billion, followed by $83.3 billion in 2020. In 2021, this amount increased to $89.6 billion, reflecting progress in mobilizing resources for climate action. However, as of 2024, the target has yet to be fully met, indicating ongoing challenges in achieving climate financing goals.',
+    data: [
+        {
+            "Year": 2015,
+            "Target (billion dollars)": 100,
+            "Achievement (billion dollars)": "-",
+            "Description": "Developed countries committed to providing $100 billion annually for climate financing.",
+        },
+        {
+            "Year": 2019,
+            "Target (billion dollars)": 100,
+            "Achievement (billion dollars)": 79.6,
+            "Description": "Climate finance provided by developed countries.",
+        },
+        {
+            "Year": 2020,
+            "Target (billion dollars)": 100,
+            "Achievement (billion dollars)": 83.3,
+            "Description": "Climate finance provided by developed countries.",
+        },
+        {
+            "Year": 2021,
+            "Target (billion dollars)": 100,
+            "Achievement (billion dollars)": 89.6,
+            "Description": "Mobilized and activated climate finance.",
+        },
+        {
+            "Year": 2024,
+            "Target (billion dollars)": 100,
+            "Achievement (billion dollars)": "-",
+            "Description": "The target has yet to be fully met.",
+        },
+    ]
+}
+
+export const greenClimateFundApplicationsAndFunding = {
+    title: 'Green Climate Fund Applications and Funding',
+    description: 'This dataset outlines the applications and funding provided by the Green Climate Fund over the years. In 2019, there were a total of 75 applications related to national adaptation plans and other planning processes, with $75 million granted for these efforts. Additionally, there were 28 applications focused on the creation of national adaptation plans, also receiving $75 million. A total of 7 applications were under approval, amounting to $17 million in funding. In 2021, initial efforts for the Green Climate Fund led to $10.3 million in grant financing, along with $89.6 million mobilized and activated for climate financing in the same year.',
+    data: [
+        {
+            "Year": 2019,
+            "Green Climate Fund Application Count": 75,
+            "Grant Funding (million dollars)": 75,
+            "Description": "Applications for national adaptation plans and other adaptation planning processes.",
+        },
+        {
+            "Year": 2019,
+            "Green Climate Fund Application Count": 28,
+            "Grant Funding (million dollars)": 75,
+            "Description": "Access to the Green Climate Fund for the establishment of national adaptation plans.",
+        },
+        {
+            "Year": 2019,
+            "Green Climate Fund Application Count": 7,
+            "Grant Funding (million dollars)": 17,
+            "Description": "Funding applications under approval.",
+        },
+        {
+            "Year": 2021,
+            "Green Climate Fund Application Count": "-",
+            "Grant Funding (million dollars)": 10.3,
+            "Description": "Initial efforts for the Green Climate Fund.",
+        },
+        {
+            "Year": 2021,
+            "Green Climate Fund Application Count": "-",
+            "Grant Funding (million dollars)": 89.6,
+            "Description": "Mobilized and activated climate financing in 2021.",
+        },
+    ]
+}
+
+export const climateFinanceReductionAndAdaptation = {
+    title: 'Reduction and Adaptation in Climate Finance',
+    description: 'This dataset outlines the trends in climate finance reduction and adaptation financing over the years. As of 2023, climate finance has begun to decline, with a reported decrease of 4% compared to previous years. The funding provided in 2020 was $83.3 billion, which fell short of the $100 billion target. Additionally, adaptation financing for developing countries has been insufficient, estimated to be 5-10 times lower than necessary. In 2021, there was a reported 10% reduction in climate finance, while in 2017-2018, the average annual climate financing was $48.7 billion. In 2013-2014, there was a 17% increase in climate finance, highlighting the fluctuations in funding levels.',
+    data: [
+        {
+            "Year": 2024,
+            "Reduction in Climate Finance (%)": "-",
+            "Adaptation Financing Status": "-",
+            "Description": "As of 2023, climate finance has begun to decline.",
+        },
+        {
+            "Year": 2023,
+            "Reduction in Climate Finance (%)": 4,
+            "Adaptation Financing Status": "Insufficient",
+            "Description": "In 2020, climate finance provided was $83.3 billion, falling short of the $100 billion target.",
+        },
+        {
+            "Year": 2023,
+            "Reduction in Climate Finance (%)": "-",
+            "Adaptation Financing Status": "Estimated to be 5-10 times lower than needs",
+            "Description": "Adaptation financing provided to developing countries is insufficient.",
+        },
+        {
+            "Year": 2022,
+            "Reduction in Climate Finance (%)": "-",
+            "Adaptation Financing Status": "-",
+            "Description": "In 2019, climate finance provided was $79.6 billion.",
+        },
+        {
+            "Year": 2021,
+            "Reduction in Climate Finance (%)": 10,
+            "Adaptation Financing Status": "Increasing",
+            "Description": "During the period of 2017-2018, climate finance was reported to average $48.7 billion annually.",
+        },
+        {
+            "Year": 2020,
+            "Reduction in Climate Finance (%)": "-",
+            "Adaptation Financing Status": "17% increase",
+            "Description": "In the period of 2013-2014, a 17% increase in climate finance was achieved.",
+        },
+    ]
+}
+
+export const annualClimateChangeGoals = {
+    title: 'Annual Climate Change Goals',
+    description: 'This dataset outlines the annual climate change targets and their status. As of 2024, the goal is to mobilize $100 billion, which has yet to be met, as the climate finance achieved in 2021 was $89.6 billion. In 2023, an increase of 14% in emissions is expected based on current national commitments. The year 2022 saw a 4% reduction target, with actual emissions based on global energy levels increasing by 6%. Scientists recommend reducing emissions by 4% compared to 2010 levels by 2030 to limit global warming to 1.5°C above pre-industrial levels. In 2021, developed countries committed to mobilizing $100 billion annually to meet climate-related needs, and a net-zero emission target has been set to achieve by 2050.',
+    data: [
+        {
+            "Year": 2024,
+            "Goal": "100 billion dollars",
+            "Status": "Not yet met",
+            "Description": "The climate finance provided in 2021 reached $89.6 billion."
+        },
+        {
+            "Year": 2023,
+            "Goal": "14% increase",
+            "Status": "Expected",
+            "Description": "According to current national commitments, a 14% increase in emissions is anticipated by the end of this decade."
+        },
+        {
+            "Year": 2022,
+            "Goal": "4% reduction",
+            "Status": "Financing provided",
+            "Description": "Global energy-based CO2 emissions increased by 6% in 2021."
+        },
+        {
+            "Year": 2022,
+            "Goal": "4% reduction by 2030",
+            "Status": "Required reduction",
+            "Description": "Scientists propose reducing emissions by 4% compared to 2010 levels by 2030 to limit global warming to 1.5°C above pre-industrial levels."
+        },
+        {
+            "Year": 2021,
+            "Goal": "100 billion dollars",
+            "Status": "Committed",
+            "Description": "Developed countries committed to mobilizing $100 billion annually by 2020 to address climate-related needs."
+        },
+        {
+            "Year": 2021,
+            "Goal": "Net zero emissions",
+            "Status": "Target set",
+            "Description": "To limit global warming to 1.5°C above pre-industrial levels, the world must achieve net-zero carbon dioxide emissions by 2050."
+        },
+    ]
+}
+
+export const climateFinanceSupportTypes = {
+    title: 'Types of Climate Finance Support',
+    description: 'This dataset outlines the types of climate finance support provided in terms of climate-focused and core/general support from 2011 to 2018. The values are represented in billion dollars, indicating the financial commitment made towards climate-related initiatives and core support during these years.',
+    data: [
+        {
+            "Year": 2011,
+            "Climate-Focused Support (Billion Dollars)": 16.97,
+            "Core/General Support (Billion Dollars)": 11.78,
+        },
+        {
+            "Year": 2012,
+            "Climate-Focused Support (Billion Dollars)": 17.08,
+            "Core/General Support (Billion Dollars)": 11.83,
+        },
+        {
+            "Year": 2013,
+            "Climate-Focused Support (Billion Dollars)": 25.42,
+            "Core/General Support (Billion Dollars)": 15.11,
+        },
+        {
+            "Year": 2014,
+            "Climate-Focused Support (Billion Dollars)": 26.60,
+            "Core/General Support (Billion Dollars)": 16.63,
+        },
+        {
+            "Year": 2015,
+            "Climate-Focused Support (Billion Dollars)": 32.98,
+            "Core/General Support (Billion Dollars)": 12.42,
+        },
+        {
+            "Year": 2016,
+            "Climate-Focused Support (Billion Dollars)": 37.52,
+            "Core/General Support (Billion Dollars)": 11.91,
+        },
+        {
+            "Year": 2017,
+            "Climate-Focused Support (Billion Dollars)": 36.97,
+            "Core/General Support (Billion Dollars)": 11.49,
+        },
+        {
+            "Year": 2018,
+            "Climate-Focused Support (Billion Dollars)": 41.69,
+            "Core/General Support (Billion Dollars)": 13.50,
+        },
+    ]
+}
+
+export const annualClimateChangeFinanceGoals = {
+    title: 'Annual Climate Change Finance Goals',
+    description: 'This dataset outlines the annual climate finance goals related to climate change, including climate-specific financing share, general financing support, and the average annual climate financing from 2017 to 2018.',
+    data: [
+        {
+            "Year": "2017-2018",
+            "Climate-Specific Financing Share (Billion USD)": 36.2,
+            "General Financing Support (Billion USD)": 11.49,
+            "Average Annual Climate Financing (Billion USD)": 48.7,
+        },
+    ]
+}
