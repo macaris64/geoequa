@@ -39,12 +39,12 @@ export const ChatMessage = ({ message }: IChatMessageProps) => {
             )}
           </div>
         </Avatar>
-        <h4 className="font-semibold select-none">{isBot ? "Robot" : "You"}</h4>
+        <h4 className="font-semibold select-none">{isBot ? "Assistant" : "You"}</h4>
       </div>
       <div className="ml-16 mt-4">
         <div
             ref={messageRef}
-            className={`whitespace-pre-wrap ${isBot ? "text-blue-600" : "text-white"}`}
+            className={`whitespace-pre-wrap ${isBot ? "text-blue-400" : "text-white"}`}
             dangerouslySetInnerHTML={{__html: formatMessage(message.message)}}
         />
         {isBot && (

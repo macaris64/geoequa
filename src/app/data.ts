@@ -19,7 +19,15 @@ export const aiSystemInstruction = (data: string) => {
         Your responses should be detailed, relevant, and informative, ensuring that the user receives the best possible assistance regarding these important topics.`
 };
 
-export const aiTestUserInfo = { firstName: "Test", lastName: "User" }
+export const aiTestUserInfo = { firstName: "Mehmet", lastName: "Acar" }
+
+export const predefinedQuestions = [
+    "What trend does the data show regarding gender inequality?",
+    "Based on the data, what areas are affected by gender inequality?",
+    "How does this table reflect the impact of climate change on gender inequality?",
+    "What connections between gender inequality and climate change can be drawn from the data?",
+    "Based on the information in the table, what recommendations can be made to reduce gender inequality?"
+];
 
 export const categories = [
     'Gender Equality Goals',

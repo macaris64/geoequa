@@ -40,14 +40,15 @@ export const ChatInput = ({
       <Textarea
         ref={textAreaRef}
         bordered
-        className={`resize-none w-full max-h-48 overflow-y-auto bg-neutral-600`}
+        className={`resize-none w-full max-h-48 overflow-y-auto bg-background`}
         onKeyUp={handleEnterKey}
         placeholder={placeholder ? placeholder : "Type here to chat"}
         disabled={disabled}
+        style={{ padding: "10px 0 10px 10px" }}
       ></Textarea>
       <Button
         shape={"square"}
-        className="absolute ml-[75%]"
+        className="absolute ml-[95%]"
         disabled={disabled}
         onClick={handleSubmit}
       >

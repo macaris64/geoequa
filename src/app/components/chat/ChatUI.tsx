@@ -1,7 +1,8 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { ChatConversations } from "./ChatConversations";
 import { ChatInput } from "./ChatInput";
 import { IChatUIProps } from "./types";
+import { predefinedQuestions } from "@/app/data";
 
 export const ChatUI = ({
   disabled,
@@ -12,6 +13,14 @@ export const ChatUI = ({
   onSubmit,
 }: IChatUIProps) => {
   const chatConversationsContainerRef = useRef<HTMLDivElement>(null);
+  const [buttonsVisible, setButtonsVisible] = useState<boolean>(true);
+
+  const handlePredefinedQuestion = (question: string) => {
+    if (onSubmit) {
+      onSubmit(question);
+      setButtonsVisible(false);
+    }
+  };
 
   return (
     <div className="flex flex-col h-full mx-20">
@@ -26,7 +35,21 @@ export const ChatUI = ({
           chatConversationsContainerRef={chatConversationsContainerRef}
         />
       </div>
-      <div className="w-full fixed bottom-0 left-0 bg-white border-t border-gray-300">
+
+      {buttonsVisible && (
+        <div className="flex space-x-4 mb-2">
+          {predefinedQuestions.map((question, index) => (
+            <button
+              key={index}
+              onClick={() => handlePredefinedQuestion(question)}
+              className="border border-blue-600 text-white px-4 py-2 rounded hover:bg-blue-600 hover:text-white transition"
+            >
+              {question}
+            </button>
+          ))}
+        </div>
+      )}
+      <div className="w-full fixed bottom-0 left-0 border-t border-gray-300">
         <ChatInput
           disabled={disabled}
           customSubmitIcon={customSubmitIcon}
