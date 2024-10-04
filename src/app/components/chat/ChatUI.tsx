@@ -37,7 +37,7 @@ export const ChatUI = ({
       </div>
 
       {buttonsVisible && (
-        <div className="flex space-x-4 mb-2">
+        <div className="flex space-x-4 mb-20">
           {predefinedQuestions.map((question, index) => (
             <button
               key={index}

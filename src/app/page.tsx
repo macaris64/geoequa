@@ -13,7 +13,6 @@ export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center h-screen p-5">
             <div className="w-full max-w-md mb-8">
-                <h2 className="text-2xl font-semibold mb-4">Introduction Video</h2>
                 <iframe
                     width="560"
                     height="315"
