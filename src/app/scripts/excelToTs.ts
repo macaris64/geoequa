@@ -16,6 +16,7 @@ interface ProgressTowardsGoals {
     title: string;
     description: string;
     category: string;
+    type: string;
     data: Record<string, any>[];
 }
 
@@ -67,6 +68,7 @@ function convertExcelToTypeScriptVariable(filePath: string, outputFilePath: stri
         title: title,
         description: '',
         category: '',
+        type: 'country-data',
         data
     };
 
