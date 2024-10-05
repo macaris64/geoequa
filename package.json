@@ -2,6 +2,7 @@
   "name": "geoequa",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -29,7 +30,9 @@
     "openai": "^4.67.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5",
-    "vite": "^5.4.8"
+    "vite": "^5.4.8",
+    "xlsx": "^0.18.5"
   }
 }
