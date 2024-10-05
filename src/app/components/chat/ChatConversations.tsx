@@ -5,24 +5,23 @@ import { useEffect } from "react";
 
 export const ChatConversations = ({ conversations, isQuerying, chatConversationsContainerRef }: IChatConversationsProps) => {
   useEffect(() => {
-    const chatConversationsContainer = chatConversationsContainerRef?.current;
+    const chatConversationsContainer = chatConversationsContainerRef.current;
     if (chatConversationsContainer) {
       chatConversationsContainer.scrollTo({
         top: chatConversationsContainer.scrollHeight,
         behavior: "smooth"
       });
     }
-  }, [conversations, chatConversationsContainerRef]);
+  }, [conversations]);
 
   return (
-    <div className="w-2/3">
-      {conversations &&
-        conversations.map((chatEntry) => (
-          <ChatMessage
-            key={`chatbot-message-${chatEntry.id}`}
-            message={chatEntry}
-          />
-        ))}
+    <div className="w-full">
+      {conversations && conversations.map((chatEntry) => (
+        <ChatMessage
+          key={`chatbot-message-${chatEntry.id}`}
+          message={chatEntry}
+        />
+      ))}
       {isQuerying && (
         <Loading className="mt-4 ml-16 bg-amber-300" variant="dots" size="lg" />
       )}

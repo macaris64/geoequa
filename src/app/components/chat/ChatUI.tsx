@@ -23,11 +23,10 @@ export const ChatUI = ({
   };
 
   return (
-    <div className="flex flex-col h-full mx-20">
+    <div className="flex flex-col h-full">
       <div
         ref={chatConversationsContainerRef}
         className="flex-grow overflow-y-auto pb-20"
-        style={{ maxHeight: "calc(100vh - 250px)" }}
       >
         <ChatConversations
           conversations={conversations}
@@ -49,7 +48,8 @@ export const ChatUI = ({
           ))}
         </div>
       )}
-      <div className="w-full fixed bottom-0 left-0 border-t border-gray-300">
+
+      <div className="w-full fixed bottom-0 border-t border-gray-300"> {/* ChatInput alanının arka planını beyaz yap */}
         <ChatInput
           disabled={disabled}
           customSubmitIcon={customSubmitIcon}
