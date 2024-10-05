@@ -17768,6 +17768,5961 @@ export const numberOfSeatsHeldByWomenInNationalParliaments = {
   ]
 };
 
+export const proportionOfWomenAged2024YearsWhoWereMarriedOrInAUnionBeforeAge18 = {
+  "title": "Proportion of women aged 20 24 years who were married or in a union before age 18",
+  "description": "This table highlights the percentage of women aged 20-24 who were married or in a union before the age of 18. Early marriage is closely linked to gender inequality and can have profound impacts on women's education, health, and economic opportunities. In the context of climate change, women who are married early often face heightened vulnerabilities, such as limited access to resources and decision-making power, which can reduce their resilience to climate-related disasters. By understanding the prevalence of early marriage, this data helps to reveal how gender-based social practices contribute to the compounding challenges women face in adapting to and mitigating the impacts of climate change. Addressing early marriage is crucial to improving gender equality and strengthening climate resilience, particularly in regions most affected by environmental change.",
+  "category": "Marriage and Family",
+  "type": "country-data",
+  "data": [
+    {
+      "2018": "11.8",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Albania",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "15.5",
+      "2022": "",
+      "GeoAreaName": "Argentina",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0.1",
+      "2022": "",
+      "GeoAreaName": "Belgium",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "27.5",
+      "GeoAreaName": "Benin",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8.4",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Cabo Verde",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "17.9",
+      "GeoAreaName": "Cambodia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "29.8",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Cameroon",
+      "Age": "20-24"
+    },
+    {
+      "2018": "30.676",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Central and Southern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "6.463",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Central Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "2.8",
+      "2022": "",
+      "GeoAreaName": "China",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "20.7",
+      "GeoAreaName": "Comoros",
+      "Age": "20-24"
+    },
+    {
+      "2018": "17.1",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Costa Rica",
+      "Age": "20-24"
+    },
+    {
+      "2018": "29.1",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Democratic Republic of the Congo",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8.548",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Eastern and South-Eastern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "3.685",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Eastern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "22.2",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Ecuador",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "1.9",
+      "GeoAreaName": "Eswatini",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "23.1",
+      "2022": "",
+      "GeoAreaName": "Gambia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "13.9",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Georgia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "16.1",
+      "GeoAreaName": "Ghana",
+      "Age": "20-24"
+    },
+    {
+      "2018": "46.5",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Guinea",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "32.3",
+      "2022": "",
+      "GeoAreaName": "Guyana",
+      "Age": "20-24"
+    },
+    {
+      "2018": "27.9",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Iraq",
+      "Age": "20-24"
+    },
+    {
+      "2018": "9.7",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Jordan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "12.5",
+      "GeoAreaName": "Kenya",
+      "Age": "20-24"
+    },
+    {
+      "2018": "12.9",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Kyrgyzstan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "35.299",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "22.577",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Latin America and the Caribbean",
+      "Age": "20-24"
+    },
+    {
+      "2018": "40.049",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Least Developed Countries (LDCs)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "16.4",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Lesotho",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "24.9",
+      "2022": "",
+      "GeoAreaName": "Liberia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0.2",
+      "GeoAreaName": "Lithuania",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "37.7",
+      "2022": "",
+      "GeoAreaName": "Malawi",
+      "Age": "20-24"
+    },
+    {
+      "2018": "53.7",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Mali",
+      "Age": "20-24"
+    },
+    {
+      "2018": "20.7",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Mexico",
+      "Age": "20-24"
+    },
+    {
+      "2018": "12",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Mongolia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "5.8",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Montenegro",
+      "Age": "20-24"
+    },
+    {
+      "2018": "13.7",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Morocco",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "34.9",
+      "GeoAreaName": "Nepal",
+      "Age": "20-24"
+    },
+    {
+      "2018": "13.359",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Northern Africa",
+      "Age": "20-24"
+    },
+    {
+      "2018": "17.774",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Northern Africa and Western Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0",
+      "GeoAreaName": "Norway",
+      "Age": "20-24"
+    },
+    {
+      "2018": "25.889",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "18.3",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Pakistan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "27.3",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Papua New Guinea",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "14.1",
+      "2022": "",
+      "GeoAreaName": "Peru",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "9.4",
+      "GeoAreaName": "Philippines",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "5.5",
+      "2022": "",
+      "GeoAreaName": "Rwanda",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "7.4",
+      "2022": "",
+      "GeoAreaName": "Samoa",
+      "Age": "20-24"
+    },
+    {
+      "2018": "22.522",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Small island developing States (SIDS)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "16.608",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "South-Eastern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "31.581",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Southern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "13.4",
+      "2022": "",
+      "GeoAreaName": "State of Palestine",
+      "Age": "20-24"
+    },
+    {
+      "2018": "35.738",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Sub-Saharan Africa",
+      "Age": "20-24"
+    },
+    {
+      "2018": "36",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Suriname",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "17",
+      "GeoAreaName": "Thailand",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "4.2",
+      "GeoAreaName": "Trinidad and Tobago",
+      "Age": "20-24"
+    },
+    {
+      "2018": "1.5",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Tunisia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "14.7",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Türkiye",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "23.3",
+      "2022": "",
+      "GeoAreaName": "Turks and Caicos Islands",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "1.8",
+      "2022": "",
+      "GeoAreaName": "Tuvalu",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "29.1",
+      "GeoAreaName": "United Republic of Tanzania",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "3.4",
+      "GeoAreaName": "Uzbekistan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "22.103",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Western Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "20.876",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "World",
+      "Age": "20-24"
+    },
+    {
+      "2018": "29",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Zambia",
+      "Age": "20-24"
+    }
+  ]
+};
+
+export const violenceAgainstWomenByCountry = {
+  "title": "Violence Against Women By Country",
+  "description": "This table provides data on the prevalence of violence against women, disaggregated by country. Gender-based violence is a critical indicator of inequality and social vulnerability, which can be exacerbated in regions affected by climate change. Women and gender minorities who experience violence are often more susceptible to the negative impacts of climate-related disasters, as they may have less access to resources, support systems, and decision-making power in their communities. Understanding the prevalence of violence against women is essential for designing comprehensive climate resilience strategies that address not only environmental challenges but also the social and gender dynamics that compound these risks. Reducing violence against women is crucial for fostering gender equity and empowering women to be active participants in climate adaptation and disaster recovery efforts.",
+  "category": "Violence Against",
+  "type": "country-data",
+  "data": [
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Albania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "44.44",
+      "GeoAreaName": "Antigua and Barbuda"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Argentina"
+    },
+    {
+      "2018": "66.67",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Armenia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Australia"
+    },
+    {
+      "2018": "",
+      "2020": "94.44",
+      "2022": "94.44",
+      "GeoAreaName": "Australia and New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Austria"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "66.67",
+      "GeoAreaName": "Azerbaijan"
+    },
+    {
+      "2018": "66.67",
+      "2020": "66.67",
+      "2022": "66.67",
+      "GeoAreaName": "Bangladesh"
+    },
+    {
+      "2018": "66.67",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Barbados"
+    },
+    {
+      "2018": "66.67",
+      "2020": "66.67",
+      "2022": "66.67",
+      "GeoAreaName": "Belarus"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "77.78",
+      "GeoAreaName": "Belize"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Bolivia (Plurinational State of)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "77.78",
+      "GeoAreaName": "Bosnia and Herzegovina"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Brazil"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Bulgaria"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Cabo Verde"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "77.78",
+      "GeoAreaName": "Cambodia"
+    },
+    {
+      "2018": "55.56",
+      "2020": "55.56",
+      "2022": "66.67",
+      "GeoAreaName": "Cameroon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "88.89",
+      "GeoAreaName": "Canada"
+    },
+    {
+      "2018": "",
+      "2020": "79.63",
+      "2022": "73.61",
+      "GeoAreaName": "Central and Southern Asia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Chile"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "66.67",
+      "GeoAreaName": "China"
+    },
+    {
+      "2018": "88.89",
+      "2020": "77.78",
+      "2022": "100.00",
+      "GeoAreaName": "Colombia"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Costa Rica"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Côte d'Ivoire"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Croatia"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Cyprus"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Czechia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Denmark"
+    },
+    {
+      "2018": "77.78",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Dominican Republic"
+    },
+    {
+      "2018": "",
+      "2020": "72.22",
+      "2022": "72.84",
+      "GeoAreaName": "Eastern and South-Eastern Asia"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Ecuador"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "El Salvador"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Estonia"
+    },
+    {
+      "2018": "",
+      "2020": "44.44",
+      "2022": "44.44",
+      "GeoAreaName": "Ethiopia"
+    },
+    {
+      "2018": "",
+      "2020": "85.71",
+      "2022": "86.04",
+      "GeoAreaName": "Europe and Northern America"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Fiji"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Finland"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "France"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "66.67",
+      "GeoAreaName": "Georgia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Germany"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "55.56",
+      "GeoAreaName": "Ghana"
+    },
+    {
+      "2018": "66.67",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Greece"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "66.67",
+      "GeoAreaName": "Grenada"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Guatemala"
+    },
+    {
+      "2018": "",
+      "2020": "55.56",
+      "2022": "55.56",
+      "GeoAreaName": "Guinea"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "44.44",
+      "GeoAreaName": "Haiti"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Honduras"
+    },
+    {
+      "2018": "",
+      "2020": "66.67",
+      "2022": "66.67",
+      "GeoAreaName": "Hungary"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Iceland"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "India"
+    },
+    {
+      "2018": "55.56",
+      "2020": "55.56",
+      "2022": "55.56",
+      "GeoAreaName": "Iraq"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Ireland"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "88.89",
+      "GeoAreaName": "Israel"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "77.78",
+      "GeoAreaName": "Italy"
+    },
+    {
+      "2018": "",
+      "2020": "66.67",
+      "2022": "77.78",
+      "GeoAreaName": "Jamaica"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Japan"
+    },
+    {
+      "2018": "44.44",
+      "2020": "44.44",
+      "2022": "55.56",
+      "GeoAreaName": "Jordan"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Kazakhstan"
+    },
+    {
+      "2018": "55.56",
+      "2020": "55.56",
+      "2022": "55.56",
+      "GeoAreaName": "Kenya"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Kyrgyzstan"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "74.07",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)"
+    },
+    {
+      "2018": "",
+      "2020": "82.78",
+      "2022": "79.56",
+      "GeoAreaName": "Latin America and the Caribbean"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Latvia"
+    },
+    {
+      "2018": "",
+      "2020": "66.67",
+      "2022": "68.75",
+      "GeoAreaName": "Least Developed Countries (LDCs)"
+    },
+    {
+      "2018": "55.56",
+      "2020": "55.56",
+      "2022": "66.67",
+      "GeoAreaName": "Lebanon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "100.00",
+      "GeoAreaName": "Liberia"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Lithuania"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Luxembourg"
+    },
+    {
+      "2018": "44.44",
+      "2020": "44.44",
+      "2022": "55.56",
+      "GeoAreaName": "Madagascar"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Malawi"
+    },
+    {
+      "2018": "66.67",
+      "2020": "66.67",
+      "2022": "66.67",
+      "GeoAreaName": "Malaysia"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Malta"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "100.00",
+      "GeoAreaName": "Mauritius"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "88.89",
+      "GeoAreaName": "Mexico"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "77.78",
+      "GeoAreaName": "Mongolia"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Montenegro"
+    },
+    {
+      "2018": "",
+      "2020": "66.67",
+      "2022": "77.78",
+      "GeoAreaName": "Morocco"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Mozambique"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Namibia"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Nepal"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Netherlands (Kingdom of the)"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "55.56",
+      "GeoAreaName": "Nicaragua"
+    },
+    {
+      "2018": "66.67",
+      "2020": "66.67",
+      "2022": "66.67",
+      "GeoAreaName": "Nigeria"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "North Macedonia"
+    },
+    {
+      "2018": "",
+      "2020": "64.20",
+      "2022": "70.63",
+      "GeoAreaName": "Northern Africa and Western Asia"
+    },
+    {
+      "2018": "",
+      "2020": "66.67",
+      "2022": "88.89",
+      "GeoAreaName": "Norway"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "88.89",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Pakistan"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Panama"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "66.67",
+      "GeoAreaName": "Papua New Guinea"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Paraguay"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Peru"
+    },
+    {
+      "2018": "55.56",
+      "2020": "55.56",
+      "2022": "55.56",
+      "GeoAreaName": "Philippines"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Poland"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Portugal"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Republic of Korea"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Republic of Moldova"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Romania"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Rwanda"
+    },
+    {
+      "2018": "55.56",
+      "2020": "55.56",
+      "2022": "55.56",
+      "GeoAreaName": "Serbia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "88.89",
+      "GeoAreaName": "Seychelles"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Slovakia"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Slovenia"
+    },
+    {
+      "2018": "",
+      "2020": "80.56",
+      "2022": "77.78",
+      "GeoAreaName": "Small island developing States (SIDS)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "100.00",
+      "GeoAreaName": "Solomon Islands"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "55.56",
+      "GeoAreaName": "South Sudan"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Spain"
+    },
+    {
+      "2018": "55.56",
+      "2020": "55.56",
+      "2022": "55.56",
+      "GeoAreaName": "State of Palestine"
+    },
+    {
+      "2018": "",
+      "2020": "66.67",
+      "2022": "71.11",
+      "GeoAreaName": "Sub-Saharan Africa"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "44.44",
+      "GeoAreaName": "Sudan"
+    },
+    {
+      "2018": "",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Suriname"
+    },
+    {
+      "2018": "88.89",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Sweden"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Switzerland"
+    },
+    {
+      "2018": "",
+      "2020": "55.56",
+      "2022": "55.56",
+      "GeoAreaName": "Thailand"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Trinidad and Tobago"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "88.89",
+      "GeoAreaName": "Tunisia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "88.89",
+      "GeoAreaName": "Türkiye"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "44.44",
+      "GeoAreaName": "Turkmenistan"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Uganda"
+    },
+    {
+      "2018": "77.78",
+      "2020": "77.78",
+      "2022": "77.78",
+      "GeoAreaName": "Ukraine"
+    },
+    {
+      "2018": "44.44",
+      "2020": "55.56",
+      "2022": "66.67",
+      "GeoAreaName": "United Arab Emirates"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+      "2018": "44.44",
+      "2020": "44.44",
+      "2022": "44.44",
+      "GeoAreaName": "United Republic of Tanzania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "88.89",
+      "GeoAreaName": "United States of America"
+    },
+    {
+      "2018": "",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Uruguay"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "66.67",
+      "GeoAreaName": "Uzbekistan"
+    },
+    {
+      "2018": "88.89",
+      "2020": "88.89",
+      "2022": "88.89",
+      "GeoAreaName": "Viet Nam"
+    },
+    {
+      "2018": "76.31",
+      "2020": "78.95",
+      "2022": "78.80",
+      "GeoAreaName": "World"
+    },
+    {
+      "2018": "",
+      "2020": "55.56",
+      "2022": "66.67",
+      "GeoAreaName": "Zimbabwe"
+    }
+  ]
+};
+
+export const overarchingLegalFrameworksAndPublicLife = {
+  "title": "Overarching Legal Frameworks and Public Life",
+  "description": "This table examines the presence and effectiveness of legal frameworks that promote gender equality in public life, including constitutional guarantees, anti-discrimination laws, and policies aimed at increasing women's participation in the public sphere. A robust legal framework is essential for addressing the intersection of gender inequality and climate change, as it can empower women to take leadership roles in climate governance, influence decision-making, and secure equal rights in climate-related resource distribution. In countries where legal protections for women are weak or absent, women may face greater barriers in adapting to and mitigating the impacts of climate disasters. This data underscores the importance of strong legal systems to ensure that climate resilience efforts are inclusive, equitable, and sustainable for all genders.",
+  "category": "Gender Discrimination",
+  "type": "country-data",
+  "data": [
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Albania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "30.00",
+      "GeoAreaName": "Antigua and Barbuda"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Argentina"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Armenia"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Australia"
+    },
+    {
+      "2018": "",
+      "2020": "75.00",
+      "2022": "75.00",
+      "GeoAreaName": "Australia and New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Austria"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "40.00",
+      "GeoAreaName": "Azerbaijan"
+    },
+    {
+      "2018": "75.00",
+      "2020": "75.00",
+      "2022": "75.00",
+      "GeoAreaName": "Bangladesh"
+    },
+    {
+      "2018": "40.00",
+      "2020": "40.00",
+      "2022": "40.00",
+      "GeoAreaName": "Barbados"
+    },
+    {
+      "2018": "50.00",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Belarus"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "30.00",
+      "GeoAreaName": "Belize"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Bolivia (Plurinational State of)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "100.00",
+      "GeoAreaName": "Bosnia and Herzegovina"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "80.00",
+      "GeoAreaName": "Brazil"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Bulgaria"
+    },
+    {
+      "2018": "60.00",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Cabo Verde"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "50.00",
+      "GeoAreaName": "Cambodia"
+    },
+    {
+      "2018": "50.00",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Cameroon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Canada"
+    },
+    {
+      "2018": "",
+      "2020": "68.26",
+      "2022": "68.69",
+      "GeoAreaName": "Central and Southern Asia"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Chile"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "China"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Colombia"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "90.00",
+      "GeoAreaName": "Costa Rica"
+    },
+    {
+      "2018": "63.64",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Côte d'Ivoire"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Croatia"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Cyprus"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Czechia"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Denmark"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Dominican Republic"
+    },
+    {
+      "2018": "",
+      "2020": "62.22",
+      "2022": "64.81",
+      "GeoAreaName": "Eastern and South-Eastern Asia"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Ecuador"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "El Salvador"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Estonia"
+    },
+    {
+      "2018": "",
+      "2020": "75.00",
+      "2022": "75.00",
+      "GeoAreaName": "Ethiopia"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Europe and Northern America"
+    },
+    {
+      "2018": "60.00",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Fiji"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Finland"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "France"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "100.00",
+      "GeoAreaName": "Georgia"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Germany"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "45.45",
+      "GeoAreaName": "Ghana"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Greece"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "40.00",
+      "GeoAreaName": "Grenada"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Guatemala"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Guinea"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "50.00",
+      "GeoAreaName": "Haiti"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Honduras"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Hungary"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Iceland"
+    },
+    {
+      "2018": "54.55",
+      "2020": "54.55",
+      "2022": "54.55",
+      "GeoAreaName": "India"
+    },
+    {
+      "2018": "45.45",
+      "2020": "45.45",
+      "2022": "45.45",
+      "GeoAreaName": "Iraq"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Ireland"
+    },
+    {
+      "2018": "",
+      "2020": "54.55",
+      "2022": "54.55",
+      "GeoAreaName": "Israel"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "80.00",
+      "GeoAreaName": "Italy"
+    },
+    {
+      "2018": "",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Jamaica"
+    },
+    {
+      "2018": "",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Japan"
+    },
+    {
+      "2018": "54.55",
+      "2020": "54.55",
+      "2022": "54.55",
+      "GeoAreaName": "Jordan"
+    },
+    {
+      "2018": "",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Kazakhstan"
+    },
+    {
+      "2018": "83.33",
+      "2020": "83.33",
+      "2022": "83.33",
+      "GeoAreaName": "Kenya"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Kyrgyzstan"
+    },
+    {
+      "2018": "",
+      "2020": "80.57",
+      "2022": "76.77",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)"
+    },
+    {
+      "2018": "",
+      "2020": "73.50",
+      "2022": "68.40",
+      "GeoAreaName": "Latin America and the Caribbean"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Latvia"
+    },
+    {
+      "2018": "",
+      "2020": "67.33",
+      "2022": "64.01",
+      "GeoAreaName": "Least Developed Countries (LDCs)"
+    },
+    {
+      "2018": "27.27",
+      "2020": "27.27",
+      "2022": "27.27",
+      "GeoAreaName": "Lebanon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "72.73",
+      "GeoAreaName": "Liberia"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Lithuania"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Luxembourg"
+    },
+    {
+      "2018": "30.00",
+      "2020": "30.00",
+      "2022": "30.00",
+      "GeoAreaName": "Madagascar"
+    },
+    {
+      "2018": "",
+      "2020": "54.55",
+      "2022": "54.55",
+      "GeoAreaName": "Malawi"
+    },
+    {
+      "2018": "33.33",
+      "2020": "33.33",
+      "2022": "33.33",
+      "GeoAreaName": "Malaysia"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Malta"
+    },
+    {
+      "2018": "",
+      "2020": "58.33",
+      "2022": "58.33",
+      "GeoAreaName": "Mauritius"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Mexico"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.00",
+      "GeoAreaName": "Mongolia"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Montenegro"
+    },
+    {
+      "2018": "",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Morocco"
+    },
+    {
+      "2018": "63.64",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Mozambique"
+    },
+    {
+      "2018": "",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Namibia"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Nepal"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Netherlands (Kingdom of the)"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Nicaragua"
+    },
+    {
+      "2018": "58.33",
+      "2020": "58.33",
+      "2022": "58.33",
+      "GeoAreaName": "Nigeria"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "North Macedonia"
+    },
+    {
+      "2018": "",
+      "2020": "54.14",
+      "2022": "59.09",
+      "GeoAreaName": "Northern Africa and Western Asia"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Norway"
+    },
+    {
+      "2018": "",
+      "2020": "60.00",
+      "2022": "62.42",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)"
+    },
+    {
+      "2018": "50.00",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Pakistan"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Panama"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "63.64",
+      "GeoAreaName": "Papua New Guinea"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Paraguay"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Peru"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Philippines"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Poland"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Portugal"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Republic of Korea"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Republic of Moldova"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Romania"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Rwanda"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Serbia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "60.00",
+      "GeoAreaName": "Seychelles"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Slovakia"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Slovenia"
+    },
+    {
+      "2018": "",
+      "2020": "57.29",
+      "2022": "53.04",
+      "GeoAreaName": "Small island developing States (SIDS)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "63.64",
+      "GeoAreaName": "Solomon Islands"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "72.73",
+      "GeoAreaName": "South Sudan"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Spain"
+    },
+    {
+      "2018": "63.64",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "State of Palestine"
+    },
+    {
+      "2018": "",
+      "2020": "65.46",
+      "2022": "64.50",
+      "GeoAreaName": "Sub-Saharan Africa"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "50.00",
+      "GeoAreaName": "Sudan"
+    },
+    {
+      "2018": "",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Suriname"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Sweden"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Switzerland"
+    },
+    {
+      "2018": "",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Thailand"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Trinidad and Tobago"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "80.00",
+      "GeoAreaName": "Tunisia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Türkiye"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Turkmenistan"
+    },
+    {
+      "2018": "83.33",
+      "2020": "83.33",
+      "2022": "75.00",
+      "GeoAreaName": "Uganda"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Ukraine"
+    },
+    {
+      "2018": "9.09",
+      "2020": "18.18",
+      "2022": "18.18",
+      "GeoAreaName": "United Arab Emirates"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "United Republic of Tanzania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "United States of America"
+    },
+    {
+      "2018": "",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Uruguay"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Uzbekistan"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Viet Nam"
+    },
+    {
+      "2018": "69.72",
+      "2020": "71.55",
+      "2022": "70.15",
+      "GeoAreaName": "World"
+    },
+    {
+      "2018": "",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Zimbabwe"
+    }
+  ]
+};
+
+export const proportionOfWomenAged2024YearsWhoWereMarriedOrInAUnionBeforeAge15 = {
+  "title": "Proportion of Women Aged 20 24 Years Who Were Married or in a Union Before Age 15",
+  "description": "This table presents the percentage of women aged 20-24 who were married or entered into a union before the age of 15. Early marriage at such a young age is a significant indicator of gender inequality, severely limiting educational and economic opportunities for women and increasing their vulnerability to climate-related risks. Girls who marry early are often more exposed to poverty, health risks, and reduced autonomy, making them less resilient to the impacts of climate disasters. In the context of climate change, early marriage compounds the challenges women face, as it often prevents them from accessing resources, education, and decision-making power, all of which are critical for coping with environmental crises. Addressing the root causes of early marriage is vital for improving gender equality and ensuring that all individuals have the capacity to adapt to the growing impacts of climate change.",
+  "category": "Marriage and Family",
+  "type": "country-data",
+  "data": [
+    {
+      "2018": "1.4",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Albania",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "2.4",
+      "2022": "",
+      "GeoAreaName": "Argentina",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0",
+      "2022": "",
+      "GeoAreaName": "Belgium",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "5.9",
+      "GeoAreaName": "Benin",
+      "Age": "20-24"
+    },
+    {
+      "2018": "1.8",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Cabo Verde",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "1.9",
+      "GeoAreaName": "Cambodia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "10.7",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Cameroon",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8.403",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Central and Southern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "0.1",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Central Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0.1",
+      "2022": "",
+      "GeoAreaName": "China",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "4.9",
+      "GeoAreaName": "Comoros",
+      "Age": "20-24"
+    },
+    {
+      "2018": "2",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Costa Rica",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8.4",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Democratic Republic of the Congo",
+      "Age": "20-24"
+    },
+    {
+      "2018": "1.012",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Eastern and South-Eastern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "0.148",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Eastern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "3.8",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Ecuador",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0.1",
+      "GeoAreaName": "Eswatini",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "5.6",
+      "2022": "",
+      "GeoAreaName": "Gambia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "0.3",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Georgia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "3.3",
+      "GeoAreaName": "Ghana",
+      "Age": "20-24"
+    },
+    {
+      "2018": "17",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Guinea",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "6.3",
+      "2022": "",
+      "GeoAreaName": "Guyana",
+      "Age": "20-24"
+    },
+    {
+      "2018": "7.2",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Iraq",
+      "Age": "20-24"
+    },
+    {
+      "2018": "1.5",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Jordan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "2.2",
+      "GeoAreaName": "Kenya",
+      "Age": "20-24"
+    },
+    {
+      "2018": "0.3",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Kyrgyzstan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "10.183",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "4.941",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Latin America and the Caribbean",
+      "Age": "20-24"
+    },
+    {
+      "2018": "12.467",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Least Developed Countries (LDCs)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "1",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Lesotho",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "5.8",
+      "2022": "",
+      "GeoAreaName": "Liberia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0",
+      "GeoAreaName": "Lithuania",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "7.5",
+      "2022": "",
+      "GeoAreaName": "Malawi",
+      "Age": "20-24"
+    },
+    {
+      "2018": "15.9",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Mali",
+      "Age": "20-24"
+    },
+    {
+      "2018": "3.6",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Mexico",
+      "Age": "20-24"
+    },
+    {
+      "2018": "0.9",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Mongolia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "1.9",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Montenegro",
+      "Age": "20-24"
+    },
+    {
+      "2018": "0.5",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Morocco",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "5.8",
+      "GeoAreaName": "Nepal",
+      "Age": "20-24"
+    },
+    {
+      "2018": "1.632",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Northern Africa",
+      "Age": "20-24"
+    },
+    {
+      "2018": "3.108",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Northern Africa and Western Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0",
+      "GeoAreaName": "Norway",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8.498",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "3.6",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Pakistan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Papua New Guinea",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "2",
+      "2022": "",
+      "GeoAreaName": "Peru",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "1.5",
+      "GeoAreaName": "Philippines",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0.3",
+      "2022": "",
+      "GeoAreaName": "Rwanda",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0.9",
+      "2022": "",
+      "GeoAreaName": "Samoa",
+      "Age": "20-24"
+    },
+    {
+      "2018": "6.2",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Small island developing States (SIDS)",
+      "Age": "20-24"
+    },
+    {
+      "2018": "2.443",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "South-Eastern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8.713",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Southern Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0.7",
+      "2022": "",
+      "GeoAreaName": "State of Palestine",
+      "Age": "20-24"
+    },
+    {
+      "2018": "11.234",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Sub-Saharan Africa",
+      "Age": "20-24"
+    },
+    {
+      "2018": "8.8",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Suriname",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "5.5",
+      "GeoAreaName": "Thailand",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0.7",
+      "GeoAreaName": "Trinidad and Tobago",
+      "Age": "20-24"
+    },
+    {
+      "2018": "0",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Tunisia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "2",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Türkiye",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0",
+      "2022": "",
+      "GeoAreaName": "Turks and Caicos Islands",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "0",
+      "2022": "",
+      "GeoAreaName": "Tuvalu",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "5.2",
+      "GeoAreaName": "United Republic of Tanzania",
+      "Age": "20-24"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0.2",
+      "GeoAreaName": "Uzbekistan",
+      "Age": "20-24"
+    },
+    {
+      "2018": "4.555",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Western Asia",
+      "Age": "20-24"
+    },
+    {
+      "2018": "5.325",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "World",
+      "Age": "20-24"
+    },
+    {
+      "2018": "5.2",
+      "2020": "",
+      "2022": "",
+      "GeoAreaName": "Zambia",
+      "Age": "20-24"
+    }
+  ]
+};
+
+export const proportionOfEverPartneredWomenAndGirlsSubjectedToPhysicalAndSexualViolenceByACurrentOrFormerIntimatePartnerInThePrevious12Months = {
+  "title": "Proportion of Ever Partnered Women and Girls Subjected To Physical and Sexual Violence By A Current Or Former Intimate Partner In The Previous 12 Months",
+  "description": "This table provides data on the percentage of women and girls who have experienced physical or sexual violence from a current or former intimate partner within the past 12 months. Gender-based violence is a critical issue that intersects with both gender inequality and climate vulnerability. Women and girls subjected to intimate partner violence often face greater social and economic marginalization, which can limit their capacity to cope with the effects of climate change. In regions prone to climate-related disasters, survivors of violence may struggle to access support services or resources that are essential for recovery and resilience. This data is crucial for understanding the compounded vulnerabilities women face, and it highlights the need for integrated strategies that address both gender-based violence and climate resilience to ensure equitable and sustainable responses to environmental challenges.",
+  "category": "Violence Against",
+  "type": "country-data",
+  "data": [
+    {
+      "2018": "33.6",
+      "GeoAreaName": "Afghanistan",
+      "Age": "15+"
+    },
+    {
+      "2018": "34.7",
+      "GeoAreaName": "Afghanistan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.1",
+      "GeoAreaName": "Albania",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.2",
+      "GeoAreaName": "Albania",
+      "Age": "15-49"
+    },
+    {
+      "2018": "22.1",
+      "GeoAreaName": "Angola",
+      "Age": "15+"
+    },
+    {
+      "2018": "24.7",
+      "GeoAreaName": "Angola",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.7",
+      "GeoAreaName": "Argentina",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.5",
+      "GeoAreaName": "Argentina",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.5",
+      "GeoAreaName": "Armenia",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.6",
+      "GeoAreaName": "Armenia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.0",
+      "GeoAreaName": "Australia",
+      "Age": "15+"
+    },
+    {
+      "2018": "2.9",
+      "GeoAreaName": "Australia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.2",
+      "GeoAreaName": "Australia and New Zealand",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.2",
+      "GeoAreaName": "Australia and New Zealand",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.8",
+      "GeoAreaName": "Austria",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.6",
+      "GeoAreaName": "Austria",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.0",
+      "GeoAreaName": "Azerbaijan",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.2",
+      "GeoAreaName": "Azerbaijan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "20.8",
+      "GeoAreaName": "Bangladesh",
+      "Age": "15+"
+    },
+    {
+      "2018": "23.2",
+      "GeoAreaName": "Bangladesh",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.2",
+      "GeoAreaName": "Belarus",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.3",
+      "GeoAreaName": "Belarus",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.3",
+      "GeoAreaName": "Belgium",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.8",
+      "GeoAreaName": "Belgium",
+      "Age": "15-49"
+    },
+    {
+      "2018": "6.6",
+      "GeoAreaName": "Belize",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.8",
+      "GeoAreaName": "Belize",
+      "Age": "15-49"
+    },
+    {
+      "2018": "13.2",
+      "GeoAreaName": "Benin",
+      "Age": "15+"
+    },
+    {
+      "2018": "14.6",
+      "GeoAreaName": "Benin",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.4",
+      "GeoAreaName": "Bhutan",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.6",
+      "GeoAreaName": "Bhutan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.5",
+      "GeoAreaName": "Bolivia (Plurinational State of)",
+      "Age": "15+"
+    },
+    {
+      "2018": "18.3",
+      "GeoAreaName": "Bolivia (Plurinational State of)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.7",
+      "GeoAreaName": "Bosnia and Herzegovina",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.4",
+      "GeoAreaName": "Bosnia and Herzegovina",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.2",
+      "GeoAreaName": "Botswana",
+      "Age": "15+"
+    },
+    {
+      "2018": "17.1",
+      "GeoAreaName": "Botswana",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.3",
+      "GeoAreaName": "Brazil",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.5",
+      "GeoAreaName": "Brazil",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.1",
+      "GeoAreaName": "Bulgaria",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.9",
+      "GeoAreaName": "Bulgaria",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.6",
+      "GeoAreaName": "Burkina Faso",
+      "Age": "15+"
+    },
+    {
+      "2018": "11.2",
+      "GeoAreaName": "Burkina Faso",
+      "Age": "15-49"
+    },
+    {
+      "2018": "20.1",
+      "GeoAreaName": "Burundi",
+      "Age": "15+"
+    },
+    {
+      "2018": "22.1",
+      "GeoAreaName": "Burundi",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.2",
+      "GeoAreaName": "Cabo Verde",
+      "Age": "15+"
+    },
+    {
+      "2018": "10.9",
+      "GeoAreaName": "Cabo Verde",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.2",
+      "GeoAreaName": "Cambodia",
+      "Age": "15+"
+    },
+    {
+      "2018": "9.1",
+      "GeoAreaName": "Cambodia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "19.0",
+      "GeoAreaName": "Cameroon",
+      "Age": "15+"
+    },
+    {
+      "2018": "22.0",
+      "GeoAreaName": "Cameroon",
+      "Age": "15-49"
+    },
+    {
+      "2018": "1.7",
+      "GeoAreaName": "Canada",
+      "Age": "15+"
+    },
+    {
+      "2018": "2.6",
+      "GeoAreaName": "Canada",
+      "Age": "15-49"
+    },
+    {
+      "2018": "18.1",
+      "GeoAreaName": "Central African Republic",
+      "Age": "15+"
+    },
+    {
+      "2018": "20.9",
+      "GeoAreaName": "Central African Republic",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.3",
+      "GeoAreaName": "Central Asia",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.5",
+      "GeoAreaName": "Central Asia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "14.6",
+      "GeoAreaName": "Chad",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.2",
+      "GeoAreaName": "Chad",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.8",
+      "GeoAreaName": "Chile",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.8",
+      "GeoAreaName": "Chile",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.9",
+      "GeoAreaName": "China",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.6",
+      "GeoAreaName": "China",
+      "Age": "15-49"
+    },
+    {
+      "2018": "1.7",
+      "GeoAreaName": "China, Hong Kong Special Administrative Region",
+      "Age": "15+"
+    },
+    {
+      "2018": "2.5",
+      "GeoAreaName": "China, Hong Kong Special Administrative Region",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.0",
+      "GeoAreaName": "Colombia",
+      "Age": "15+"
+    },
+    {
+      "2018": "11.9",
+      "GeoAreaName": "Colombia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.3",
+      "GeoAreaName": "Comoros",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.2",
+      "GeoAreaName": "Comoros",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.7",
+      "GeoAreaName": "Cook Islands",
+      "Age": "15+"
+    },
+    {
+      "2018": "13.7",
+      "GeoAreaName": "Cook Islands",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.8",
+      "GeoAreaName": "Costa Rica",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.2",
+      "GeoAreaName": "Costa Rica",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.4",
+      "GeoAreaName": "Côte d'Ivoire",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.4",
+      "GeoAreaName": "Côte d'Ivoire",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.8",
+      "GeoAreaName": "Croatia",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.0",
+      "GeoAreaName": "Croatia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.4",
+      "GeoAreaName": "Cuba",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.6",
+      "GeoAreaName": "Cuba",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.0",
+      "GeoAreaName": "Cyprus",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.1",
+      "GeoAreaName": "Cyprus",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.9",
+      "GeoAreaName": "Czechia",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.1",
+      "GeoAreaName": "Czechia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "31.9",
+      "GeoAreaName": "Democratic Republic of the Congo",
+      "Age": "15+"
+    },
+    {
+      "2018": "35.6",
+      "GeoAreaName": "Democratic Republic of the Congo",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.0",
+      "GeoAreaName": "Denmark",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.3",
+      "GeoAreaName": "Denmark",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.8",
+      "GeoAreaName": "Dominican Republic",
+      "Age": "15+"
+    },
+    {
+      "2018": "9.6",
+      "GeoAreaName": "Dominican Republic",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.7",
+      "GeoAreaName": "Eastern Asia",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.4",
+      "GeoAreaName": "Eastern Asia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.6",
+      "GeoAreaName": "Eastern Europe",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.7",
+      "GeoAreaName": "Eastern Europe",
+      "Age": "15-49"
+    },
+    {
+      "2018": "6.6",
+      "GeoAreaName": "Ecuador",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.1",
+      "GeoAreaName": "Ecuador",
+      "Age": "15-49"
+    },
+    {
+      "2018": "11.9",
+      "GeoAreaName": "Egypt",
+      "Age": "15+"
+    },
+    {
+      "2018": "15.1",
+      "GeoAreaName": "Egypt",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.8",
+      "GeoAreaName": "El Salvador",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.7",
+      "GeoAreaName": "El Salvador",
+      "Age": "15-49"
+    },
+    {
+      "2018": "25.6",
+      "GeoAreaName": "Equatorial Guinea",
+      "Age": "15+"
+    },
+    {
+      "2018": "28.7",
+      "GeoAreaName": "Equatorial Guinea",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.7",
+      "GeoAreaName": "Estonia",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.2",
+      "GeoAreaName": "Estonia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "16.0",
+      "GeoAreaName": "Eswatini",
+      "Age": "15+"
+    },
+    {
+      "2018": "17.7",
+      "GeoAreaName": "Eswatini",
+      "Age": "15-49"
+    },
+    {
+      "2018": "22.8",
+      "GeoAreaName": "Ethiopia",
+      "Age": "15+"
+    },
+    {
+      "2018": "26.5",
+      "GeoAreaName": "Ethiopia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.2",
+      "GeoAreaName": "Europe",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.3",
+      "GeoAreaName": "Europe",
+      "Age": "15-49"
+    },
+    {
+      "2018": "16.4",
+      "GeoAreaName": "Fiji",
+      "Age": "15+"
+    },
+    {
+      "2018": "23.2",
+      "GeoAreaName": "Fiji",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.6",
+      "GeoAreaName": "Finland",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.1",
+      "GeoAreaName": "Finland",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.5",
+      "GeoAreaName": "France",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.0",
+      "GeoAreaName": "France",
+      "Age": "15-49"
+    },
+    {
+      "2018": "20.9",
+      "GeoAreaName": "Gabon",
+      "Age": "15+"
+    },
+    {
+      "2018": "22.0",
+      "GeoAreaName": "Gabon",
+      "Age": "15-49"
+    },
+    {
+      "2018": "9.0",
+      "GeoAreaName": "Gambia",
+      "Age": "15+"
+    },
+    {
+      "2018": "10.0",
+      "GeoAreaName": "Gambia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.2",
+      "GeoAreaName": "Georgia",
+      "Age": "15+"
+    },
+    {
+      "2018": "2.9",
+      "GeoAreaName": "Georgia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "9.5",
+      "GeoAreaName": "Ghana",
+      "Age": "15+"
+    },
+    {
+      "2018": "10.2",
+      "GeoAreaName": "Ghana",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.7",
+      "GeoAreaName": "Greece",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.1",
+      "GeoAreaName": "Greece",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.6",
+      "GeoAreaName": "Grenada",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.8",
+      "GeoAreaName": "Grenada",
+      "Age": "15-49"
+    },
+    {
+      "2018": "6.3",
+      "GeoAreaName": "Guatemala",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.3",
+      "GeoAreaName": "Guatemala",
+      "Age": "15-49"
+    },
+    {
+      "2018": "18.6",
+      "GeoAreaName": "Guinea",
+      "Age": "15+"
+    },
+    {
+      "2018": "20.8",
+      "GeoAreaName": "Guinea",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.5",
+      "GeoAreaName": "Guyana",
+      "Age": "15+"
+    },
+    {
+      "2018": "10.5",
+      "GeoAreaName": "Guyana",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.1",
+      "GeoAreaName": "Haiti",
+      "Age": "15+"
+    },
+    {
+      "2018": "12.2",
+      "GeoAreaName": "Haiti",
+      "Age": "15-49"
+    },
+    {
+      "2018": "6.8",
+      "GeoAreaName": "Honduras",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.2",
+      "GeoAreaName": "Honduras",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.2",
+      "GeoAreaName": "Hungary",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.7",
+      "GeoAreaName": "Hungary",
+      "Age": "15-49"
+    },
+    {
+      "2018": "1.8",
+      "GeoAreaName": "Iceland",
+      "Age": "15+"
+    },
+    {
+      "2018": "2.8",
+      "GeoAreaName": "Iceland",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.9",
+      "GeoAreaName": "India",
+      "Age": "15+"
+    },
+    {
+      "2018": "18.4",
+      "GeoAreaName": "India",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.5",
+      "GeoAreaName": "Indonesia",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.9",
+      "GeoAreaName": "Indonesia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.2",
+      "GeoAreaName": "Iran (Islamic Republic of)",
+      "Age": "15+"
+    },
+    {
+      "2018": "17.6",
+      "GeoAreaName": "Iran (Islamic Republic of)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.7",
+      "GeoAreaName": "Ireland",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.3",
+      "GeoAreaName": "Ireland",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.4",
+      "GeoAreaName": "Israel",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.6",
+      "GeoAreaName": "Israel",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.2",
+      "GeoAreaName": "Italy",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.5",
+      "GeoAreaName": "Italy",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.7",
+      "GeoAreaName": "Jamaica",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.3",
+      "GeoAreaName": "Jamaica",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.0",
+      "GeoAreaName": "Japan",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.9",
+      "GeoAreaName": "Japan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "12.1",
+      "GeoAreaName": "Jordan",
+      "Age": "15+"
+    },
+    {
+      "2018": "13.5",
+      "GeoAreaName": "Jordan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.9",
+      "GeoAreaName": "Kazakhstan",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.0",
+      "GeoAreaName": "Kazakhstan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "21.4",
+      "GeoAreaName": "Kenya",
+      "Age": "15+"
+    },
+    {
+      "2018": "22.8",
+      "GeoAreaName": "Kenya",
+      "Age": "15-49"
+    },
+    {
+      "2018": "19.5",
+      "GeoAreaName": "Kiribati",
+      "Age": "15+"
+    },
+    {
+      "2018": "25.2",
+      "GeoAreaName": "Kiribati",
+      "Age": "15-49"
+    },
+    {
+      "2018": "11.6",
+      "GeoAreaName": "Kyrgyzstan",
+      "Age": "15+"
+    },
+    {
+      "2018": "13.3",
+      "GeoAreaName": "Kyrgyzstan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "16.8",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)",
+      "Age": "15+"
+    },
+    {
+      "2018": "19.2",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "6.7",
+      "GeoAreaName": "Lao People's Democratic Republic",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.0",
+      "GeoAreaName": "Lao People's Democratic Republic",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.0",
+      "GeoAreaName": "Latin America and the Caribbean",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.3",
+      "GeoAreaName": "Latin America and the Caribbean",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.4",
+      "GeoAreaName": "Latvia",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.3",
+      "GeoAreaName": "Latvia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "19.7",
+      "GeoAreaName": "Least Developed Countries (LDCs)",
+      "Age": "15+"
+    },
+    {
+      "2018": "22.0",
+      "GeoAreaName": "Least Developed Countries (LDCs)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "14.3",
+      "GeoAreaName": "Lesotho",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.5",
+      "GeoAreaName": "Lesotho",
+      "Age": "15-49"
+    },
+    {
+      "2018": "23.2",
+      "GeoAreaName": "Liberia",
+      "Age": "15+"
+    },
+    {
+      "2018": "26.9",
+      "GeoAreaName": "Liberia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.1",
+      "GeoAreaName": "Lithuania",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.2",
+      "GeoAreaName": "Lithuania",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.7",
+      "GeoAreaName": "Luxembourg",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.5",
+      "GeoAreaName": "Luxembourg",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.2",
+      "GeoAreaName": "Malawi",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.6",
+      "GeoAreaName": "Malawi",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.3",
+      "GeoAreaName": "Maldives",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.1",
+      "GeoAreaName": "Maldives",
+      "Age": "15-49"
+    },
+    {
+      "2018": "16.7",
+      "GeoAreaName": "Mali",
+      "Age": "15+"
+    },
+    {
+      "2018": "18.4",
+      "GeoAreaName": "Mali",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.1",
+      "GeoAreaName": "Malta",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.0",
+      "GeoAreaName": "Malta",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.0",
+      "GeoAreaName": "Marshall Islands",
+      "Age": "15+"
+    },
+    {
+      "2018": "19.3",
+      "GeoAreaName": "Marshall Islands",
+      "Age": "15-49"
+    },
+    {
+      "2018": "24.5",
+      "GeoAreaName": "Melanesia",
+      "Age": "15+"
+    },
+    {
+      "2018": "29.8",
+      "GeoAreaName": "Melanesia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.9",
+      "GeoAreaName": "Mexico",
+      "Age": "15+"
+    },
+    {
+      "2018": "9.9",
+      "GeoAreaName": "Mexico",
+      "Age": "15-49"
+    },
+    {
+      "2018": "17.0",
+      "GeoAreaName": "Micronesia",
+      "Age": "15+"
+    },
+    {
+      "2018": "21.6",
+      "GeoAreaName": "Micronesia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "18.8",
+      "GeoAreaName": "Micronesia (Federated States of)",
+      "Age": "15+"
+    },
+    {
+      "2018": "21.1",
+      "GeoAreaName": "Micronesia (Federated States of)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "9.3",
+      "GeoAreaName": "Mongolia",
+      "Age": "15+"
+    },
+    {
+      "2018": "11.5",
+      "GeoAreaName": "Mongolia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.5",
+      "GeoAreaName": "Montenegro",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.4",
+      "GeoAreaName": "Montenegro",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.5",
+      "GeoAreaName": "Morocco",
+      "Age": "15+"
+    },
+    {
+      "2018": "10.5",
+      "GeoAreaName": "Morocco",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.7",
+      "GeoAreaName": "Mozambique",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.4",
+      "GeoAreaName": "Mozambique",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.7",
+      "GeoAreaName": "Myanmar",
+      "Age": "15+"
+    },
+    {
+      "2018": "10.7",
+      "GeoAreaName": "Myanmar",
+      "Age": "15-49"
+    },
+    {
+      "2018": "14.9",
+      "GeoAreaName": "Namibia",
+      "Age": "15+"
+    },
+    {
+      "2018": "15.9",
+      "GeoAreaName": "Namibia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.5",
+      "GeoAreaName": "Nauru",
+      "Age": "15+"
+    },
+    {
+      "2018": "20.0",
+      "GeoAreaName": "Nauru",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.3",
+      "GeoAreaName": "Nepal",
+      "Age": "15+"
+    },
+    {
+      "2018": "11.4",
+      "GeoAreaName": "Nepal",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.5",
+      "GeoAreaName": "Netherlands (Kingdom of the)",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.1",
+      "GeoAreaName": "Netherlands (Kingdom of the)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.2",
+      "GeoAreaName": "New Zealand",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.2",
+      "GeoAreaName": "New Zealand",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.6",
+      "GeoAreaName": "Nicaragua",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.4",
+      "GeoAreaName": "Nicaragua",
+      "Age": "15-49"
+    },
+    {
+      "2018": "13.9",
+      "GeoAreaName": "Niger",
+      "Age": "15+"
+    },
+    {
+      "2018": "12.9",
+      "GeoAreaName": "Niger",
+      "Age": "15-49"
+    },
+    {
+      "2018": "11.7",
+      "GeoAreaName": "Nigeria",
+      "Age": "15+"
+    },
+    {
+      "2018": "13.2",
+      "GeoAreaName": "Nigeria",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.3",
+      "GeoAreaName": "North Macedonia",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.2",
+      "GeoAreaName": "North Macedonia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "12.1",
+      "GeoAreaName": "Northern Africa",
+      "Age": "15+"
+    },
+    {
+      "2018": "14.7",
+      "GeoAreaName": "Northern Africa",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.0",
+      "GeoAreaName": "Northern America",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.7",
+      "GeoAreaName": "Northern America",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.8",
+      "GeoAreaName": "Northern Europe",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.7",
+      "GeoAreaName": "Northern Europe",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.4",
+      "GeoAreaName": "Norway",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.4",
+      "GeoAreaName": "Norway",
+      "Age": "15-49"
+    },
+    {
+      "2018": "23.3",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)",
+      "Age": "15+"
+    },
+    {
+      "2018": "28.6",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "14.6",
+      "GeoAreaName": "Pakistan",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.2",
+      "GeoAreaName": "Pakistan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.9",
+      "GeoAreaName": "Palau",
+      "Age": "15+"
+    },
+    {
+      "2018": "13.8",
+      "GeoAreaName": "Palau",
+      "Age": "15-49"
+    },
+    {
+      "2018": "6.4",
+      "GeoAreaName": "Panama",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.8",
+      "GeoAreaName": "Panama",
+      "Age": "15-49"
+    },
+    {
+      "2018": "25.5",
+      "GeoAreaName": "Papua New Guinea",
+      "Age": "15+"
+    },
+    {
+      "2018": "30.6",
+      "GeoAreaName": "Papua New Guinea",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.9",
+      "GeoAreaName": "Paraguay",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.5",
+      "GeoAreaName": "Paraguay",
+      "Age": "15-49"
+    },
+    {
+      "2018": "9.1",
+      "GeoAreaName": "Peru",
+      "Age": "15+"
+    },
+    {
+      "2018": "11.1",
+      "GeoAreaName": "Peru",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.9",
+      "GeoAreaName": "Philippines",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.9",
+      "GeoAreaName": "Philippines",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.6",
+      "GeoAreaName": "Poland",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.1",
+      "GeoAreaName": "Poland",
+      "Age": "15-49"
+    },
+    {
+      "2018": "14.3",
+      "GeoAreaName": "Polynesia",
+      "Age": "15+"
+    },
+    {
+      "2018": "18.6",
+      "GeoAreaName": "Polynesia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.6",
+      "GeoAreaName": "Portugal",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.4",
+      "GeoAreaName": "Portugal",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.8",
+      "GeoAreaName": "Republic of Korea",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.0",
+      "GeoAreaName": "Republic of Korea",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.2",
+      "GeoAreaName": "Republic of Moldova",
+      "Age": "15+"
+    },
+    {
+      "2018": "9.1",
+      "GeoAreaName": "Republic of Moldova",
+      "Age": "15-49"
+    },
+    {
+      "2018": "6.7",
+      "GeoAreaName": "Romania",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.9",
+      "GeoAreaName": "Romania",
+      "Age": "15-49"
+    },
+    {
+      "2018": "21.5",
+      "GeoAreaName": "Rwanda",
+      "Age": "15+"
+    },
+    {
+      "2018": "23.5",
+      "GeoAreaName": "Rwanda",
+      "Age": "15-49"
+    },
+    {
+      "2018": "13.5",
+      "GeoAreaName": "Samoa",
+      "Age": "15+"
+    },
+    {
+      "2018": "17.8",
+      "GeoAreaName": "Samoa",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.5",
+      "GeoAreaName": "Sao Tome and Principe",
+      "Age": "15+"
+    },
+    {
+      "2018": "18.1",
+      "GeoAreaName": "Sao Tome and Principe",
+      "Age": "15-49"
+    },
+    {
+      "2018": "10.8",
+      "GeoAreaName": "Senegal",
+      "Age": "15+"
+    },
+    {
+      "2018": "12.4",
+      "GeoAreaName": "Senegal",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.0",
+      "GeoAreaName": "Serbia",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.9",
+      "GeoAreaName": "Serbia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "17.2",
+      "GeoAreaName": "Sierra Leone",
+      "Age": "15+"
+    },
+    {
+      "2018": "19.8",
+      "GeoAreaName": "Sierra Leone",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.0",
+      "GeoAreaName": "Singapore",
+      "Age": "15+"
+    },
+    {
+      "2018": "2.4",
+      "GeoAreaName": "Singapore",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.4",
+      "GeoAreaName": "Slovakia",
+      "Age": "15+"
+    },
+    {
+      "2018": "5.9",
+      "GeoAreaName": "Slovakia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.6",
+      "GeoAreaName": "Slovenia",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.4",
+      "GeoAreaName": "Slovenia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "12.0",
+      "GeoAreaName": "Small island developing States (SIDS)",
+      "Age": "15+"
+    },
+    {
+      "2018": "12.0",
+      "GeoAreaName": "Small island developing States (SIDS)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "23.6",
+      "GeoAreaName": "Solomon Islands",
+      "Age": "15+"
+    },
+    {
+      "2018": "28.1",
+      "GeoAreaName": "Solomon Islands",
+      "Age": "15-49"
+    },
+    {
+      "2018": "11.0",
+      "GeoAreaName": "South Africa",
+      "Age": "15+"
+    },
+    {
+      "2018": "13.1",
+      "GeoAreaName": "South Africa",
+      "Age": "15-49"
+    },
+    {
+      "2018": "24.0",
+      "GeoAreaName": "South Sudan",
+      "Age": "15+"
+    },
+    {
+      "2018": "26.7",
+      "GeoAreaName": "South Sudan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.3",
+      "GeoAreaName": "South-Eastern Asia",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.9",
+      "GeoAreaName": "South-Eastern Asia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "16.3",
+      "GeoAreaName": "Southern Asia",
+      "Age": "15+"
+    },
+    {
+      "2018": "18.8",
+      "GeoAreaName": "Southern Asia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.7",
+      "GeoAreaName": "Southern Europe",
+      "Age": "15+"
+    },
+    {
+      "2018": "3.7",
+      "GeoAreaName": "Southern Europe",
+      "Age": "15-49"
+    },
+    {
+      "2018": "2.6",
+      "GeoAreaName": "Spain",
+      "Age": "15+"
+    },
+    {
+      "2018": "2.9",
+      "GeoAreaName": "Spain",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.3",
+      "GeoAreaName": "Sri Lanka",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.1",
+      "GeoAreaName": "Sri Lanka",
+      "Age": "15-49"
+    },
+    {
+      "2018": "17.1",
+      "GeoAreaName": "State of Palestine",
+      "Age": "15+"
+    },
+    {
+      "2018": "19.1",
+      "GeoAreaName": "State of Palestine",
+      "Age": "15-49"
+    },
+    {
+      "2018": "18.2",
+      "GeoAreaName": "Sub-Saharan Africa",
+      "Age": "15+"
+    },
+    {
+      "2018": "20.4",
+      "GeoAreaName": "Sub-Saharan Africa",
+      "Age": "15-49"
+    },
+    {
+      "2018": "14.8",
+      "GeoAreaName": "Sudan",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.7",
+      "GeoAreaName": "Sudan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.9",
+      "GeoAreaName": "Suriname",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.7",
+      "GeoAreaName": "Suriname",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.8",
+      "GeoAreaName": "Sweden",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.3",
+      "GeoAreaName": "Sweden",
+      "Age": "15-49"
+    },
+    {
+      "2018": "1.2",
+      "GeoAreaName": "Switzerland",
+      "Age": "15+"
+    },
+    {
+      "2018": "1.7",
+      "GeoAreaName": "Switzerland",
+      "Age": "15-49"
+    },
+    {
+      "2018": "12.0",
+      "GeoAreaName": "Tajikistan",
+      "Age": "15+"
+    },
+    {
+      "2018": "14.0",
+      "GeoAreaName": "Tajikistan",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.1",
+      "GeoAreaName": "Thailand",
+      "Age": "15+"
+    },
+    {
+      "2018": "9.3",
+      "GeoAreaName": "Thailand",
+      "Age": "15-49"
+    },
+    {
+      "2018": "24.6",
+      "GeoAreaName": "Timor-Leste",
+      "Age": "15+"
+    },
+    {
+      "2018": "28.2",
+      "GeoAreaName": "Timor-Leste",
+      "Age": "15-49"
+    },
+    {
+      "2018": "11.2",
+      "GeoAreaName": "Togo",
+      "Age": "15+"
+    },
+    {
+      "2018": "12.7",
+      "GeoAreaName": "Togo",
+      "Age": "15-49"
+    },
+    {
+      "2018": "12.1",
+      "GeoAreaName": "Tonga",
+      "Age": "15+"
+    },
+    {
+      "2018": "16.9",
+      "GeoAreaName": "Tonga",
+      "Age": "15-49"
+    },
+    {
+      "2018": "5.6",
+      "GeoAreaName": "Trinidad and Tobago",
+      "Age": "15+"
+    },
+    {
+      "2018": "7.5",
+      "GeoAreaName": "Trinidad and Tobago",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.3",
+      "GeoAreaName": "Tunisia",
+      "Age": "15+"
+    },
+    {
+      "2018": "10.1",
+      "GeoAreaName": "Tunisia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "9.5",
+      "GeoAreaName": "Türkiye",
+      "Age": "15+"
+    },
+    {
+      "2018": "12.1",
+      "GeoAreaName": "Türkiye",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.4",
+      "GeoAreaName": "Tuvalu",
+      "Age": "15+"
+    },
+    {
+      "2018": "19.8",
+      "GeoAreaName": "Tuvalu",
+      "Age": "15-49"
+    },
+    {
+      "2018": "24.2",
+      "GeoAreaName": "Uganda",
+      "Age": "15+"
+    },
+    {
+      "2018": "26.1",
+      "GeoAreaName": "Uganda",
+      "Age": "15-49"
+    },
+    {
+      "2018": "8.3",
+      "GeoAreaName": "Ukraine",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.7",
+      "GeoAreaName": "Ukraine",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.6",
+      "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.2",
+      "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland",
+      "Age": "15-49"
+    },
+    {
+      "2018": "21.7",
+      "GeoAreaName": "United Republic of Tanzania",
+      "Age": "15+"
+    },
+    {
+      "2018": "24.3",
+      "GeoAreaName": "United Republic of Tanzania",
+      "Age": "15-49"
+    },
+    {
+      "2018": "4.2",
+      "GeoAreaName": "United States of America",
+      "Age": "15+"
+    },
+    {
+      "2018": "6.0",
+      "GeoAreaName": "United States of America",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.4",
+      "GeoAreaName": "Uruguay",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.3",
+      "GeoAreaName": "Uruguay",
+      "Age": "15-49"
+    },
+    {
+      "2018": "24.2",
+      "GeoAreaName": "Vanuatu",
+      "Age": "15+"
+    },
+    {
+      "2018": "29.4",
+      "GeoAreaName": "Vanuatu",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.3",
+      "GeoAreaName": "Venezuela (Bolivarian Republic of)",
+      "Age": "15+"
+    },
+    {
+      "2018": "8.5",
+      "GeoAreaName": "Venezuela (Bolivarian Republic of)",
+      "Age": "15-49"
+    },
+    {
+      "2018": "7.3",
+      "GeoAreaName": "Viet Nam",
+      "Age": "15+"
+    },
+    {
+      "2018": "9.5",
+      "GeoAreaName": "Viet Nam",
+      "Age": "15-49"
+    },
+    {
+      "2018": "11.2",
+      "GeoAreaName": "Western Asia",
+      "Age": "15+"
+    },
+    {
+      "2018": "13.4",
+      "GeoAreaName": "Western Asia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "3.1",
+      "GeoAreaName": "Western Europe",
+      "Age": "15+"
+    },
+    {
+      "2018": "4.8",
+      "GeoAreaName": "Western Europe",
+      "Age": "15-49"
+    },
+    {
+      "2018": "9.9",
+      "GeoAreaName": "World",
+      "Age": "15+"
+    },
+    {
+      "2018": "12.5",
+      "GeoAreaName": "World",
+      "Age": "15-49"
+    },
+    {
+      "2018": "25.2",
+      "GeoAreaName": "Zambia",
+      "Age": "15+"
+    },
+    {
+      "2018": "27.8",
+      "GeoAreaName": "Zambia",
+      "Age": "15-49"
+    },
+    {
+      "2018": "15.8",
+      "GeoAreaName": "Zimbabwe",
+      "Age": "15+"
+    },
+    {
+      "2018": "18.2",
+      "GeoAreaName": "Zimbabwe",
+      "Age": "15-49"
+    }
+  ]
+};
+
+export const marriageAndFamilyByCountry = {
+  "title": "Marriage and Family By Country",
+  "description": "This table presents data on marriage and family-related indicators across various countries, including rates of marriage, divorce, and family structure dynamics. Understanding marriage and family patterns is essential for analyzing how gender roles and societal norms influence women’s ability to respond to climate change. In regions where traditional family structures place significant burdens on women, such as caregiving responsibilities and limited economic autonomy, women may face increased vulnerability during climate-related events. These family dynamics can limit women’s mobility, access to resources, and participation in decision-making processes, all of which are crucial for building climate resilience. By examining marriage and family data, this table helps to shed light on how social structures intersect with gender inequality, shaping women’s capacity to adapt to and mitigate the impacts of climate change.",
+  "category": "Marriage and Family",
+  "type": "country-data",
+  "data": [
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Albania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.91",
+      "GeoAreaName": "Antigua and Barbuda"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Argentina"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Armenia"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Australia"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Australia and New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Austria"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Azerbaijan"
+    },
+    {
+      "2018": "63.64",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Bangladesh"
+    },
+    {
+      "2018": "72.73",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Barbados"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Belarus"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Belize"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Bolivia (Plurinational State of)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Bosnia and Herzegovina"
+    },
+    {
+      "2018": "72.73",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Brazil"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Bulgaria"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Cabo Verde"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Cambodia"
+    },
+    {
+      "2018": "9.09",
+      "2020": "9.09",
+      "2022": "9.09",
+      "GeoAreaName": "Cameroon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Canada"
+    },
+    {
+      "2018": "",
+      "2020": "77.27",
+      "2022": "77.27",
+      "GeoAreaName": "Central and Southern Asia"
+    },
+    {
+      "2018": "63.64",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Chile"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.91",
+      "GeoAreaName": "China"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Colombia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Costa Rica"
+    },
+    {
+      "2018": "72.73",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Côte d'Ivoire"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Croatia"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "90.91",
+      "GeoAreaName": "Cyprus"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "72.73",
+      "GeoAreaName": "Czechia"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Denmark"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "90.91",
+      "GeoAreaName": "Dominican Republic"
+    },
+    {
+      "2018": "",
+      "2020": "78.79",
+      "2022": "81.82",
+      "GeoAreaName": "Eastern and South-Eastern Asia"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Ecuador"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "El Salvador"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Estonia"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Ethiopia"
+    },
+    {
+      "2018": "",
+      "2020": "84.68",
+      "2022": "84.15",
+      "GeoAreaName": "Europe and Northern America"
+    },
+    {
+      "2018": "90.91",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Fiji"
+    },
+    {
+      "2018": "72.73",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Finland"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "France"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.91",
+      "GeoAreaName": "Georgia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Germany"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Ghana"
+    },
+    {
+      "2018": "72.73",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Greece"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Grenada"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Guatemala"
+    },
+    {
+      "2018": "",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Guinea"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "54.55",
+      "GeoAreaName": "Haiti"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Honduras"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Hungary"
+    },
+    {
+      "2018": "",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Iceland"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "India"
+    },
+    {
+      "2018": "45.45",
+      "2020": "36.36",
+      "2022": "36.36",
+      "GeoAreaName": "Iraq"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Ireland"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Israel"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Italy"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Jamaica"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Japan"
+    },
+    {
+      "2018": "27.27",
+      "2020": "36.36",
+      "2022": "36.36",
+      "GeoAreaName": "Jordan"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Kazakhstan"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Kenya"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Kyrgyzstan"
+    },
+    {
+      "2018": "",
+      "2020": "79.02",
+      "2022": "79.29",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)"
+    },
+    {
+      "2018": "",
+      "2020": "87.27",
+      "2022": "86.18",
+      "GeoAreaName": "Latin America and the Caribbean"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Latvia"
+    },
+    {
+      "2018": "",
+      "2020": "72.73",
+      "2022": "68.18",
+      "GeoAreaName": "Least Developed Countries (LDCs)"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Lebanon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "72.73",
+      "GeoAreaName": "Liberia"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Lithuania"
+    },
+    {
+      "2018": "",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Luxembourg"
+    },
+    {
+      "2018": "63.64",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Madagascar"
+    },
+    {
+      "2018": "",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Malawi"
+    },
+    {
+      "2018": "63.64",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Malaysia"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Malta"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Mauritius"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Mexico"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.91",
+      "GeoAreaName": "Mongolia"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Montenegro"
+    },
+    {
+      "2018": "",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Morocco"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Mozambique"
+    },
+    {
+      "2018": "",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Namibia"
+    },
+    {
+      "2018": "",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Nepal"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Netherlands (Kingdom of the)"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.91",
+      "GeoAreaName": "Nicaragua"
+    },
+    {
+      "2018": "72.73",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Nigeria"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "North Macedonia"
+    },
+    {
+      "2018": "",
+      "2020": "63.33",
+      "2022": "65.39",
+      "GeoAreaName": "Northern Africa and Western Asia"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "81.82",
+      "GeoAreaName": "Norway"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "75.76",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)"
+    },
+    {
+      "2018": "54.55",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Pakistan"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Panama"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "72.73",
+      "GeoAreaName": "Papua New Guinea"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Paraguay"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Peru"
+    },
+    {
+      "2018": "54.55",
+      "2020": "54.55",
+      "2022": "54.55",
+      "GeoAreaName": "Philippines"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Poland"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Portugal"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Republic of Korea"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Republic of Moldova"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Romania"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Rwanda"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Serbia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Seychelles"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Slovakia"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Slovenia"
+    },
+    {
+      "2018": "",
+      "2020": "82.95",
+      "2022": "79.39",
+      "GeoAreaName": "Small island developing States (SIDS)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "54.55",
+      "GeoAreaName": "Solomon Islands"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "72.73",
+      "GeoAreaName": "South Sudan"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Spain"
+    },
+    {
+      "2018": "54.55",
+      "2020": "54.55",
+      "2022": "54.55",
+      "GeoAreaName": "State of Palestine"
+    },
+    {
+      "2018": "",
+      "2020": "73.30",
+      "2022": "74.09",
+      "GeoAreaName": "Sub-Saharan Africa"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "27.27",
+      "GeoAreaName": "Sudan"
+    },
+    {
+      "2018": "",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "Suriname"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Sweden"
+    },
+    {
+      "2018": "",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Switzerland"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Thailand"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Trinidad and Tobago"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "54.55",
+      "GeoAreaName": "Tunisia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Türkiye"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "81.82",
+      "GeoAreaName": "Turkmenistan"
+    },
+    {
+      "2018": "63.64",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "Uganda"
+    },
+    {
+      "2018": "81.82",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Ukraine"
+    },
+    {
+      "2018": "27.27",
+      "2020": "63.64",
+      "2022": "63.64",
+      "GeoAreaName": "United Arab Emirates"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+      "2018": "72.73",
+      "2020": "72.73",
+      "2022": "72.73",
+      "GeoAreaName": "United Republic of Tanzania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.91",
+      "GeoAreaName": "United States of America"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Uruguay"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "72.73",
+      "GeoAreaName": "Uzbekistan"
+    },
+    {
+      "2018": "90.91",
+      "2020": "90.91",
+      "2022": "90.91",
+      "GeoAreaName": "Viet Nam"
+    },
+    {
+      "2018": "77.48",
+      "2020": "80.74",
+      "2022": "79.98",
+      "GeoAreaName": "World"
+    },
+    {
+      "2018": "",
+      "2020": "81.82",
+      "2022": "81.82",
+      "GeoAreaName": "Zimbabwe"
+    }
+  ]
+};
+
+export const employmentAndEconomicBenefitsByCountry = {
+  "title": "Employment and Economic Benefits By Country",
+  "description": "This table provides data on employment rates and access to economic benefits for women across different countries. Employment is a key factor in determining economic independence and resilience, particularly in the face of climate change. Women who have stable employment and access to economic benefits, such as social security, healthcare, and parental leave, are better positioned to cope with climate-related challenges. Conversely, in countries where women face barriers to employment or lack access to economic benefits, they are more vulnerable to the effects of climate disasters, including displacement, income loss, and food insecurity. This data is crucial for understanding the relationship between gender inequality in the labor market and the ability of women to build resilience against environmental risks, emphasizing the need for inclusive economic policies that support both gender equality and climate adaptation efforts.",
+  "category": "Gender Discrimination",
+  "type": "country-data",
+  "data": [
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Albania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "60.00",
+      "GeoAreaName": "Antigua and Barbuda"
+    },
+    {
+      "2018": "",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Argentina"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "90.00",
+      "GeoAreaName": "Armenia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Australia"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Australia and New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Austria"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "50.00",
+      "GeoAreaName": "Azerbaijan"
+    },
+    {
+      "2018": "20.00",
+      "2020": "20.00",
+      "2022": "20.00",
+      "GeoAreaName": "Bangladesh"
+    },
+    {
+      "2018": "60.00",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Barbados"
+    },
+    {
+      "2018": "60.00",
+      "2020": "60.00",
+      "2022": "70.00",
+      "GeoAreaName": "Belarus"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "40.00",
+      "GeoAreaName": "Belize"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Bolivia (Plurinational State of)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Bosnia and Herzegovina"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Brazil"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Bulgaria"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Cabo Verde"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "60.00",
+      "GeoAreaName": "Cambodia"
+    },
+    {
+      "2018": "50.00",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Cameroon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.00",
+      "GeoAreaName": "Canada"
+    },
+    {
+      "2018": "",
+      "2020": "43.33",
+      "2022": "50.00",
+      "GeoAreaName": "Central and Southern Asia"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Chile"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "60.00",
+      "GeoAreaName": "China"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Colombia"
+    },
+    {
+      "2018": "60.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Costa Rica"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Côte d'Ivoire"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Croatia"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Cyprus"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Czechia"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Denmark"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Dominican Republic"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "71.11",
+      "GeoAreaName": "Eastern and South-Eastern Asia"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Ecuador"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "El Salvador"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Estonia"
+    },
+    {
+      "2018": "",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Ethiopia"
+    },
+    {
+      "2018": "",
+      "2020": "92.57",
+      "2022": "92.82",
+      "GeoAreaName": "Europe and Northern America"
+    },
+    {
+      "2018": "60.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Fiji"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Finland"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "France"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.00",
+      "GeoAreaName": "Georgia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Germany"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "60.00",
+      "GeoAreaName": "Ghana"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Greece"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "80.00",
+      "GeoAreaName": "Grenada"
+    },
+    {
+      "2018": "60.00",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Guatemala"
+    },
+    {
+      "2018": "",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Guinea"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Haiti"
+    },
+    {
+      "2018": "",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Honduras"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Hungary"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Iceland"
+    },
+    {
+      "2018": "30.00",
+      "2020": "40.00",
+      "2022": "40.00",
+      "GeoAreaName": "India"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Iraq"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Ireland"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Israel"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "100.00",
+      "GeoAreaName": "Italy"
+    },
+    {
+      "2018": "",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Jamaica"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Japan"
+    },
+    {
+      "2018": "20.00",
+      "2020": "40.00",
+      "2022": "40.00",
+      "GeoAreaName": "Jordan"
+    },
+    {
+      "2018": "",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Kazakhstan"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Kenya"
+    },
+    {
+      "2018": "",
+      "2020": "30.00",
+      "2022": "40.00",
+      "GeoAreaName": "Kyrgyzstan"
+    },
+    {
+      "2018": "",
+      "2020": "73.85",
+      "2022": "72.78",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)"
+    },
+    {
+      "2018": "",
+      "2020": "78.00",
+      "2022": "75.20",
+      "GeoAreaName": "Latin America and the Caribbean"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Latvia"
+    },
+    {
+      "2018": "",
+      "2020": "62.00",
+      "2022": "58.75",
+      "GeoAreaName": "Least Developed Countries (LDCs)"
+    },
+    {
+      "2018": "50.00",
+      "2020": "50.00",
+      "2022": "50.00",
+      "GeoAreaName": "Lebanon"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.00",
+      "GeoAreaName": "Liberia"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Lithuania"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Luxembourg"
+    },
+    {
+      "2018": "40.00",
+      "2020": "40.00",
+      "2022": "40.00",
+      "GeoAreaName": "Madagascar"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Malawi"
+    },
+    {
+      "2018": "40.00",
+      "2020": "40.00",
+      "2022": "40.00",
+      "GeoAreaName": "Malaysia"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Malta"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "100.00",
+      "GeoAreaName": "Mauritius"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Mexico"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "80.00",
+      "GeoAreaName": "Mongolia"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Montenegro"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Morocco"
+    },
+    {
+      "2018": "70.00",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Mozambique"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Namibia"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Nepal"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Netherlands (Kingdom of the)"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "New Zealand"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "70.00",
+      "GeoAreaName": "Nicaragua"
+    },
+    {
+      "2018": "40.00",
+      "2020": "40.00",
+      "2022": "40.00",
+      "GeoAreaName": "Nigeria"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "North Macedonia"
+    },
+    {
+      "2018": "",
+      "2020": "64.44",
+      "2022": "61.43",
+      "GeoAreaName": "Northern Africa and Western Asia"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Norway"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "43.33",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)"
+    },
+    {
+      "2018": "30.00",
+      "2020": "40.00",
+      "2022": "50.00",
+      "GeoAreaName": "Pakistan"
+    },
+    {
+      "2018": "70.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Panama"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "30.00",
+      "GeoAreaName": "Papua New Guinea"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Paraguay"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Peru"
+    },
+    {
+      "2018": "90.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Philippines"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Poland"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Portugal"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Republic of Korea"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Republic of Moldova"
+    },
+    {
+      "2018": "",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Romania"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Rwanda"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Serbia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "80.00",
+      "GeoAreaName": "Seychelles"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Slovakia"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Slovenia"
+    },
+    {
+      "2018": "",
+      "2020": "75.00",
+      "2022": "66.00",
+      "GeoAreaName": "Small island developing States (SIDS)"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "20.00",
+      "GeoAreaName": "Solomon Islands"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "80.00",
+      "GeoAreaName": "South Sudan"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Spain"
+    },
+    {
+      "2018": "30.00",
+      "2020": "30.00",
+      "2022": "30.00",
+      "GeoAreaName": "State of Palestine"
+    },
+    {
+      "2018": "",
+      "2020": "68.13",
+      "2022": "70.50",
+      "GeoAreaName": "Sub-Saharan Africa"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "0.00",
+      "GeoAreaName": "Sudan"
+    },
+    {
+      "2018": "",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Suriname"
+    },
+    {
+      "2018": "100.00",
+      "2020": "100.00",
+      "2022": "100.00",
+      "GeoAreaName": "Sweden"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "100.00",
+      "GeoAreaName": "Switzerland"
+    },
+    {
+      "2018": "",
+      "2020": "60.00",
+      "2022": "60.00",
+      "GeoAreaName": "Thailand"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Trinidad and Tobago"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "40.00",
+      "GeoAreaName": "Tunisia"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "90.00",
+      "GeoAreaName": "Türkiye"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "60.00",
+      "GeoAreaName": "Turkmenistan"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "Uganda"
+    },
+    {
+      "2018": "40.00",
+      "2020": "40.00",
+      "2022": "50.00",
+      "GeoAreaName": "Ukraine"
+    },
+    {
+      "2018": "10.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "United Arab Emirates"
+    },
+    {
+      "2018": "90.00",
+      "2020": "90.00",
+      "2022": "100.00",
+      "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "80.00",
+      "GeoAreaName": "United Republic of Tanzania"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "80.00",
+      "GeoAreaName": "United States of America"
+    },
+    {
+      "2018": "",
+      "2020": "90.00",
+      "2022": "90.00",
+      "GeoAreaName": "Uruguay"
+    },
+    {
+      "2018": "",
+      "2020": "",
+      "2022": "60.00",
+      "GeoAreaName": "Uzbekistan"
+    },
+    {
+      "2018": "80.00",
+      "2020": "80.00",
+      "2022": "100.00",
+      "GeoAreaName": "Viet Nam"
+    },
+    {
+      "2018": "73.21",
+      "2020": "78.21",
+      "2022": "76.17",
+      "GeoAreaName": "World"
+    },
+    {
+      "2018": "",
+      "2020": "70.00",
+      "2022": "70.00",
+      "GeoAreaName": "Zimbabwe"
+    }
+  ]
+};
+
 export const countryData = [
     proportionsOfElectedSeatsHeldByWomenInDeliberativeBodiesOfLocalGovernments,
     proportionOfWomenInSeniorAndMiddleManagementPositions,
@@ -17775,4 +23730,11 @@ export const countryData = [
     proportionOfSeatsHeldByWomenInNationalParliaments,
     currentNumberOfSeatsInNationalParliaments,
     numberOfSeatsHeldByWomenInNationalParliaments,
+    proportionOfWomenAged2024YearsWhoWereMarriedOrInAUnionBeforeAge18,
+    violenceAgainstWomenByCountry,
+    overarchingLegalFrameworksAndPublicLife,
+    proportionOfWomenAged2024YearsWhoWereMarriedOrInAUnionBeforeAge15,
+    proportionOfEverPartneredWomenAndGirlsSubjectedToPhysicalAndSexualViolenceByACurrentOrFormerIntimatePartnerInThePrevious12Months,
+    marriageAndFamilyByCountry,
+    employmentAndEconomicBenefitsByCountry,
 ]
