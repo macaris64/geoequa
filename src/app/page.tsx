@@ -16,7 +16,7 @@ export default function Home() {
                 <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/6i-sOfteM4s?si=R7ya1j_4p3u5zXrs"
+                    src="https://www.youtube.com/embed/h8v0npSdwc8?si=oHfIrDbk_LY2veW0"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
